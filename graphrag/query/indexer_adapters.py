@@ -13,15 +13,13 @@ import pandas as pd
 
 from graphrag.config.models.graph_rag_config import GraphRagConfig
 from graphrag.index.operations.summarize_communities import restore_community_hierarchy
-from graphrag.model import (
-    Community,
-    CommunityReport,
-    Covariate,
-    Entity,
-    Relationship,
-    TextUnit,
-)
-from graphrag.query.factories import get_text_embedder
+from graphrag.model.community import Community
+from graphrag.model.community_report import CommunityReport
+from graphrag.model.covariate import Covariate
+from graphrag.model.entity import Entity
+from graphrag.model.relationship import Relationship
+from graphrag.model.text_unit import TextUnit
+from graphrag.query.factory import get_text_embedder
 from graphrag.query.input.loaders.dfs import (
     read_communities,
     read_community_reports,
@@ -155,7 +153,7 @@ def read_indexer_entities(
     if community_level is not None:
         nodes_df = _filter_under_community_level(nodes_df, community_level)
 
-    nodes_df = cast(pd.DataFrame, nodes_df[["id", "degree", "community"]])
+    nodes_df = cast("pd.DataFrame", nodes_df[["id", "degree", "community"]])
 
     nodes_df["community"] = nodes_df["community"].fillna(-1)
     nodes_df["community"] = nodes_df["community"].astype(int)
@@ -274,6 +272,6 @@ def _filter_under_community_level(
     df: pd.DataFrame, community_level: int
 ) -> pd.DataFrame:
     return cast(
-        pd.DataFrame,
+        "pd.DataFrame",
         df[df.level <= community_level],
     )

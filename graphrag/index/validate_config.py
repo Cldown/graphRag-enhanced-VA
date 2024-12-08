@@ -8,9 +8,9 @@ import sys
 
 from datashaper import NoopVerbCallbacks
 
-from graphrag.config.models import GraphRagConfig
-from graphrag.index.llm import load_llm, load_llm_embeddings
-from graphrag.logging import ProgressReporter
+from graphrag.config.models.graph_rag_config import GraphRagConfig
+from graphrag.index.llm.load_llm import load_llm, load_llm_embeddings
+from graphrag.logging.print_progress import ProgressReporter
 
 
 def validate_config_names(
@@ -20,10 +20,9 @@ def validate_config_names(
     # Validate Chat LLM configs
     llm = load_llm(
         "test-llm",
-        parameters.llm.type,
-        NoopVerbCallbacks(),
-        None,
-        parameters.llm.model_dump(),
+        parameters.llm,
+        callbacks=NoopVerbCallbacks(),
+        cache=None,
     )
     try:
         asyncio.run(llm("This is an LLM connectivity test. Say Hello World"))
@@ -35,10 +34,9 @@ def validate_config_names(
     # Validate Embeddings LLM configs
     embed_llm = load_llm_embeddings(
         "test-embed-llm",
-        parameters.embeddings.llm.type,
-        NoopVerbCallbacks(),
-        None,
-        parameters.embeddings.llm.model_dump(),
+        parameters.embeddings.llm,
+        callbacks=NoopVerbCallbacks(),
+        cache=None,
     )
     try:
         asyncio.run(embed_llm(["This is an LLM Embedding Test String"]))

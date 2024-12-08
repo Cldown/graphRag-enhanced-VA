@@ -24,13 +24,13 @@ from typing import Any
 import pandas as pd
 from pydantic import validate_call
 
-from graphrag.config import GraphRagConfig
+from graphrag.config.models.graph_rag_config import GraphRagConfig
 from graphrag.index.config.embeddings import (
     community_full_content_embedding,
     entity_description_embedding,
 )
-from graphrag.logging import PrintProgressReporter
-from graphrag.query.factories import (
+from graphrag.logging.print_progress import PrintProgressReporter
+from graphrag.query.factory import (
     get_drift_search_engine,
     get_global_search_engine,
     get_local_search_engine,
@@ -44,11 +44,11 @@ from graphrag.query.indexer_adapters import (
     read_indexer_reports,
     read_indexer_text_units,
 )
-from graphrag.query.structured_search.base import SearchResult  # noqa: TCH001
+from graphrag.query.structured_search.base import SearchResult  # noqa: TC001
 from graphrag.utils.cli import redact
 from graphrag.utils.embeddings import create_collection_name
-from graphrag.vector_stores import VectorStoreFactory, VectorStoreType
 from graphrag.vector_stores.base import BaseVectorStore
+from graphrag.vector_stores.factory import VectorStoreFactory, VectorStoreType
 
 reporter = PrintProgressReporter("")
 
@@ -90,21 +90,32 @@ async def global_search(
     ------
     TODO: Document any exceptions to expect.
     """
-    _communities = read_indexer_communities(communities, nodes, community_reports)
+    communities_ = read_indexer_communities(communities, nodes, community_reports)
     reports = read_indexer_reports(
         community_reports,
         nodes,
         community_level=community_level,
         dynamic_community_selection=dynamic_community_selection,
     )
-    _entities = read_indexer_entities(nodes, entities, community_level=community_level)
+    entities_ = read_indexer_entities(nodes, entities, community_level=community_level)
+    map_prompt = _load_search_prompt(config.root_dir, config.global_search.map_prompt)
+    reduce_prompt = _load_search_prompt(
+        config.root_dir, config.global_search.reduce_prompt
+    )
+    knowledge_prompt = _load_search_prompt(
+        config.root_dir, config.global_search.knowledge_prompt
+    )
+
     search_engine = get_global_search_engine(
         config,
         reports=reports,
-        entities=_entities,
-        communities=_communities,
+        entities=entities_,
+        communities=communities_,
         response_type=response_type,
         dynamic_community_selection=dynamic_community_selection,
+        map_system_prompt=map_prompt,
+        reduce_system_prompt=reduce_prompt,
+        general_knowledge_inclusion_prompt=knowledge_prompt,
     )
     result: SearchResult = await search_engine.asearch(query=query)
     response = result.response
@@ -148,21 +159,32 @@ async def global_search_streaming(
     ------
     TODO: Document any exceptions to expect.
     """
-    _communities = read_indexer_communities(communities, nodes, community_reports)
+    communities_ = read_indexer_communities(communities, nodes, community_reports)
     reports = read_indexer_reports(
         community_reports,
         nodes,
         community_level=community_level,
         dynamic_community_selection=dynamic_community_selection,
     )
-    _entities = read_indexer_entities(nodes, entities, community_level=community_level)
+    entities_ = read_indexer_entities(nodes, entities, community_level=community_level)
+    map_prompt = _load_search_prompt(config.root_dir, config.global_search.map_prompt)
+    reduce_prompt = _load_search_prompt(
+        config.root_dir, config.global_search.reduce_prompt
+    )
+    knowledge_prompt = _load_search_prompt(
+        config.root_dir, config.global_search.knowledge_prompt
+    )
+
     search_engine = get_global_search_engine(
         config,
         reports=reports,
-        entities=_entities,
-        communities=_communities,
+        entities=entities_,
+        communities=communities_,
         response_type=response_type,
         dynamic_community_selection=dynamic_community_selection,
+        map_system_prompt=map_prompt,
+        reduce_system_prompt=reduce_prompt,
+        general_knowledge_inclusion_prompt=knowledge_prompt,
     )
     search_result = search_engine.astream_search(query=query)
 
@@ -236,18 +258,20 @@ async def local_search(
         embedding_name=entity_description_embedding,
     )
 
-    _entities = read_indexer_entities(nodes, entities, community_level)
-    _covariates = read_indexer_covariates(covariates) if covariates is not None else []
+    entities_ = read_indexer_entities(nodes, entities, community_level)
+    covariates_ = read_indexer_covariates(covariates) if covariates is not None else []
+    prompt = _load_search_prompt(config.root_dir, config.local_search.prompt)
 
     search_engine = get_local_search_engine(
         config=config,
         reports=read_indexer_reports(community_reports, nodes, community_level),
         text_units=read_indexer_text_units(text_units),
-        entities=_entities,
+        entities=entities_,
         relationships=read_indexer_relationships(relationships),
-        covariates={"claims": _covariates},
+        covariates={"claims": covariates_},
         description_embedding_store=description_embedding_store,  # type: ignore
         response_type=response_type,
+        system_prompt=prompt,
     )
 
     result: SearchResult = await search_engine.asearch(query=query)
@@ -310,18 +334,20 @@ async def local_search_streaming(
         embedding_name=entity_description_embedding,
     )
 
-    _entities = read_indexer_entities(nodes, entities, community_level)
-    _covariates = read_indexer_covariates(covariates) if covariates is not None else []
+    entities_ = read_indexer_entities(nodes, entities, community_level)
+    covariates_ = read_indexer_covariates(covariates) if covariates is not None else []
+    prompt = _load_search_prompt(config.root_dir, config.local_search.prompt)
 
     search_engine = get_local_search_engine(
         config=config,
         reports=read_indexer_reports(community_reports, nodes, community_level),
         text_units=read_indexer_text_units(text_units),
-        entities=_entities,
+        entities=entities_,
         relationships=read_indexer_relationships(relationships),
-        covariates={"claims": _covariates},
+        covariates={"claims": covariates_},
         description_embedding_store=description_embedding_store,  # type: ignore
         response_type=response_type,
+        system_prompt=prompt,
     )
     search_result = search_engine.astream_search(query=query)
 
@@ -398,17 +424,18 @@ async def drift_search(
         embedding_name=community_full_content_embedding,
     )
 
-    _entities = read_indexer_entities(nodes, entities, community_level)
-    _reports = read_indexer_reports(community_reports, nodes, community_level)
-    read_indexer_report_embeddings(_reports, full_content_embedding_store)
-
+    entities_ = read_indexer_entities(nodes, entities, community_level)
+    reports = read_indexer_reports(community_reports, nodes, community_level)
+    read_indexer_report_embeddings(reports, full_content_embedding_store)
+    prompt = _load_search_prompt(config.root_dir, config.drift_search.prompt)
     search_engine = get_drift_search_engine(
         config=config,
-        reports=_reports,
+        reports=reports,
         text_units=read_indexer_text_units(text_units),
-        entities=_entities,
+        entities=entities_,
         relationships=read_indexer_relationships(relationships),
         description_embedding_store=description_embedding_store,  # type: ignore
+        local_system_prompt=prompt,
     )
 
     result: SearchResult = await search_engine.asearch(query=query)
@@ -465,9 +492,9 @@ def _patch_vector_store(
             db_uri=config.embeddings.vector_store["db_uri"]
         )
         # dump embeddings from the entities list to the description_embedding_store
-        _entities = read_indexer_entities(nodes, entities, community_level)
+        entities_ = read_indexer_entities(nodes, entities, community_level)
         store_entity_semantic_embeddings(
-            entities=_entities, vectorstore=description_embedding_store
+            entities=entities_, vectorstore=description_embedding_store
         )
 
         if with_reports is not None:
@@ -479,7 +506,7 @@ def _patch_vector_store(
             community_reports = with_reports
             container_name = config.embeddings.vector_store["container_name"]
             # Store report embeddings
-            _reports = read_indexer_reports(
+            reports = read_indexer_reports(
                 community_reports,
                 nodes,
                 community_level,
@@ -499,7 +526,7 @@ def _patch_vector_store(
             )
             # dump embeddings from the reports list to the full_content_embedding_store
             store_reports_semantic_embeddings(
-                reports=_reports, vectorstore=full_content_embedding_store
+                reports=reports, vectorstore=full_content_embedding_store
             )
 
     return config
@@ -551,3 +578,17 @@ def _reformat_context_data(context_data: dict) -> dict:
             continue
         final_format[key] = records
     return final_format
+
+
+def _load_search_prompt(root_dir: str, prompt_config: str | None) -> str | None:
+    """
+    Load the search prompt from disk if configured.
+
+    If not, leave it empty - the search functions will load their defaults.
+
+    """
+    if prompt_config:
+        prompt_file = Path(root_dir) / prompt_config
+        if prompt_file.exists():
+            return prompt_file.read_bytes().decode(encoding="utf-8")
+    return None
