@@ -1,0 +1,75 @@
+---
+
+-Target activity-
+You are an intelligent assistant that helps a human analyst analyze claims against certain entities and their associated attributes, presented in a structured text format.
+
+-Goal-
+Given a structured text input in the format Entity,Relation,Entity,Weight, extract all entities and treat both the subject and object entities, as well as the relation, as independent entities. The **third column** represents the **main entity** (i.e., the visualization type or target entity), while the **first column** represents an associated property or attribute of the main entity. The relation will be treated as a property that links the first column to the third column. The **fourth column** (Weight) represents a **weight** or frequency value, which should influence the significance of the relationship between the entities.
+
+-Steps-
+1. Parse Input Format:
+   - The input consists of rows structured as Entity,Relation,Entity,Weight, where:
+     - The first column represents the **attribute entity** (i.e., a property or characteristic).  
+     - The second column represents the **relation** (this will link the first column to the third column).  
+     - The third column represents the **main entity** (i.e., the visualization type or primary entity).  
+     - The fourth column represents the **weight** (indicating the frequency or significance of the relationship).
+
+2. Entity Identification:
+   - Identify both the **attribute entity** and the **main entity** from each row.  
+   - The **main entity** (third column) should be the primary entity in the output.  
+   - The **attribute entity** (first column) should be treated as an associated property or attribute of the main entity, linked through the relation (second column).  
+   - Special attention should be given to the trace_type relation, which specifies how the entity is visualized (e.g., scatter, bar, line). This will be treated as a key property of the main entity.
+
+3. Handle Duplicate Rows:
+   - If a row appears multiple times, the relationship (e.g., data_type) should have its weight increased accordingly. Reflect this by counting the number of occurrences and making the relationship more significant in the output. The weight value from the fourth column should be added to the relationship as a **weight**.
+
+4. Claim Extraction:
+   - For each row, extract the claim details based on the main entity and its associated attribute entity.  
+   - For each claim, extract the following information:  
+     - Subject: The **main entity** (third column), capitalized.
+     - Object: The **attribute entity** (first column), capitalized. If the object is a value or non-entity, use **NONE**.
+     - Claim Type: A category based on the relation (e.g., if the relation is data_type, the claim type will be **DATA TYPE**).
+     - Claim Status: Set to **TRUE**, **FALSE**, or **SUSPECTED**, depending on the certainty of the claim.
+     - Claim Description: A detailed description of the claim, based on the relation and entities.
+     - Claim Date: The date or date range associated with the claim in ISO-8601 format (start_date, end_date). If unknown, use **NONE**.
+     - Claim Source Text: The entire row as the source text for the claim.
+     - Claim Weight: The weight value from the fourth column will be included as the **claim weight**.
+
+5. Output Format:
+   - Each extracted claim should be formatted as:  
+     (main_entity{tuple_delimiter}attribute_entity{tuple_delimiter}claim_type{tuple_delimiter}claim_status{tuple_delimiter}claim_start_date{tuple_delimiter}claim_end_date{tuple_delimiter}claim_description{tuple_delimiter}claim_source{tuple_delimiter}claim_weight)
+   - Use {record_delimiter} to separate multiple claims.
+   - End the output with {completion_delimiter}.
+
+-Examples-
+Example Input:
+
+string,data_type,scatter,20  
+string,data_type,bar,15  
+decimal,data_type,bar,16  
+
+
+Entity specification: data_type
+Claim description: Entity visualization and properties
+
+Example Output:
+
+(scatter{tuple_delimiter}string{tuple_delimiter}data_type{tuple_delimiter}TRUE{tuple_delimiter}NONE{tuple_delimiter}NONE{tuple_delimiter}When data_type is string, scatter is used for visualization.{tuple_delimiter}string,data_type,scatter{tuple_delimiter}20)
+{record_delimiter}  
+(bar{tuple_delimiter}string{tuple_delimiter}data_type{tuple_delimiter}TRUE{tuple_delimiter}NONE{tuple_delimiter}NONE{tuple_delimiter}When data_type is string, bar is used for visualization.{tuple_delimiter}string,data_type,bar{tuple_delimiter}15)
+{record_delimiter}  
+(bar{tuple_delimiter}decimal{tuple_delimiter}data_type{tuple_delimiter}TRUE{tuple_delimiter}NONE{tuple_delimiter}NONE{tuple_delimiter}When data_type is decimal, bar is used for visualization.{tuple_delimiter}decimal,data_type,bar{tuple_delimiter}16)
+{completion_delimiter}
+
+
+-Real Data-
+Use the following input for your answer.  
+Entity specification: {entity_specs}
+Claim description: {claim_description}
+Input Text:
+
+{Entity,Relation,Entity,Weight}
+
+Output:
+
+

@@ -1,0 +1,1327 @@
+Entity,Relation,Entity,Weight
+normalized_median between 0.9933362595496638 and 2, normalized_median, histogram, 498
+kurtosis between 12.258251583653111 and 19.761921501159687, kurtosis, scatter, 8349
+med_abs_dev between 2.42659167633974e-05 and 0.7801671246847796, med_abs_dev, line, 17447
+range between 34.0001273493613 and 164.9013685854019, range, heatmap, 192
+avg_abs_dev between 4.595696832287696 and 21.805817592374737, avg_abs_dev, scatter, 14442
+is_sorted_True, is_sorted, box, 2853
+normalized_median between 0.3451659363508224 and 0.5100700477919271, normalized_median, scatter, 10813
+percent_outliers_15iqr between 0.7048739443479046 and 0.9085796858033826, percent_outliers_15iqr, bar, 11927
+time, data_type, heatmap, 24
+log_space_sequence_coeff between 0.19951813624751183 and 0.528290071314381, log_space_sequence_coeff, histogram, 283
+Sixth-order moment between 24.470863465339907 and 2608316.9706451613, Sixth-order moment, histogram, 1751
+percent_outliers_1_99 between 0.990797292186368 and 2, percent_outliers_1_99, scatter, 12002
+var between 2.5077526515815407e-05 and 1.6052005600929224, var, scatter, 7599
+quant_coeff_disp between 0.0017868509422987189 and 0.019905503821228736, quant_coeff_disp, box, 1442
+is_sorted_True, is_sorted, line, 33767
+normalized_range between 2.6604745115772372 and 21.228070812840617, normalized_range, box, 1431
+var between 8941665.196451588 and 110410814.59999862, var, bar, 6315
+skewness between 3.101168877463187 and 4.461349153518679, skewness, histogram, 1300
+mean between 8262.562250976542 and 26053.242773437632, mean, scatter, 7957
+normality_p between 0.0004431203660561995 and 0.11218227241308455, normality_p, histogram, 890
+quant_coeff_disp between 0.0017868509422987189 and 0.019905503821228736, quant_coeff_disp, line, 8774
+Fifth-order moment between -1201.2660502772187 and -5.119229860089301e-08, Fifth-order moment, heatmap, 90
+normalized_range between 0.46508866788879516 and 1.0605909924353323, normalized_range, histogram, 513
+Sixth-order moment between 131908579289215120000 and 132595426535764380000000, Sixth-order moment, bar, 4870
+skewness between -0.393793818426709 and -0.008621457328779548, skewness, line, 9251
+percent_outliers_3iqr between 0.9775492457612869 and 1.9800000190734863, percent_outliers_3iqr, heatmap, 102
+med_abs_dev between 13.45003824418591 and 2452.4554838709664, med_abs_dev, box, 2683
+hasoutliers_3std, has_outliers, heatmap, 170
+ninth-order moment between 0.8167481387046068 and 15399884.174838709, ninth-order moment, scatter, 23165
+ninth-order moment between -8.465492734351432e-15 and 0.8167481387046068, ninth-order moment, bar, 2165
+Tenth-order moment between 2059.777588441911 and 26054988855.494198, Tenth-order moment, box, 2219
+normalized_median between 0.5100700477919271 and 0.6504355974735753, normalized_median, histogram, 427
+isnormal_1, is_normal, box, 5613
+integer, data_type, heatmap, 346
+normalized_mean between 0.40559448752191757 and 0.5259337732099718, normalized_mean, heatmap, 117
+med_abs_dev between 13.45003824418591 and 2452.4554838709664, med_abs_dev, line, 14069
+space, symbol_in_name, heatmap, 129
+Tenth-order moment between 2059.777588441911 and 26054988855.494198, Tenth-order moment, line, 7217
+lin_space_sequence_coeff between 0.18473562403071303 and 0.683453381061554, lin_space_sequence_coeff, histogram, 37
+gini between 0.381471216414244 and 0.5444116135758735, gini, histogram, 587
+isnormal_1, is_normal, line, 34143
+range between 164.9013685854019 and 27356.06338867178, range, scatter, 11760
+Tenth-order moment between 0.09400793363971076 and 2059.777588441911, Tenth-order moment, histogram, 607
+time, symbol_in_name, histogram, 10
+Eigthth-order moment between 2.5877225658845137e+24 and 3379487092891821000000000000, Eigthth-order moment, scatter, 8718
+Fifth-order moment between 0.35549705584202634 and 6066.188035534273, Fifth-order moment, histogram, 1273
+entropy between 2.299301989847614 and 3.0664403364735264, entropy, box, 1843
+Seventh-order moment between -8080.4938661637225 and -1.1803249820933024e-29, Seventh-order moment, histogram, 637
+entropy between 7.226597045621564 and 8.682643008232112, entropy, heatmap, 241
+max between 1.369510426136755 and 5.469374160151328, max, heatmap, 141
+median between 10816.114516129033 and 17753.6826171875, median, box, 1206
+sortedness between 0.41998404109189585 and 0.7945867153906053, sortedness, scatter, 12432
+percent_outliers_3iqr between 0.7134887467661212 and 0.8054596785576112, percent_outliers_3iqr, bar, 6265
+percent_outliers_3iqr between 0.32998837097998585 and 0.7134887467661212, percent_outliers_3iqr, heatmap, 94
+entropy between 2.299301989847614 and 3.0664403364735264, entropy, line, 13184
+max between 56.596889114379884 and 639.0702552057083, max, histogram, 495
+lin_space_sequence_coeff between 1.0657484795201209 and 1.6128226203303184, lin_space_sequence_coeff, box, 1588
+normalized_range between 21.228070812840617 and 28.202717590331986, normalized_range, histogram, 1163
+num_uppercase_characters between 0 and 6, num_uppercase_characters, histogram, 2402
+median between 10816.114516129033 and 17753.6826171875, median, line, 8747
+isnormal_5, is_normal, bar, 9466
+min between 2234.3465037487395 and 3181.360058593754, min, heatmap, 81
+log_space_sequence_coeff between 0.004471472915141768 and 0.030450508665413562, log_space_sequence_coeff, box, 1321
+first_char_uppercase_name_False, first_char_uppercase_name, bar, 11044
+normalized_range between 1.0605909924353323 and 1.784245115326297, normalized_range, heatmap, 54
+avg_abs_dev between 21.805817592374737 and 2579.8562310987904, avg_abs_dev, box, 2376
+lin_space_sequence_coeff between 1.0657484795201209 and 1.6128226203303184, lin_space_sequence_coeff, line, 8287
+normalized_median between 0.0006439799570568022 and 0.3451659363508224, normalized_median, bar, 2563
+skewness between 0.6223711049364465 and 3.101168877463187, skewness, heatmap, 143
+range between 34.0001273493613 and 164.9013685854019, range, box, 2533
+log_space_sequence_coeff between 0.004471472915141768 and 0.030450508665413562, log_space_sequence_coeff, line, 9894
+Eigthth-order moment between 313954491464076.7 and 2.5877225658845137e+24, Eigthth-order moment, scatter, 10077
+avg_abs_dev between 21.805817592374737 and 2579.8562310987904, avg_abs_dev, line, 12519
+range between 34.0001273493613 and 164.9013685854019, range, line, 14683
+time, data_type, box, 460
+First Quartile between 0.993269883817242 and 2.486012015035075, First Quartile, heatmap, 64
+hasoutliers_15iqr, has_outliers, heatmap, 673
+range between 27356.06338867178 and 43421, range, bar, 5670
+time, data_type, line, 4137
+decimal, data_type, heatmap, 381
+Fifth-order moment between -1201.2660502772187 and -5.119229860089301e-08, Fifth-order moment, box, 1634
+ninth-order moment between 728152499793781000 and 47793618722611780000000000, ninth-order moment, scatter, 10589
+percent_outliers_3iqr between 0.8054596785576112 and 0.9000023295802455, percent_outliers_3iqr, scatter, 9758
+ninth-order moment between 15399884.174838709 and 728152499793781000, ninth-order moment, scatter, 8727
+percent_outliers_3iqr between 0.9775492457612869 and 1.9800000190734863, percent_outliers_3iqr, box, 1547
+percent_outliers_3iqr between 0.9000023295802455 and 0.9631309172030419, percent_outliers_3iqr, heatmap, 83
+coeff_var between 1.7603407242221216 and 5.826227477519748, coeff_var, scatter, 8911
+hasoutliers_3std, has_outliers, box, 3411
+Fifth-order moment between -1201.2660502772187 and -5.119229860089301e-08, Fifth-order moment, line, 9855
+entropy between 0.22412365078926086 and 1.3727904235932133, entropy, histogram, 1112
+min between 1.817272958832402 and 9.322483742621632, min, bar, 4255
+percent_outliers_3iqr between 0.9775492457612869 and 1.9800000190734863, percent_outliers_3iqr, line, 9469
+integer, data_type, box, 4280
+median between 30.791238223660386 and 273.1241935483871, median, heatmap, 180
+max between 26214.49350302417 and 74999.69999999998, max, bar, 4473
+hasoutliers_3std, has_outliers, line, 12278
+log_space_sequence_coeff between 0.030450508665413562 and 0.10070002636121156, log_space_sequence_coeff, bar, 1994
+string, data_type, bar, 9740
+std between 0.005012650750577393 and 1.265435202025598, std, bar, 4460
+space, symbol_in_name, box, 6910
+normalized_mean between 0.5259337732099718 and 0.6351002664527585, normalized_mean, scatter, 12532
+First Quartile between 2000.9977107878653 and 3760.39501953125, First Quartile, histogram, 953
+integer, data_type, line, 21531
+is_y_src, is_x_or_y, bar, 25025
+lin_space_sequence_coeff between 3.0317178572377843 and 12.837174805364283, lin_space_sequence_coeff, bar, 4237
+is_log_space_True, is_log_space, scatter, 5343
+space, symbol_in_name, line, 48313
+normalized_median between 0.8352578886189768 and 0.9933362595496638, normalized_median, histogram, 601
+lin_space_sequence_coeff between 12.837174805364283 and 19.22040605545044, lin_space_sequence_coeff, histogram, 1518
+entropy between 7.226597045621564 and 8.682643008232112, entropy, box, 2467
+max between 1.369510426136755 and 5.469374160151328, max, box, 2070
+range between 6.755743844124582 and 34.0001273493613, range, scatter, 11930
+x, symbol_in_name, histogram, 1442
+percent_outliers_1_99 between 0.08696898928573049 and 0.9165140006619115, percent_outliers_1_99, heatmap, 67
+entropy between 3.0664403364735264 and 4.227416124036235, entropy, heatmap, 73
+max between 19.999878525272493 and 56.596889114379884, max, bar, 4746
+is_monotonic_False, is_monotonic, bar, 9808
+Seventh-order moment between 35631.60671685986 and 29994971860657480000, Seventh-order moment, scatter, 8781
+kurtosis between -0.8387569783387646 and -0.17026565258541418, kurtosis, scatter, 9197
+percent_outliers_3iqr between 0.32998837097998585 and 0.7134887467661212, percent_outliers_3iqr, box, 1419
+entropy between 7.226597045621564 and 8.682643008232112, entropy, line, 12271
+std between 28.3294898925289 and 3000.4648240612346, std, histogram, 798
+max between 1.369510426136755 and 5.469374160151328, max, line, 15763
+quant_coeff_disp between 0.019905503821228736 and 0.34838628983305325, quant_coeff_disp, bar, 6869
+is_monotonic_True, is_monotonic, bar, 30392
+num_unique_elements between 33.18709677419355 and 293, num_unique_elements, heatmap, 500
+min between 2234.3465037487395 and 3181.360058593754, min, box, 1507
+log_space_sequence_coeff between 0.10070002636121156 and 0.19951813624751183, log_space_sequence_coeff, scatter, 11267
+percent_outliers_3iqr between 0.32998837097998585 and 0.7134887467661212, percent_outliers_3iqr, line, 12700
+normalized_range between 1.0605909924353323 and 1.784245115326297, normalized_range, box, 2197
+percent_outliers_15iqr between 0.9843483797965511 and 1.9849246144294739, percent_outliers_15iqr, bar, 2644
+gini between 0.2661612808704376 and 0.381471216414244, gini, histogram, 609
+avg_abs_dev between 0.0016913167480378925 and 0.8992536992026909, avg_abs_dev, heatmap, 58
+percent_outliers_1_99 between 0.9165140006619115 and 0.990797292186368, percent_outliers_1_99, scatter, 9389
+skewness between 0.6223711049364465 and 3.101168877463187, skewness, box, 2977
+normalized_mean between 0.6351002664527585 and 0.7784608491774528, normalized_mean, scatter, 9617
+min between 2234.3465037487395 and 3181.360058593754, min, line, 8825
+normality_statistic between 40.29032087326056 and 278.8104670961443, normality_statistic, scatter, 7866
+normalized_range between 1.0605909924353323 and 1.784245115326297, normalized_range, line, 7977
+normality_statistic between 278.8104670961443 and 2755.4830602633538, normality_statistic, scatter, 8388
+is_x_src, is_x_or_y, heatmap, 836
+min between 0.2605670641891413 and 1.817272958832402, min, heatmap, 331
+median between 273.1241935483871 and 10816.114516129033, median, bar, 5513
+skewness between 0.6223711049364465 and 3.101168877463187, skewness, line, 14356
+is_unique_True, is_unique, bar, 17718
+is_lin_space_True, is_lin_space, histogram, 36
+First Quartile between 0.993269883817242 and 2.486012015035075, First Quartile, box, 1027
+lin_space_sequence_coeff between 0.683453381061554 and 1.0657484795201209, lin_space_sequence_coeff, bar, 3649
+avg_abs_dev between 0.8992536992026909 and 4.595696832287696, avg_abs_dev, bar, 4157
+hasoutliers_15iqr, has_outliers, box, 11381
+median between 0.1103014424311057 and 5.251452979118592, median, heatmap, 160
+med_abs_dev between 2.1782844193520083 and 13.45003824418591, med_abs_dev, bar, 4563
+First Quartile between 0.993269883817242 and 2.486012015035075, First Quartile, line, 8225
+entropy between 1.3727904235932133 and 2.299301989847614, entropy, scatter, 8131
+hasoutliers_15iqr, has_outliers, line, 60288
+mean between 31.850277947456604 and 281.8860048355595, mean, scatter, 16630
+decimal, data_type, box, 7918
+mean between 0.1916935728682625 and 4.191202395962129, mean, heatmap, 130
+var between 32.22537642817343 and 802.6463076486889, var, scatter, 13290
+avg_abs_dev between 2579.8562310987904 and 7894.221777343751, avg_abs_dev, histogram, 692
+kurtosis between 12.258251583653111 and 19.761921501159687, kurtosis, bar, 3381
+percent_outliers_3iqr between 0.9000023295802455 and 0.9631309172030419, percent_outliers_3iqr, box, 2366
+categorical, general_type, heatmap, 372
+med_abs_dev between 2.42659167633974e-05 and 0.7801671246847796, med_abs_dev, bar, 7261
+avg_abs_dev between 4.595696832287696 and 21.805817592374737, avg_abs_dev, bar, 6203
+decimal, data_type, line, 47380
+Fifth-order moment between -5.119229860089301e-08 and 0.35549705584202634, Fifth-order moment, box, 2155
+median between 5.251452979118592 and 30.791238223660386, median, histogram, 1066
+normalized_median between 0.3451659363508224 and 0.5100700477919271, normalized_median, bar, 7030
+percent_outliers_15iqr between 0.9596259197881145 and 0.9843483797965511, percent_outliers_15iqr, heatmap, 158
+normality_p between 1.414449563859021e-12 and 0.0004431203660561995, normality_p, box, 3205
+Sixth-order moment between 3.704795885762886e-13 and 24.470863465339907, Sixth-order moment, histogram, 508
+median between 30.791238223660386 and 273.1241935483871, median, box, 2470
+percent_outliers_3iqr between 0.9000023295802455 and 0.9631309172030419, percent_outliers_3iqr, line, 11808
+Seventh-order moment between 29994971860657480000 and 42188275653726420000000, Seventh-order moment, box, 3281
+gini between 0.09158154010772704 and 0.1794668331501945, gini, histogram, 878
+var between 2.5077526515815407e-05 and 1.6052005600929224, var, bar, 4460
+Tenth-order moment between 2553332197612499.5 and 5.38823068933106e+26, Tenth-order moment, heatmap, 119
+Sixth-order moment between 44125102529.89933 and 131908579289215120000, Sixth-order moment, scatter, 12549
+normality_p between 1.414449563859021e-12 and 0.0004431203660561995, normality_p, line, 21872
+median between 30.791238223660386 and 273.1241935483871, median, line, 12037
+Seventh-order moment between 29994971860657480000 and 42188275653726420000000, Seventh-order moment, line, 14110
+ninth-order moment between -1401645.8064516135 and -8.465492734351432e-15, ninth-order moment, scatter, 9967
+normalized_range between 0.02345926997161677 and 0.46508866788879516, normalized_range, histogram, 727
+First Quartile between 2.486012015035075 and 17.989219874720412, First Quartile, histogram, 666
+First Quartile between 0.003832620927958784 and 0.993269883817242, First Quartile, histogram, 2299
+percent_outliers_1_99 between 0.08696898928573049 and 0.9165140006619115, percent_outliers_1_99, box, 992
+y, symbol_in_name, histogram, 682
+entropy between 3.0664403364735264 and 4.227416124036235, entropy, box, 1779
+skewness between -0.393793818426709 and -0.008621457328779548, skewness, bar, 2865
+normality_p between 0.0004431203660561995 and 0.11218227241308455, normality_p, heatmap, 98
+normalized_mean between 0.12335866319556385 and 0.40559448752191757, normalized_mean, scatter, 9627
+is_log_space_False, is_log_space, histogram, 5337
+coeff_var between 0.0032526775221940305 and 0.6636052427753325, coeff_var, histogram, 754
+ninth-order moment between 0.8167481387046068 and 15399884.174838709, ninth-order moment, bar, 10061
+percent_outliers_1_99 between 0.08696898928573049 and 0.9165140006619115, percent_outliers_1_99, line, 10256
+entropy between 3.0664403364735264 and 4.227416124036235, entropy, line, 8526
+num_unique_elements between 33.18709677419355 and 293, num_unique_elements, box, 4428
+Fifth-order moment between 602660358950995.5 and 361064105139765250, Fifth-order moment, histogram, 1025
+avg_abs_dev between 0.0016913167480378925 and 0.8992536992026909, avg_abs_dev, box, 856
+normality_p between 0.11218227241308455 and 0.590958889088323, normality_p, scatter, 8112
+sortedness between 0.7945867153906053 and 2, sortedness, histogram, 422
+num_unique_elements between 33.18709677419355 and 293, num_unique_elements, line, 19316
+entropy between 4.227416124036235 and 7.226597045621564, entropy, histogram, 802
+Tenth-order moment between 2059.777588441911 and 26054988855.494198, Tenth-order moment, bar, 2581
+range between 164.9013685854019 and 27356.06338867178, range, bar, 4335
+kurtosis between -0.17026565258541418 and 1.5766148755627292, kurtosis, heatmap, 84
+Eigthth-order moment between 2.5877225658845137e+24 and 3379487092891821000000000000, Eigthth-order moment, bar, 4114
+length between 29.32 and 4350, length, scatter, 42446
+is_x_src, is_x_or_y, box, 3056
+min between 0.2605670641891413 and 1.817272958832402, min, box, 4307
+avg_abs_dev between 0.0016913167480378925 and 0.8992536992026909, avg_abs_dev, line, 9134
+percent_outliers_15iqr between 0.7048739443479046 and 0.9085796858033826, percent_outliers_15iqr, heatmap, 150
+sortedness between 0.41998404109189585 and 0.7945867153906053, sortedness, bar, 7515
+mean between 8262.562250976542 and 26053.242773437632, mean, histogram, 410
+is_x_src, is_x_or_y, line, 27140
+median between 0.1103014424311057 and 5.251452979118592, median, box, 2242
+min between 0.2605670641891413 and 1.817272958832402, min, line, 31930
+field_name_length between 5.044516129032258 and 39, field_name_length, bar, 17326
+entropy between 2.299301989847614 and 3.0664403364735264, entropy, bar, 8086
+kurtosis between -1.1909797564629585 and -0.8387569783387646, kurtosis, histogram, 275
+max between 5.469374160151328 and 19.999878525272493, max, heatmap, 63
+Third Quartile between 0.007131026095875904 and 1.65858569099057, Third Quartile, scatter, 20878
+var between 8941665.196451588 and 110410814.59999862, var, heatmap, 153
+quant_coeff_disp between 8.880032987873733e-07 and 0.0017868509422987189, quant_coeff_disp, histogram, 2075
+median between 0.1103014424311057 and 5.251452979118592, median, line, 17009
+is_lin_space_False, is_lin_space, histogram, 5590
+std between 5.671287387417208 and 28.3294898925289, std, scatter, 13293
+mean between 0.1916935728682625 and 4.191202395962129, mean, box, 1870
+skewness between 0.0014703517027138925 and 0.6223711049364465, skewness, histogram, 632
+categorical, general_type, box, 1217
+Sixth-order moment between 131908579289215120000 and 132595426535764380000000, Sixth-order moment, heatmap, 123
+normalized_median between 0.6504355974735753 and 0.8352578886189768, normalized_median, histogram, 383
+mean between 0.1916935728682625 and 4.191202395962129, mean, line, 15095
+percent_outliers_15iqr between 0.9596259197881145 and 0.9843483797965511, percent_outliers_15iqr, box, 2374
+ninth-order moment between -8.465492734351432e-15 and 0.8167481387046068, ninth-order moment, heatmap, 64
+categorical, general_type, line, 3814
+unique_percent between 0.5887225893235976 and 2, unique_percent, scatter, 7844
+skewness between -0.008621457328779548 and 0.0014703517027138925, skewness, histogram, 685
+percent_outliers_15iqr between 0.9596259197881145 and 0.9843483797965511, percent_outliers_15iqr, line, 11436
+Eigthth-order moment between 6.96370545438728e-17 and 105.55832996983654, Eigthth-order moment, scatter, 7647
+normalized_mean between 0.7784608491774528 and 0.9896777660615983, normalized_mean, scatter, 8550
+is_only_field_False, is_only_field, histogram, 3570
+Tenth-order moment between 2553332197612499.5 and 5.38823068933106e+26, Tenth-order moment, line, 8981
+temporal, general_type, histogram, 47
+std between 3000.4648240612346 and 10530.733789062511, std, scatter, 13623
+percent_outliers_3iqr between 0.8054596785576112 and 0.9000023295802455, percent_outliers_3iqr, bar, 4588
+ninth-order moment between 15399884.174838709 and 728152499793781000, ninth-order moment, bar, 3143
+kurtosis between 1.5766148755627292 and 12.258251583653111, kurtosis, histogram, 1050
+coeff_var between 1.7603407242221216 and 5.826227477519748, coeff_var, bar, 3254
+log_space_sequence_coeff between 0.19951813624751183 and 0.528290071314381, log_space_sequence_coeff, scatter, 10022
+Sixth-order moment between 24.470863465339907 and 2608316.9706451613, Sixth-order moment, scatter, 17609
+percent_outliers_3iqr between 0.7134887467661212 and 0.8054596785576112, percent_outliers_3iqr, heatmap, 69
+gini between 0.0039505421844941435 and 0.09158154010772704, gini, histogram, 588
+mean between 4.191202395962129 and 31.850277947456604, mean, histogram, 1068
+Fifth-order moment between -1201.2660502772187 and -5.119229860089301e-08, Fifth-order moment, bar, 3187
+skewness between 3.101168877463187 and 4.461349153518679, skewness, scatter, 13388
+normality_statistic between 11.224123300121676 and 40.29032087326056, normality_statistic, histogram, 753
+Eigthth-order moment between 313954491464076.7 and 2.5877225658845137e+24, Eigthth-order moment, histogram, 608
+log_space_sequence_coeff between 0.528290071314381 and 1.5822714805603022, log_space_sequence_coeff, scatter, 8964
+isnormal_5, is_normal, heatmap, 565
+first_char_uppercase_name_False, first_char_uppercase_name, heatmap, 692
+normalized_mean between 0.5259337732099718 and 0.6351002664527585, normalized_mean, bar, 4090
+kurtosis between -0.17026565258541418 and 1.5766148755627292, kurtosis, box, 2468
+normalized_range between 0.46508866788879516 and 1.0605909924353323, normalized_range, scatter, 8215
+normalized_mean between 0.40559448752191757 and 0.5259337732099718, normalized_mean, bar, 6338
+is_log_space_True, is_log_space, bar, 2819
+percent_outliers_15iqr between 0.9085796858033826 and 0.9596259197881145, percent_outliers_15iqr, scatter, 24083
+percent_outliers_15iqr between 0.7048739443479046 and 0.9085796858033826, percent_outliers_15iqr, box, 2566
+kurtosis between -0.17026565258541418 and 1.5766148755627292, kurtosis, line, 8788
+id, symbol_in_name, histogram, 3
+normalized_median between 0.5100700477919271 and 0.6504355974735753, normalized_median, scatter, 11930
+Seventh-order moment between 35631.60671685986 and 29994971860657480000, Seventh-order moment, bar, 2921
+kurtosis between -0.8387569783387646 and -0.17026565258541418, kurtosis, bar, 3026
+range between 27356.06338867178 and 43421, range, heatmap, 125
+Third Quartile between 2009.0132802261844 and 4188.793847656234, Third Quartile, scatter, 15952
+percent_outliers_15iqr between 0.7048739443479046 and 0.9085796858033826, percent_outliers_15iqr, line, 19506
+max between 5.469374160151328 and 19.999878525272493, max, box, 2020
+ninth-order moment between 728152499793781000 and 47793618722611780000000000, ninth-order moment, histogram, 807
+var between 8941665.196451588 and 110410814.59999862, var, box, 1851
+percent_outliers_3std between 0.029580399275066338 and 1.0322580635547638, percent_outliers_3std, histogram, 4566
+lin_space_sequence_coeff between 0.18473562403071303 and 0.683453381061554, lin_space_sequence_coeff, scatter, 12178
+Tenth-order moment between 0.09400793363971076 and 2059.777588441911, Tenth-order moment, scatter, 9443
+Seventh-order moment between -1.1803249820933024e-29 and 0.035443333685398086, Seventh-order moment, histogram, 782
+time, symbol_in_name, scatter, 422
+Fifth-order moment between 0.35549705584202634 and 6066.188035534273, Fifth-order moment, scatter, 25162
+max between 5.469374160151328 and 19.999878525272493, max, line, 7413
+Seventh-order moment between -8080.4938661637225 and -1.1803249820933024e-29, Seventh-order moment, scatter, 10383
+var between 8941665.196451588 and 110410814.59999862, var, line, 13177
+Tenth-order moment between 9.571977461719663e-21 and 0.09400793363971076, Tenth-order moment, histogram, 508
+Sixth-order moment between 131908579289215120000 and 132595426535764380000000, Sixth-order moment, box, 1448
+normality_statistic between 40.29032087326056 and 278.8104670961443, normality_statistic, bar, 3441
+normality_statistic between 278.8104670961443 and 2755.4830602633538, normality_statistic, bar, 2106
+max between 56.596889114379884 and 639.0702552057083, max, scatter, 9181
+normalized_range between 21.228070812840617 and 28.202717590331986, normalized_range, scatter, 9782
+num_uppercase_characters between 0 and 6, num_uppercase_characters, scatter, 25198
+ninth-order moment between -8.465492734351432e-15 and 0.8167481387046068, ninth-order moment, box, 2121
+skewness between 0.6223711049364465 and 3.101168877463187, skewness, bar, 5187
+Sixth-order moment between 131908579289215120000 and 132595426535764380000000, Sixth-order moment, line, 9794
+max between 26214.49350302417 and 74999.69999999998, max, heatmap, 100
+Tenth-order moment between 26054988855.494198 and 2553332197612499.5, Tenth-order moment, histogram, 891
+log_space_sequence_coeff between 0.030450508665413562 and 0.10070002636121156, log_space_sequence_coeff, heatmap, 110
+string, data_type, heatmap, 372
+std between 0.005012650750577393 and 1.265435202025598, std, heatmap, 58
+ninth-order moment between -8.465492734351432e-15 and 0.8167481387046068, ninth-order moment, line, 8118
+range between 6.755743844124582 and 34.0001273493613, range, histogram, 1311
+entropy between 1.3727904235932133 and 2.299301989847614, entropy, bar, 7297
+is_y_src, is_x_or_y, heatmap, 287
+lin_space_sequence_coeff between 3.0317178572377843 and 12.837174805364283, lin_space_sequence_coeff, heatmap, 145
+kurtosis between -1.484341488230613 and -1.1909797564629585, kurtosis, bar, 9970
+mean between 31.850277947456604 and 281.8860048355595, mean, bar, 7737
+Eigthth-order moment between 105.55832996983654 and 7902707318.585811, Eigthth-order moment, histogram, 1695
+log_space_sequence_coeff between 0.10070002636121156 and 0.19951813624751183, log_space_sequence_coeff, histogram, 819
+max between 19.999878525272493 and 56.596889114379884, max, heatmap, 114
+is_monotonic_False, is_monotonic, heatmap, 374
+percent_outliers_3iqr between 0.7134887467661212 and 0.8054596785576112, percent_outliers_3iqr, box, 1398
+mean between 281.8860048355595 and 8262.562250976542, mean, scatter, 14091
+is_monotonic_True, is_monotonic, heatmap, 749
+isnormal_5, is_normal, box, 6397
+percent_outliers_3iqr between 0.7134887467661212 and 0.8054596785576112, percent_outliers_3iqr, line, 7612
+first_char_uppercase_name_False, first_char_uppercase_name, box, 1836
+percent_outliers_15iqr between 0.9843483797965511 and 1.9849246144294739, percent_outliers_15iqr, heatmap, 190
+Sixth-order moment between 44125102529.89933 and 131908579289215120000, Sixth-order moment, bar, 4735
+isnormal_5, is_normal, line, 37324
+dollar, symbol_in_name, histogram, 2
+ninth-order moment between -1401645.8064516135 and -8.465492734351432e-15, ninth-order moment, bar, 3276
+first_char_uppercase_name_False, first_char_uppercase_name, line, 15050
+gini between 0.09158154010772704 and 0.1794668331501945, gini, heatmap, 65
+median between 273.1241935483871 and 10816.114516129033, median, heatmap, 108
+entropy between 0.22412365078926086 and 1.3727904235932133, entropy, scatter, 9681
+is_unique_True, is_unique, heatmap, 285
+lin_space_sequence_coeff between 0.683453381061554 and 1.0657484795201209, lin_space_sequence_coeff, heatmap, 25
+range between 27356.06338867178 and 43421, range, box, 1722
+normalized_mean between 0.9896777660615983 and 2, normalized_mean, histogram, 677
+normalized_mean between 0.12335866319556385 and 0.40559448752191757, normalized_mean, bar, 2749
+sortedness between 0.08363238902341927 and 0.41998404109189585, sortedness, scatter, 10465
+var between 32.22537642817343 and 802.6463076486889, var, histogram, 828
+min between 9.322483742621632 and 69.52466286197784, min, histogram, 610
+has_none_True, has_none, heatmap, 26
+Third Quartile between 1.65858569099057 and 18.23213297659351, Third Quartile, histogram, 672
+range between 27356.06338867178 and 43421, range, line, 11433
+normalized_median between 0.8352578886189768 and 0.9933362595496638, normalized_median, scatter, 9825
+lin_space_sequence_coeff between 12.837174805364283 and 19.22040605545044, lin_space_sequence_coeff, scatter, 10728
+normality_p between 0.11218227241308455 and 0.590958889088323, normality_p, bar, 3301
+kurtosis between 12.258251583653111 and 19.761921501159687, kurtosis, heatmap, 90
+x, symbol_in_name, scatter, 18758
+length between 29.32 and 4350, length, bar, 31933
+avg_abs_dev between 4.595696832287696 and 21.805817592374737, avg_abs_dev, heatmap, 169
+coeff_var between 0.6636052427753325 and 1.7603407242221216, coeff_var, histogram, 950
+gini between 0.1794668331501945 and 0.2661612808704376, gini, histogram, 1198
+std between 28.3294898925289 and 3000.4648240612346, std, scatter, 13109
+normality_p between 0.590958889088323 and 1.666847586631775, normality_p, histogram, 598
+var between 1.6052005600929224 and 32.22537642817343, var, histogram, 1877
+normalized_median between 0.3451659363508224 and 0.5100700477919271, normalized_median, heatmap, 131
+min between 1.817272958832402 and 9.322483742621632, min, box, 1534
+quant_coeff_disp between 0.34838628983305325 and 1.5, quant_coeff_disp, scatter, 8437
+max between 26214.49350302417 and 74999.69999999998, max, box, 1143
+log_space_sequence_coeff between 0.030450508665413562 and 0.10070002636121156, log_space_sequence_coeff, box, 2188
+string, data_type, box, 1217
+std between 0.005012650750577393 and 1.265435202025598, std, box, 866
+percent_outliers_1_99 between 0.990797292186368 and 2, percent_outliers_1_99, heatmap, 261
+var between 2.5077526515815407e-05 and 1.6052005600929224, var, heatmap, 58
+is_nan_src, is_x_or_y, bar, 4
+min between 1.817272958832402 and 9.322483742621632, min, line, 7021
+Third Quartile between 0.007131026095875904 and 1.65858569099057, Third Quartile, bar, 6919
+is_y_src, is_x_or_y, box, 10818
+max between 26214.49350302417 and 74999.69999999998, max, line, 8996
+lin_space_sequence_coeff between 3.0317178572377843 and 12.837174805364283, lin_space_sequence_coeff, box, 2657
+log_space_sequence_coeff between 0.030450508665413562 and 0.10070002636121156, log_space_sequence_coeff, line, 9268
+string, data_type, line, 3814
+std between 0.005012650750577393 and 1.265435202025598, std, line, 9119
+median between 0.1103014424311057 and 5.251452979118592, median, bar, 4680
+Fifth-order moment between -5.119229860089301e-08 and 0.35549705584202634, Fifth-order moment, histogram, 805
+normality_statistic between 2.4420980342741934 and 11.224123300121676, normality_statistic, histogram, 585
+Sixth-order moment between 2608316.9706451613 and 44125102529.89933, Sixth-order moment, histogram, 1038
+is_lin_space_True, is_lin_space, scatter, 9719
+is_y_src, is_x_or_y, line, 49715
+lin_space_sequence_coeff between 3.0317178572377843 and 12.837174805364283, lin_space_sequence_coeff, line, 9377
+gini between 0.5444116135758735 and 1.7769320607185364, gini, histogram, 446
+max between 19.999878525272493 and 56.596889114379884, max, box, 1903
+is_monotonic_False, is_monotonic, box, 1221
+is_sorted_False, is_sorted, histogram, 4547
+ninth-order moment between 0.8167481387046068 and 15399884.174838709, ninth-order moment, heatmap, 257
+is_monotonic_True, is_monotonic, box, 12654
+max between 19.999878525272493 and 56.596889114379884, max, line, 9056
+is_monotonic_False, is_monotonic, line, 4044
+unique_percent between 0.5887225893235976 and 2, unique_percent, bar, 3860
+percent_outliers_15iqr between 0.9843483797965511 and 1.9849246144294739, percent_outliers_15iqr, box, 3346
+range between 1.884129064832964 and 6.755743844124582, range, bar, 2595
+Eigthth-order moment between 6.96370545438728e-17 and 105.55832996983654, Eigthth-order moment, bar, 4489
+normality_statistic between 2755.4830602633538 and 6167.3212890625, normality_statistic, histogram, 853
+normalized_mean between 0.7784608491774528 and 0.9896777660615983, normalized_mean, bar, 3439
+First Quartile between 17.989219874720412 and 2000.9977107878653, First Quartile, histogram, 705
+is_monotonic_True, is_monotonic, line, 72818
+normalized_median between 0.9933362595496638 and 2, normalized_median, bar, 3452
+range between 164.9013685854019 and 27356.06338867178, range, heatmap, 138
+percent_outliers_15iqr between 0.9843483797965511 and 1.9849246144294739, percent_outliers_15iqr, line, 14845
+Eigthth-order moment between 2.5877225658845137e+24 and 3379487092891821000000000000, Eigthth-order moment, heatmap, 107
+Tenth-order moment between 2553332197612499.5 and 5.38823068933106e+26, Tenth-order moment, bar, 3612
+median between 273.1241935483871 and 10816.114516129033, median, box, 2423
+quantitative, general_type, scatter, 70214
+is_unique_True, is_unique, box, 969
+median between 5.251452979118592 and 30.791238223660386, median, scatter, 15647
+Sixth-order moment between 3.704795885762886e-13 and 24.470863465339907, Sixth-order moment, scatter, 7623
+Fifth-order moment between 6066.188035534273 and 602660358950995.5, Fifth-order moment, histogram, 923
+sortedness between 0.41998404109189585 and 0.7945867153906053, sortedness, heatmap, 189
+lin_space_sequence_coeff between 0.683453381061554 and 1.0657484795201209, lin_space_sequence_coeff, box, 707
+std between 5.671287387417208 and 28.3294898925289, std, histogram, 828
+log_space_sequence_coeff between 0.19951813624751183 and 0.528290071314381, log_space_sequence_coeff, bar, 4503
+Sixth-order moment between 24.470863465339907 and 2608316.9706451613, Sixth-order moment, bar, 4377
+med_abs_dev between 2.1782844193520083 and 13.45003824418591, med_abs_dev, box, 2432
+median between 273.1241935483871 and 10816.114516129033, median, line, 13456
+field_name_length between 5.044516129032258 and 39, field_name_length, heatmap, 892
+is_unique_True, is_unique, line, 15095
+skewness between 3.101168877463187 and 4.461349153518679, skewness, bar, 8444
+lin_space_sequence_coeff between 0.683453381061554 and 1.0657484795201209, lin_space_sequence_coeff, line, 7330
+has_none_True, has_none, box, 456
+normalized_range between 0.02345926997161677 and 0.46508866788879516, normalized_range, scatter, 8675
+normality_p between 0.0004431203660561995 and 0.11218227241308455, normality_p, bar, 3155
+First Quartile between 2.486012015035075 and 17.989219874720412, First Quartile, scatter, 8453
+kurtosis between 12.258251583653111 and 19.761921501159687, kurtosis, box, 2070
+normalized_range between 0.46508866788879516 and 1.0605909924353323, normalized_range, bar, 3285
+has_none_True, has_none, line, 3551
+has_none_False, has_none, histogram, 5446
+y, symbol_in_name, scatter, 27786
+med_abs_dev between 2.42659167633974e-05 and 0.7801671246847796, med_abs_dev, box, 2635
+avg_abs_dev between 4.595696832287696 and 21.805817592374737, avg_abs_dev, box, 2696
+is_log_space_False, is_log_space, scatter, 73596
+normalized_median between 0.3451659363508224 and 0.5100700477919271, normalized_median, box, 2479
+coeff_var between 0.0032526775221940305 and 0.6636052427753325, coeff_var, scatter, 8925
+kurtosis between 12.258251583653111 and 19.761921501159687, kurtosis, line, 7240
+kurtosis between -0.17026565258541418 and 1.5766148755627292, kurtosis, bar, 3541
+normalized_median between 0.5100700477919271 and 0.6504355974735753, normalized_median, bar, 3774
+avg_abs_dev between 4.595696832287696 and 21.805817592374737, avg_abs_dev, line, 13650
+Fifth-order moment between 602660358950995.5 and 361064105139765250, Fifth-order moment, scatter, 13676
+percent_outliers_1_99 between 0.990797292186368 and 2, percent_outliers_1_99, box, 2568
+var between 2.5077526515815407e-05 and 1.6052005600929224, var, box, 866
+normalized_median between 0.3451659363508224 and 0.5100700477919271, normalized_median, line, 10351
+std between 3000.4648240612346 and 10530.733789062511, std, histogram, 686
+lin_space_sequence_coeff between 0.18473562403071303 and 0.683453381061554, lin_space_sequence_coeff, bar, 4603
+sortedness between 0.7945867153906053 and 2, sortedness, scatter, 7842
+gini between 0.381471216414244 and 0.5444116135758735, gini, bar, 4947
+entropy between 4.227416124036235 and 7.226597045621564, entropy, scatter, 7703
+percent_outliers_1_99 between 0.990797292186368 and 2, percent_outliers_1_99, line, 11708
+time, symbol_in_name, bar, 139
+var between 2.5077526515815407e-05 and 1.6052005600929224, var, line, 9119
+Seventh-order moment between -8080.4938661637225 and -1.1803249820933024e-29, Seventh-order moment, bar, 3492
+is_unique_False, is_unique, histogram, 5352
+max between 5.469374160151328 and 19.999878525272493, max, bar, 3185
+percent_outliers_3iqr between 0.8054596785576112 and 0.9000023295802455, percent_outliers_3iqr, heatmap, 62
+ninth-order moment between 15399884.174838709 and 728152499793781000, ninth-order moment, heatmap, 77
+log_space_sequence_coeff between 0.528290071314381 and 1.5822714805603022, log_space_sequence_coeff, histogram, 148
+skewness between -0.393793818426709 and -0.008621457328779548, skewness, box, 2074
+coeff_var between 1.7603407242221216 and 5.826227477519748, coeff_var, heatmap, 84
+max between 56.596889114379884 and 639.0702552057083, max, bar, 3998
+coeff_var between 326.19710867604397 and 8927.435058593765, coeff_var, histogram, 994
+ninth-order moment between 0.8167481387046068 and 15399884.174838709, ninth-order moment, box, 2250
+kurtosis between -1.1909797564629585 and -0.8387569783387646, kurtosis, scatter, 17325
+quant_coeff_disp between 8.880032987873733e-07 and 0.0017868509422987189, quant_coeff_disp, scatter, 18104
+percent_outliers_15iqr between 0.9085796858033826 and 0.9596259197881145, percent_outliers_15iqr, histogram, 835
+is_lin_space_False, is_lin_space, scatter, 69220
+ninth-order moment between 0.8167481387046068 and 15399884.174838709, ninth-order moment, line, 23566
+normalized_mean between 0.5259337732099718 and 0.6351002664527585, normalized_mean, heatmap, 156
+skewness between 0.0014703517027138925 and 0.6223711049364465, skewness, scatter, 18965
+range between 164.9013685854019 and 27356.06338867178, range, box, 2064
+Eigthth-order moment between 2.5877225658845137e+24 and 3379487092891821000000000000, Eigthth-order moment, box, 1307
+is_log_space_True, is_log_space, heatmap, 75
+normalized_median between 0.6504355974735753 and 0.8352578886189768, normalized_median, scatter, 10044
+Third Quartile between 2009.0132802261844 and 4188.793847656234, Third Quartile, histogram, 963
+range between 164.9013685854019 and 27356.06338867178, range, line, 10856
+normalized_range between 2.6604745115772372 and 21.228070812840617, normalized_range, scatter, 13554
+sortedness between 0.41998404109189585 and 0.7945867153906053, sortedness, box, 4583
+Eigthth-order moment between 2.5877225658845137e+24 and 3379487092891821000000000000, Eigthth-order moment, line, 8346
+Seventh-order moment between 35631.60671685986 and 29994971860657480000, Seventh-order moment, heatmap, 84
+kurtosis between -0.8387569783387646 and -0.17026565258541418, kurtosis, heatmap, 84
+field_name_length between 5.044516129032258 and 39, field_name_length, box, 4864
+skewness between -0.008621457328779548 and 0.0014703517027138925, skewness, scatter, 9285
+sortedness between 0.41998404109189585 and 0.7945867153906053, sortedness, line, 12886
+field_name_length between 5.044516129032258 and 39, field_name_length, line, 26008
+is_only_field_False, is_only_field, scatter, 78773
+temporal, general_type, scatter, 3926
+percent_outliers_1_99 between 0.9165140006619115 and 0.990797292186368, percent_outliers_1_99, heatmap, 190
+pound, symbol_in_name, scatter, 2
+normalized_mean between 0.6351002664527585 and 0.7784608491774528, normalized_mean, heatmap, 97
+normality_statistic between 40.29032087326056 and 278.8104670961443, normality_statistic, heatmap, 103
+isnormal_1, is_normal, scatter, 30479
+kurtosis between 1.5766148755627292 and 12.258251583653111, kurtosis, scatter, 8243
+var between 802.6463076486889 and 8941665.196451588, var, histogram, 798
+normality_statistic between 278.8104670961443 and 2755.4830602633538, normality_statistic, heatmap, 148
+normalized_range between 1.784245115326297 and 2.6604745115772372, normalized_range, histogram, 549
+gini between 0.0039505421844941435 and 0.09158154010772704, gini, scatter, 8684
+med_abs_dev between 0.7801671246847796 and 2.1782844193520083, med_abs_dev, histogram, 511
+entropy between 0.22412365078926086 and 1.3727904235932133, entropy, bar, 3933
+mean between 4.191202395962129 and 31.850277947456604, mean, scatter, 13712
+normality_statistic between 11.224123300121676 and 40.29032087326056, normality_statistic, scatter, 10692
+hasoutliers_1_99, has_outliers, histogram, 4526
+First Quartile between 2000.9977107878653 and 3760.39501953125, First Quartile, bar, 6857
+entropy between 1.3727904235932133 and 2.299301989847614, entropy, heatmap, 32
+Seventh-order moment between 0.035443333685398086 and 35631.60671685986, Seventh-order moment, histogram, 921
+kurtosis between -1.484341488230613 and -1.1909797564629585, kurtosis, heatmap, 106
+first_char_uppercase_name_True, first_char_uppercase_name, histogram, 3205
+mean between 31.850277947456604 and 281.8860048355595, mean, heatmap, 204
+normalized_median between 0.8352578886189768 and 0.9933362595496638, normalized_median, bar, 3759
+max between 639.0702552057083 and 26214.49350302417, max, histogram, 978
+lin_space_sequence_coeff between 12.837174805364283 and 19.22040605545044, lin_space_sequence_coeff, bar, 2578
+percent_outliers_3iqr between 0.8054596785576112 and 0.9000023295802455, percent_outliers_3iqr, box, 1164
+ninth-order moment between 15399884.174838709 and 728152499793781000, ninth-order moment, box, 2057
+mean between 281.8860048355595 and 8262.562250976542, mean, histogram, 887
+x, symbol_in_name, bar, 9788
+id, symbol_in_name, scatter, 33
+coeff_var between 1.7603407242221216 and 5.826227477519748, coeff_var, box, 1671
+std between 28.3294898925289 and 3000.4648240612346, std, bar, 5348
+avg_abs_dev between 21.805817592374737 and 2579.8562310987904, avg_abs_dev, scatter, 12599
+percent_outliers_3iqr between 0.8054596785576112 and 0.9000023295802455, percent_outliers_3iqr, line, 6847
+ninth-order moment between 15399884.174838709 and 728152499793781000, ninth-order moment, line, 8084
+percent_outliers_3std between 0.029580399275066338 and 1.0322580635547638, percent_outliers_3std, scatter, 66592
+coeff_var between 1.7603407242221216 and 5.826227477519748, coeff_var, line, 8065
+Tenth-order moment between 5.38823068933106e+26 and 318892623097554200000000000000, Tenth-order moment, histogram, 627
+Eigthth-order moment between 7902707318.585811 and 313954491464076.7, Eigthth-order moment, histogram, 1237
+Seventh-order moment between -1.1803249820933024e-29 and 0.035443333685398086, Seventh-order moment, scatter, 9201
+range between 0.0010489814216270439 and 1.884129064832964, range, histogram, 499
+std between 1.265435202025598 and 5.671287387417208, std, histogram, 1877
+normalized_mean between 0.5259337732099718 and 0.6351002664527585, normalized_mean, box, 1337
+gini between 0.2661612808704376 and 0.381471216414244, gini, bar, 3101
+Sixth-order moment between 44125102529.89933 and 131908579289215120000, Sixth-order moment, heatmap, 140
+Tenth-order moment between 9.571977461719663e-21 and 0.09400793363971076, Tenth-order moment, scatter, 7647
+normalized_mean between 0.40559448752191757 and 0.5259337732099718, normalized_mean, box, 2370
+is_log_space_True, is_log_space, box, 699
+ninth-order moment between -1401645.8064516135 and -8.465492734351432e-15, ninth-order moment, heatmap, 103
+normalized_mean between 0.5259337732099718 and 0.6351002664527585, normalized_mean, line, 11759
+sortedness between 0.08363238902341927 and 0.41998404109189585, sortedness, histogram, 2146
+is_lin_space_True, is_lin_space, bar, 3942
+normalized_mean between 0.40559448752191757 and 0.5259337732099718, normalized_mean, line, 9868
+is_log_space_True, is_log_space, line, 6685
+Seventh-order moment between 35631.60671685986 and 29994971860657480000, Seventh-order moment, box, 2109
+kurtosis between -0.8387569783387646 and -0.17026565258541418, kurtosis, box, 1366
+Tenth-order moment between 26054988855.494198 and 2553332197612499.5, Tenth-order moment, scatter, 14512
+normalized_median between 0.0006439799570568022 and 0.3451659363508224, normalized_median, histogram, 1276
+normalized_mean between 0.12335866319556385 and 0.40559448752191757, normalized_mean, heatmap, 123
+Seventh-order moment between 35631.60671685986 and 29994971860657480000, Seventh-order moment, line, 8383
+kurtosis between -0.8387569783387646 and -0.17026565258541418, kurtosis, line, 8665
+percent_outliers_1_99 between 0.9165140006619115 and 0.990797292186368, percent_outliers_1_99, box, 2514
+is_only_field_True, is_only_field, histogram, 2056
+box, trace_type, box, 13875
+normality_p between 0.11218227241308455 and 0.590958889088323, normality_p, heatmap, 99
+normalized_mean between 0.6351002664527585 and 0.7784608491774528, normalized_mean, box, 1249
+avg_abs_dev between 2579.8562310987904 and 7894.221777343751, avg_abs_dev, bar, 6556
+normality_statistic between 40.29032087326056 and 278.8104670961443, normality_statistic, box, 1768
+Eigthth-order moment between 105.55832996983654 and 7902707318.585811, Eigthth-order moment, scatter, 17703
+quant_coeff_disp between 0.34838628983305325 and 1.5, quant_coeff_disp, histogram, 681
+coeff_var between 5.826227477519748 and 326.19710867604397, coeff_var, histogram, 574
+length between 29.32 and 4350, length, heatmap, 348
+normality_statistic between 278.8104670961443 and 2755.4830602633538, normality_statistic, box, 1484
+percent_outliers_1_99 between 0.9165140006619115 and 0.990797292186368, percent_outliers_1_99, line, 10892
+normalized_mean between 0.6351002664527585 and 0.7784608491774528, normalized_mean, line, 7461
+normality_statistic between 40.29032087326056 and 278.8104670961443, normality_statistic, line, 8988
+lin_space_sequence_coeff between 1.6128226203303184 and 3.0317178572377843, lin_space_sequence_coeff, histogram, 630
+normality_statistic between 278.8104670961443 and 2755.4830602633538, normality_statistic, line, 8788
+gini between 0.09158154010772704 and 0.1794668331501945, gini, bar, 3588
+Third Quartile between 0.007131026095875904 and 1.65858569099057, Third Quartile, heatmap, 264
+entropy between 1.3727904235932133 and 2.299301989847614, entropy, box, 734
+Third Quartile between 18.23213297659351 and 2009.0132802261844, Third Quartile, histogram, 941
+dollar, symbol_in_name, scatter, 153
+normalized_range between 0.02345926997161677 and 0.46508866788879516, normalized_range, bar, 3922
+kurtosis between -1.484341488230613 and -1.1909797564629585, kurtosis, box, 1739
+First Quartile between 2.486012015035075 and 17.989219874720412, First Quartile, bar, 4419
+mean between 31.850277947456604 and 281.8860048355595, mean, box, 3040
+First Quartile between 0.003832620927958784 and 0.993269883817242, First Quartile, bar, 6988
+number_of_words_in_name between 1 and 8, number_of_words_in_name, histogram, 3383
+entropy between 1.3727904235932133 and 2.299301989847614, entropy, line, 7055
+y, symbol_in_name, bar, 15525
+has_none_True, has_none, bar, 781
+kurtosis between -1.484341488230613 and -1.1909797564629585, kurtosis, line, 15868
+mean between 31.850277947456604 and 281.8860048355595, mean, line, 14264
+normalized_mean between 0.9896777660615983 and 2, normalized_mean, scatter, 10787
+is_log_space_False, is_log_space, bar, 37381
+min between 69.52466286197784 and 2234.3465037487395, min, histogram, 697
+coeff_var between 0.0032526775221940305 and 0.6636052427753325, coeff_var, bar, 3700
+hasoutliers_3iqr, has_outliers, histogram, 4504
+percent_outliers_3iqr between 0.9631309172030419 and 0.9775492457612869, percent_outliers_3iqr, histogram, 1235
+min between 9.322483742621632 and 69.52466286197784, min, scatter, 8590
+Third Quartile between 1.65858569099057 and 18.23213297659351, Third Quartile, scatter, 15995
+unique_percent between 0.5887225893235976 and 2, unique_percent, heatmap, 375
+Fifth-order moment between 602660358950995.5 and 361064105139765250, Fifth-order moment, bar, 7243
+range between 1.884129064832964 and 6.755743844124582, range, heatmap, 84
+quantitative, general_type, histogram, 5027
+Sixth-order moment between 44125102529.89933 and 131908579289215120000, Sixth-order moment, box, 2254
+Eigthth-order moment between 6.96370545438728e-17 and 105.55832996983654, Eigthth-order moment, heatmap, 60
+normalized_mean between 0.7784608491774528 and 0.9896777660615983, normalized_mean, heatmap, 68
+sortedness between 0.7945867153906053 and 2, sortedness, bar, 5005
+normalized_median between 0.9933362595496638 and 2, normalized_median, heatmap, 57
+entropy between 4.227416124036235 and 7.226597045621564, entropy, bar, 2534
+ninth-order moment between -1401645.8064516135 and -8.465492734351432e-15, ninth-order moment, box, 1675
+hasoutliers_15iqr, has_outliers, scatter, 63220
+percent_outliers_1_99 between 0.990797292186368 and 2, percent_outliers_1_99, bar, 1284
+coeff_var between 0.6636052427753325 and 1.7603407242221216, coeff_var, scatter, 15429
+Sixth-order moment between 44125102529.89933 and 131908579289215120000, Sixth-order moment, line, 11713
+gini between 0.1794668331501945 and 0.2661612808704376, gini, scatter, 10633
+std between 3000.4648240612346 and 10530.733789062511, std, heatmap, 153
+normality_p between 0.590958889088323 and 1.666847586631775, normality_p, scatter, 10662
+var between 1.6052005600929224 and 32.22537642817343, var, scatter, 18310
+quant_coeff_disp between 0.019905503821228736 and 0.34838628983305325, quant_coeff_disp, histogram, 568
+digit, symbol_in_name, histogram, 2129
+ninth-order moment between -1401645.8064516135 and -8.465492734351432e-15, ninth-order moment, line, 10265
+mean between 8262.562250976542 and 26053.242773437632, mean, bar, 4103
+log_space_sequence_coeff between 0.19951813624751183 and 0.528290071314381, log_space_sequence_coeff, heatmap, 82
+Sixth-order moment between 24.470863465339907 and 2608316.9706451613, Sixth-order moment, heatmap, 133
+normalized_mean between 0.12335866319556385 and 0.40559448752191757, normalized_mean, box, 1726
+decimal, data_type, scatter, 44302
+kurtosis between -1.1909797564629585 and -0.8387569783387646, kurtosis, bar, 4552
+skewness between 3.101168877463187 and 4.461349153518679, skewness, heatmap, 144
+quant_coeff_disp between 8.880032987873733e-07 and 0.0017868509422987189, quant_coeff_disp, bar, 6555
+is_lin_space_False, is_lin_space, bar, 36258
+normalized_mean between 0.12335866319556385 and 0.40559448752191757, normalized_mean, line, 8952
+Fifth-order moment between -5.119229860089301e-08 and 0.35549705584202634, Fifth-order moment, scatter, 9082
+normality_p between 0.11218227241308455 and 0.590958889088323, normality_p, box, 2159
+normality_statistic between 2.4420980342741934 and 11.224123300121676, normality_statistic, scatter, 9732
+skewness between 0.0014703517027138925 and 0.6223711049364465, skewness, bar, 8963
+Sixth-order moment between 2608316.9706451613 and 44125102529.89933, Sixth-order moment, scatter, 17258
+normalized_range between 0.46508866788879516 and 1.0605909924353323, normalized_range, heatmap, 48
+normality_p between 1.414449563859021e-12 and 0.0004431203660561995, normality_p, scatter, 19759
+median between 30.791238223660386 and 273.1241935483871, median, scatter, 13967
+gini between 0.5444116135758735 and 1.7769320607185364, gini, scatter, 8600
+length between 29.32 and 4350, length, box, 5566
+avg_abs_dev between 0.8992536992026909 and 4.595696832287696, avg_abs_dev, histogram, 1834
+Seventh-order moment between 29994971860657480000 and 42188275653726420000000, Seventh-order moment, scatter, 15024
+normalized_median between 0.6504355974735753 and 0.8352578886189768, normalized_median, bar, 3324
+med_abs_dev between 2.1782844193520083 and 13.45003824418591, med_abs_dev, histogram, 828
+med_abs_dev between 2452.4554838709664 and 3574.3924560546875, med_abs_dev, histogram, 711
+normality_p between 0.11218227241308455 and 0.590958889088323, normality_p, line, 9393
+is_sorted_False, is_sorted, scatter, 43522
+length between 29.32 and 4350, length, line, 37106
+normalized_median between 0.5100700477919271 and 0.6504355974735753, normalized_median, heatmap, 143
+skewness between -0.008621457328779548 and 0.0014703517027138925, skewness, bar, 2369
+Third Quartile between 2009.0132802261844 and 4188.793847656234, Third Quartile, heatmap, 119
+is_nan_src, is_x_or_y, box, 1
+normality_statistic between 2755.4830602633538 and 6167.3212890625, normality_statistic, scatter, 9208
+Third Quartile between 0.007131026095875904 and 1.65858569099057, Third Quartile, box, 3466
+First Quartile between 17.989219874720412 and 2000.9977107878653, First Quartile, scatter, 10339
+lin_space_sequence_coeff between 0.18473562403071303 and 0.683453381061554, lin_space_sequence_coeff, heatmap, 45
+gini between 0.381471216414244 and 0.5444116135758735, gini, heatmap, 238
+Tenth-order moment between 0.09400793363971076 and 2059.777588441911, Tenth-order moment, heatmap, 79
+is_only_field_False, is_only_field, bar, 40097
+time, symbol_in_name, heatmap, 4
+Fifth-order moment between 0.35549705584202634 and 6066.188035534273, Fifth-order moment, heatmap, 273
+is_nan_src, is_x_or_y, line, 7
+temporal, general_type, bar, 991
+Seventh-order moment between -8080.4938661637225 and -1.1803249820933024e-29, Seventh-order moment, heatmap, 107
+Third Quartile between 0.007131026095875904 and 1.65858569099057, Third Quartile, line, 23320
+pound, symbol_in_name, bar, 6
+kurtosis between 1.5766148755627292 and 12.258251583653111, kurtosis, bar, 3513
+Fifth-order moment between 6066.188035534273 and 602660358950995.5, Fifth-order moment, scatter, 8472
+gini between 0.0039505421844941435 and 0.09158154010772704, gini, bar, 5167
+max between 56.596889114379884 and 639.0702552057083, max, heatmap, 131
+normalized_range between 21.228070812840617 and 28.202717590331986, normalized_range, heatmap, 124
+mean between 4.191202395962129 and 31.850277947456604, mean, bar, 5812
+is_sorted_True, is_sorted, histogram, 1079
+num_uppercase_characters between 0 and 6, num_uppercase_characters, heatmap, 682
+Eigthth-order moment between 313954491464076.7 and 2.5877225658845137e+24, Eigthth-order moment, bar, 3733
+unique_percent between 0.5887225893235976 and 2, unique_percent, box, 3255
+range between 1.884129064832964 and 6.755743844124582, range, box, 1580
+quant_coeff_disp between 0.0017868509422987189 and 0.019905503821228736, quant_coeff_disp, histogram, 342
+Eigthth-order moment between 6.96370545438728e-17 and 105.55832996983654, Eigthth-order moment, box, 874
+normalized_mean between 0.7784608491774528 and 0.9896777660615983, normalized_mean, box, 1804
+normalized_median between 0.9933362595496638 and 2, normalized_median, box, 1859
+normalized_range between 2.6604745115772372 and 21.228070812840617, normalized_range, histogram, 440
+has_none_False, has_none, scatter, 77076
+unique_percent between 0.5887225893235976 and 2, unique_percent, line, 5887
+range between 1.884129064832964 and 6.755743844124582, range, line, 9113
+Tenth-order moment between 2553332197612499.5 and 5.38823068933106e+26, Tenth-order moment, box, 1799
+Eigthth-order moment between 6.96370545438728e-17 and 105.55832996983654, Eigthth-order moment, line, 9160
+normalized_mean between 0.7784608491774528 and 0.9896777660615983, normalized_mean, line, 7437
+normalized_median between 0.9933362595496638 and 2, normalized_median, line, 9559
+id, symbol_in_name, bar, 55
+log_space_sequence_coeff between 0.19951813624751183 and 0.528290071314381, log_space_sequence_coeff, box, 1278
+Sixth-order moment between 24.470863465339907 and 2608316.9706451613, Sixth-order moment, box, 3615
+med_abs_dev between 13.45003824418591 and 2452.4554838709664, med_abs_dev, histogram, 911
+ninth-order moment between 728152499793781000 and 47793618722611780000000000, ninth-order moment, bar, 4998
+percent_outliers_3std between 0.029580399275066338 and 1.0322580635547638, percent_outliers_3std, bar, 27424
+skewness between 3.101168877463187 and 4.461349153518679, skewness, box, 3482
+Tenth-order moment between 2059.777588441911 and 26054988855.494198, Tenth-order moment, histogram, 1160
+isnormal_1, is_normal, histogram, 3427
+log_space_sequence_coeff between 0.19951813624751183 and 0.528290071314381, log_space_sequence_coeff, line, 8030
+Sixth-order moment between 24.470863465339907 and 2608316.9706451613, Sixth-order moment, line, 15084
+Seventh-order moment between -1.1803249820933024e-29 and 0.035443333685398086, Seventh-order moment, bar, 2044
+normality_p between 0.0004431203660561995 and 0.11218227241308455, normality_p, box, 1627
+is_unique_False, is_unique, scatter, 61357
+Tenth-order moment between 9.571977461719663e-21 and 0.09400793363971076, Tenth-order moment, bar, 4489
+skewness between 3.101168877463187 and 4.461349153518679, skewness, line, 13557
+normalized_range between 0.46508866788879516 and 1.0605909924353323, normalized_range, box, 1944
+normality_p between 0.0004431203660561995 and 0.11218227241308455, normality_p, line, 8431
+entropy between 2.299301989847614 and 3.0664403364735264, entropy, histogram, 264
+coeff_var between 326.19710867604397 and 8927.435058593765, coeff_var, scatter, 17087
+normalized_range between 0.46508866788879516 and 1.0605909924353323, normalized_range, line, 8923
+entropy between 0.22412365078926086 and 1.3727904235932133, entropy, heatmap, 58
+median between 10816.114516129033 and 17753.6826171875, median, histogram, 389
+normalized_median between 0.5100700477919271 and 0.6504355974735753, normalized_median, box, 1499
+Tenth-order moment between 26054988855.494198 and 2553332197612499.5, Tenth-order moment, bar, 6308
+lin_space_sequence_coeff between 1.0657484795201209 and 1.6128226203303184, lin_space_sequence_coeff, histogram, 322
+First Quartile between 2000.9977107878653 and 3760.39501953125, First Quartile, heatmap, 110
+lin_space_sequence_coeff between 0.18473562403071303 and 0.683453381061554, lin_space_sequence_coeff, box, 225
+range between 6.755743844124582 and 34.0001273493613, range, bar, 3931
+normalized_median between 0.5100700477919271 and 0.6504355974735753, normalized_median, line, 11253
+gini between 0.381471216414244 and 0.5444116135758735, gini, box, 1685
+time, symbol_in_name, box, 54
+log_space_sequence_coeff between 0.004471472915141768 and 0.030450508665413562, log_space_sequence_coeff, histogram, 536
+Fifth-order moment between 0.35549705584202634 and 6066.188035534273, Fifth-order moment, box, 2412
+avg_abs_dev between 21.805817592374737 and 2579.8562310987904, avg_abs_dev, histogram, 795
+normalized_median between 0.8352578886189768 and 0.9933362595496638, normalized_median, heatmap, 74
+Seventh-order moment between -8080.4938661637225 and -1.1803249820933024e-29, Seventh-order moment, box, 1779
+lin_space_sequence_coeff between 12.837174805364283 and 19.22040605545044, lin_space_sequence_coeff, heatmap, 246
+lin_space_sequence_coeff between 0.18473562403071303 and 0.683453381061554, lin_space_sequence_coeff, line, 10305
+gini between 0.381471216414244 and 0.5444116135758735, gini, line, 14470
+Tenth-order moment between 0.09400793363971076 and 2059.777588441911, Tenth-order moment, line, 8715
+Eigthth-order moment between 105.55832996983654 and 7902707318.585811, Eigthth-order moment, bar, 4551
+x, symbol_in_name, heatmap, 227
+range between 34.0001273493613 and 164.9013685854019, range, histogram, 885
+log_space_sequence_coeff between 0.10070002636121156 and 0.19951813624751183, log_space_sequence_coeff, bar, 3949
+time, symbol_in_name, line, 404
+Fifth-order moment between 0.35549705584202634 and 6066.188035534273, Fifth-order moment, line, 25129
+Seventh-order moment between -8080.4938661637225 and -1.1803249820933024e-29, Seventh-order moment, line, 10771
+max between 56.596889114379884 and 639.0702552057083, max, box, 1608
+normalized_range between 21.228070812840617 and 28.202717590331986, normalized_range, box, 2364
+std between 28.3294898925289 and 3000.4648240612346, std, heatmap, 176
+percent_outliers_1_99 between 0.9165140006619115 and 0.990797292186368, percent_outliers_1_99, bar, 5578
+num_uppercase_characters between 0 and 6, num_uppercase_characters, box, 2588
+normalized_mean between 0.6351002664527585 and 0.7784608491774528, normalized_mean, bar, 3320
+time, data_type, histogram, 47
+max between 56.596889114379884 and 639.0702552057083, max, line, 8621
+normalized_range between 21.228070812840617 and 28.202717590331986, normalized_range, line, 10398
+num_uppercase_characters between 0 and 6, num_uppercase_characters, line, 19782
+euro, symbol_in_name, scatter, 12
+gini between 0.2661612808704376 and 0.381471216414244, gini, heatmap, 95
+dollar, symbol_in_name, bar, 98
+var between 802.6463076486889 and 8941665.196451588, var, scatter, 13103
+normalized_range between 1.784245115326297 and 2.6604745115772372, normalized_range, scatter, 12788
+med_abs_dev between 0.7801671246847796 and 2.1782844193520083, med_abs_dev, scatter, 9979
+Fifth-order moment between -1201.2660502772187 and -5.119229860089301e-08, Fifth-order moment, histogram, 562
+is_lin_space_True, is_lin_space, heatmap, 42
+var between 8941665.196451588 and 110410814.59999862, var, scatter, 13618
+percent_outliers_3iqr between 0.9775492457612869 and 1.9800000190734863, percent_outliers_3iqr, histogram, 687
+hasoutliers_3std, has_outliers, histogram, 2312
+normalized_mean between 0.9896777660615983 and 2, normalized_mean, bar, 4241
+hasoutliers_1_99, has_outliers, scatter, 63298
+var between 32.22537642817343 and 802.6463076486889, var, bar, 5862
+min between 9.322483742621632 and 69.52466286197784, min, bar, 4521
+integer, data_type, histogram, 1812
+Sixth-order moment between 131908579289215120000 and 132595426535764380000000, Sixth-order moment, scatter, 9887
+Third Quartile between 1.65858569099057 and 18.23213297659351, Third Quartile, bar, 6334
+Seventh-order moment between 0.035443333685398086 and 35631.60671685986, Seventh-order moment, scatter, 21655
+first_char_uppercase_name_True, first_char_uppercase_name, scatter, 55652
+space, symbol_in_name, histogram, 2234
+max between 639.0702552057083 and 26214.49350302417, max, scatter, 15250
+avg_abs_dev between 2579.8562310987904 and 7894.221777343751, avg_abs_dev, heatmap, 163
+coeff_var between 0.6636052427753325 and 1.7603407242221216, coeff_var, bar, 4789
+gini between 0.1794668331501945 and 0.2661612808704376, gini, bar, 3129
+entropy between 7.226597045621564 and 8.682643008232112, entropy, histogram, 1113
+entropy between 0.22412365078926086 and 1.3727904235932133, entropy, box, 1392
+normality_p between 0.590958889088323 and 1.666847586631775, normality_p, bar, 4196
+var between 1.6052005600929224 and 32.22537642817343, var, bar, 4548
+median between 5.251452979118592 and 30.791238223660386, median, heatmap, 154
+max between 1.369510426136755 and 5.469374160151328, max, histogram, 924
+Sixth-order moment between 3.704795885762886e-13 and 24.470863465339907, Sixth-order moment, heatmap, 59
+Tenth-order moment between 5.38823068933106e+26 and 318892623097554200000000000000, Tenth-order moment, scatter, 11704
+Eigthth-order moment between 7902707318.585811 and 313954491464076.7, Eigthth-order moment, scatter, 19619
+percent_outliers_3iqr between 0.32998837097998585 and 0.7134887467661212, percent_outliers_3iqr, histogram, 1003
+range between 0.0010489814216270439 and 1.884129064832964, range, scatter, 7255
+std between 1.265435202025598 and 5.671287387417208, std, scatter, 18300
+entropy between 0.22412365078926086 and 1.3727904235932133, entropy, line, 8543
+First Quartile between 2000.9977107878653 and 3760.39501953125, First Quartile, box, 2925
+min between 2234.3465037487395 and 3181.360058593754, min, histogram, 418
+heatmap, trace_type, heatmap, 1123
+normalized_range between 0.02345926997161677 and 0.46508866788879516, normalized_range, heatmap, 89
+normalized_range between 1.0605909924353323 and 1.784245115326297, normalized_range, histogram, 552
+First Quartile between 2.486012015035075 and 17.989219874720412, First Quartile, heatmap, 159
+normalized_median between 0.8352578886189768 and 0.9933362595496638, normalized_median, box, 2206
+lin_space_sequence_coeff between 12.837174805364283 and 19.22040605545044, lin_space_sequence_coeff, box, 3186
+First Quartile between 0.003832620927958784 and 0.993269883817242, First Quartile, heatmap, 269
+First Quartile between 2000.9977107878653 and 3760.39501953125, First Quartile, line, 15939
+normality_statistic between 2.4420980342741934 and 11.224123300121676, normality_statistic, bar, 3561
+Sixth-order moment between 2608316.9706451613 and 44125102529.89933, Sixth-order moment, bar, 7500
+skewness between 0.6223711049364465 and 3.101168877463187, skewness, histogram, 1059
+x, symbol_in_name, box, 1264
+y, symbol_in_name, heatmap, 254
+gini between 0.5444116135758735 and 1.7769320607185364, gini, bar, 4222
+normalized_median between 0.8352578886189768 and 0.9933362595496638, normalized_median, line, 8617
+lin_space_sequence_coeff between 12.837174805364283 and 19.22040605545044, lin_space_sequence_coeff, line, 11995
+is_sorted_False, is_sorted, bar, 26256
+std between 28.3294898925289 and 3000.4648240612346, std, box, 2460
+normalized_median between 0.0006439799570568022 and 0.3451659363508224, normalized_median, scatter, 8611
+is_log_space_False, is_log_space, heatmap, 1048
+coeff_var between 0.0032526775221940305 and 0.6636052427753325, coeff_var, heatmap, 75
+x, symbol_in_name, line, 15643
+First Quartile between 0.993269883817242 and 2.486012015035075, First Quartile, histogram, 217
+hasoutliers_15iqr, has_outliers, histogram, 4522
+Fifth-order moment between 602660358950995.5 and 361064105139765250, Fifth-order moment, heatmap, 157
+std between 28.3294898925289 and 3000.4648240612346, std, line, 12847
+gini between 0.2661612808704376 and 0.381471216414244, gini, box, 1830
+is_only_field_True, is_only_field, scatter, 166
+normality_statistic between 2755.4830602633538 and 6167.3212890625, normality_statistic, bar, 1812
+First Quartile between 17.989219874720412 and 2000.9977107878653, First Quartile, bar, 5170
+sortedness between 0.7945867153906053 and 2, sortedness, heatmap, 70
+entropy between 4.227416124036235 and 7.226597045621564, entropy, heatmap, 103
+coeff_var between 5.826227477519748 and 326.19710867604397, coeff_var, scatter, 8740
+gini between 0.2661612808704376 and 0.381471216414244, gini, line, 7550
+range between 27356.06338867178 and 43421, range, scatter, 11388
+decimal, data_type, histogram, 3215
+is_lin_space_True, is_lin_space, box, 186
+lin_space_sequence_coeff between 1.6128226203303184 and 3.0317178572377843, lin_space_sequence_coeff, scatter, 7676
+Fifth-order moment between 6066.188035534273 and 602660358950995.5, Fifth-order moment, bar, 3331
+percent_outliers_3iqr between 0.9000023295802455 and 0.9631309172030419, percent_outliers_3iqr, histogram, 596
+mean between 8262.562250976542 and 26053.242773437632, mean, heatmap, 94
+std between 5.671287387417208 and 28.3294898925289, std, bar, 5862
+is_lin_space_True, is_lin_space, line, 8509
+kurtosis between -1.1909797564629585 and -0.8387569783387646, kurtosis, heatmap, 224
+normality_p between 1.414449563859021e-12 and 0.0004431203660561995, normality_p, histogram, 2292
+median between 30.791238223660386 and 273.1241935483871, median, histogram, 829
+Third Quartile between 18.23213297659351 and 2009.0132802261844, Third Quartile, scatter, 13743
+Seventh-order moment between 29994971860657480000 and 42188275653726420000000, Seventh-order moment, histogram, 1133
+quant_coeff_disp between 8.880032987873733e-07 and 0.0017868509422987189, quant_coeff_disp, heatmap, 306
+is_lin_space_False, is_lin_space, heatmap, 1081
+number_of_words_in_name between 1 and 8, number_of_words_in_name, scatter, 38692
+avg_abs_dev between 2579.8562310987904 and 7894.221777343751, avg_abs_dev, box, 1891
+skewness between 0.0014703517027138925 and 0.6223711049364465, skewness, heatmap, 237
+min between 1.817272958832402 and 9.322483742621632, min, scatter, 8464
+has_none_False, has_none, bar, 39419
+max between 26214.49350302417 and 74999.69999999998, max, scatter, 8076
+normalized_median between 0.6504355974735753 and 0.8352578886189768, normalized_median, heatmap, 118
+log_space_sequence_coeff between 0.030450508665413562 and 0.10070002636121156, log_space_sequence_coeff, scatter, 9353
+min between 69.52466286197784 and 2234.3465037487395, min, scatter, 10709
+avg_abs_dev between 2579.8562310987904 and 7894.221777343751, avg_abs_dev, line, 13819
+percent_outliers_1_99 between 0.08696898928573049 and 0.9165140006619115, percent_outliers_1_99, histogram, 630
+hasoutliers_3iqr, has_outliers, scatter, 63025
+normalized_range between 2.6604745115772372 and 21.228070812840617, normalized_range, heatmap, 179
+Sixth-order moment between 3.704795885762886e-13 and 24.470863465339907, Sixth-order moment, box, 873
+percent_outliers_3iqr between 0.9631309172030419 and 0.9775492457612869, percent_outliers_3iqr, scatter, 14178
+entropy between 3.0664403364735264 and 4.227416124036235, entropy, histogram, 518
+is_y_src, is_x_or_y, scatter, 45381
+gini between 0.09158154010772704 and 0.1794668331501945, gini, box, 2733
+median between 5.251452979118592 and 30.791238223660386, median, line, 13385
+skewness between -0.008621457328779548 and 0.0014703517027138925, skewness, heatmap, 87
+std between 3000.4648240612346 and 10530.733789062511, std, bar, 6316
+Sixth-order moment between 3.704795885762886e-13 and 24.470863465339907, Sixth-order moment, line, 9143
+num_unique_elements between 33.18709677419355 and 293, num_unique_elements, histogram, 1693
+normalized_range between 0.02345926997161677 and 0.46508866788879516, normalized_range, box, 1202
+First Quartile between 2.486012015035075 and 17.989219874720412, First Quartile, box, 1582
+gini between 0.09158154010772704 and 0.1794668331501945, gini, line, 11648
+is_only_field_False, is_only_field, heatmap, 1089
+First Quartile between 0.003832620927958784 and 0.993269883817242, First Quartile, box, 3566
+avg_abs_dev between 0.0016913167480378925 and 0.8992536992026909, avg_abs_dev, histogram, 522
+temporal, general_type, heatmap, 24
+is_unique_False, is_unique, bar, 22482
+quant_coeff_disp between 0.019905503821228736 and 0.34838628983305325, quant_coeff_disp, scatter, 15204
+log_space_sequence_coeff between 0.528290071314381 and 1.5822714805603022, log_space_sequence_coeff, bar, 5556
+y, symbol_in_name, box, 1681
+digit, symbol_in_name, scatter, 33228
+normalized_range between 0.02345926997161677 and 0.46508866788879516, normalized_range, line, 9131
+First Quartile between 2.486012015035075 and 17.989219874720412, First Quartile, line, 7121
+kurtosis between 1.5766148755627292 and 12.258251583653111, kurtosis, heatmap, 84
+is_x_src, is_x_or_y, histogram, 5026
+First Quartile between 0.003832620927958784 and 0.993269883817242, First Quartile, line, 23853
+min between 0.2605670641891413 and 1.817272958832402, min, histogram, 2508
+is_log_space_False, is_log_space, box, 13176
+gini between 0.0039505421844941435 and 0.09158154010772704, gini, heatmap, 87
+coeff_var between 326.19710867604397 and 8927.435058593765, coeff_var, bar, 7502
+coeff_var between 0.0032526775221940305 and 0.6636052427753325, coeff_var, box, 1330
+mean between 4.191202395962129 and 31.850277947456604, mean, heatmap, 144
+y, symbol_in_name, line, 30746
+normality_statistic between 11.224123300121676 and 40.29032087326056, normality_statistic, heatmap, 112
+Eigthth-order moment between 313954491464076.7 and 2.5877225658845137e+24, Eigthth-order moment, heatmap, 109
+Fifth-order moment between 602660358950995.5 and 361064105139765250, Fifth-order moment, box, 2989
+percent_outliers_15iqr between 0.9085796858033826 and 0.9596259197881145, percent_outliers_15iqr, bar, 10402
+median between 0.1103014424311057 and 5.251452979118592, median, histogram, 1671
+is_log_space_False, is_log_space, line, 70177
+coeff_var between 0.0032526775221940305 and 0.6636052427753325, coeff_var, line, 8720
+median between 273.1241935483871 and 10816.114516129033, median, scatter, 13813
+sortedness between 0.7945867153906053 and 2, sortedness, box, 1589
+entropy between 4.227416124036235 and 7.226597045621564, entropy, box, 2565
+Fifth-order moment between 602660358950995.5 and 361064105139765250, Fifth-order moment, line, 12760
+avg_abs_dev between 0.8992536992026909 and 4.595696832287696, avg_abs_dev, scatter, 17183
+Third Quartile between 2009.0132802261844 and 4188.793847656234, Third Quartile, bar, 7004
+med_abs_dev between 2452.4554838709664 and 3574.3924560546875, med_abs_dev, scatter, 15496
+med_abs_dev between 2.1782844193520083 and 13.45003824418591, med_abs_dev, scatter, 10615
+mean between 0.1916935728682625 and 4.191202395962129, mean, histogram, 1411
+sortedness between 0.7945867153906053 and 2, sortedness, line, 8484
+entropy between 4.227416124036235 and 7.226597045621564, entropy, line, 8933
+Tenth-order moment between 0.09400793363971076 and 2059.777588441911, Tenth-order moment, bar, 2389
+id, symbol_in_name, heatmap, 2
+categorical, general_type, histogram, 552
+mean between 8262.562250976542 and 26053.242773437632, mean, box, 1153
+scatter, trace_type, scatter, 78939
+Fifth-order moment between 0.35549705584202634 and 6066.188035534273, Fifth-order moment, bar, 10331
+yen, symbol_in_name, scatter, 1
+kurtosis between -1.1909797564629585 and -0.8387569783387646, kurtosis, box, 853
+ninth-order moment between 728152499793781000 and 47793618722611780000000000, ninth-order moment, heatmap, 127
+percent_outliers_15iqr between 0.9596259197881145 and 0.9843483797965511, percent_outliers_15iqr, histogram, 808
+percent_outliers_3std between 0.029580399275066338 and 1.0322580635547638, percent_outliers_3std, heatmap, 687
+mean between 8262.562250976542 and 26053.242773437632, mean, line, 8607
+quant_coeff_disp between 8.880032987873733e-07 and 0.0017868509422987189, quant_coeff_disp, box, 3777
+is_lin_space_False, is_lin_space, box, 13689
+med_abs_dev between 2.42659167633974e-05 and 0.7801671246847796, med_abs_dev, scatter, 16112
+Seventh-order moment between -1.1803249820933024e-29 and 0.035443333685398086, Seventh-order moment, heatmap, 65
+Tenth-order moment between 2553332197612499.5 and 5.38823068933106e+26, Tenth-order moment, histogram, 592
+euro, symbol_in_name, bar, 2
+kurtosis between -1.1909797564629585 and -0.8387569783387646, kurtosis, line, 15388
+normalized_range between 21.228070812840617 and 28.202717590331986, normalized_range, bar, 6713
+num_uppercase_characters between 0 and 6, num_uppercase_characters, bar, 13119
+Tenth-order moment between 9.571977461719663e-21 and 0.09400793363971076, Tenth-order moment, heatmap, 60
+skewness between 0.0014703517027138925 and 0.6223711049364465, skewness, box, 1197
+quant_coeff_disp between 8.880032987873733e-07 and 0.0017868509422987189, quant_coeff_disp, line, 18441
+is_lin_space_False, is_lin_space, line, 68353
+var between 802.6463076486889 and 8941665.196451588, var, bar, 5348
+normalized_median between 0.6504355974735753 and 0.8352578886189768, normalized_median, box, 1312
+normalized_range between 1.784245115326297 and 2.6604745115772372, normalized_range, bar, 4506
+med_abs_dev between 0.7801671246847796 and 2.1782844193520083, med_abs_dev, bar, 2647
+skewness between 0.0014703517027138925 and 0.6223711049364465, skewness, line, 19923
+is_sorted_True, is_sorted, scatter, 35417
+normalized_median between 0.6504355974735753 and 0.8352578886189768, normalized_median, line, 7927
+Tenth-order moment between 26054988855.494198 and 2553332197612499.5, Tenth-order moment, heatmap, 187
+skewness between -0.008621457328779548 and 0.0014703517027138925, skewness, box, 1729
+quant_coeff_disp between 0.0017868509422987189 and 0.019905503821228736, quant_coeff_disp, scatter, 8351
+hasoutliers_1_99, has_outliers, bar, 25164
+normalized_range between 2.6604745115772372 and 21.228070812840617, normalized_range, line, 12622
+range between 6.755743844124582 and 34.0001273493613, range, heatmap, 96
+Seventh-order moment between 0.035443333685398086 and 35631.60671685986, Seventh-order moment, bar, 9658
+is_only_field_False, is_only_field, box, 13253
+skewness between -0.393793818426709 and -0.008621457328779548, skewness, scatter, 8822
+skewness between -0.008621457328779548 and 0.0014703517027138925, skewness, line, 8124
+first_char_uppercase_name_True, first_char_uppercase_name, bar, 29156
+max between 639.0702552057083 and 26214.49350302417, max, bar, 6299
+temporal, general_type, box, 460
+pound, symbol_in_name, box, 1
+mean between 281.8860048355595 and 8262.562250976542, mean, bar, 5862
+kurtosis between -0.17026565258541418 and 1.5766148755627292, kurtosis, histogram, 671
+Eigthth-order moment between 105.55832996983654 and 7902707318.585811, Eigthth-order moment, heatmap, 137
+log_space_sequence_coeff between 0.10070002636121156 and 0.19951813624751183, log_space_sequence_coeff, heatmap, 134
+is_only_field_False, is_only_field, line, 76720
+kurtosis between 1.5766148755627292 and 12.258251583653111, kurtosis, box, 2904
+med_abs_dev between 13.45003824418591 and 2452.4554838709664, med_abs_dev, scatter, 14696
+temporal, general_type, line, 4137
+gini between 0.0039505421844941435 and 0.09158154010772704, gini, box, 995
+pound, symbol_in_name, line, 4
+mean between 4.191202395962129 and 31.850277947456604, mean, box, 2956
+percent_outliers_15iqr between 0.7048739443479046 and 0.9085796858033826, percent_outliers_15iqr, histogram, 1316
+normality_statistic between 11.224123300121676 and 40.29032087326056, normality_statistic, box, 2762
+kurtosis between 1.5766148755627292 and 12.258251583653111, kurtosis, line, 8633
+Eigthth-order moment between 313954491464076.7 and 2.5877225658845137e+24, Eigthth-order moment, box, 1718
+Tenth-order moment between 2059.777588441911 and 26054988855.494198, Tenth-order moment, scatter, 9257
+Tenth-order moment between 5.38823068933106e+26 and 318892623097554200000000000000, Tenth-order moment, bar, 4910
+Eigthth-order moment between 7902707318.585811 and 313954491464076.7, Eigthth-order moment, bar, 8332
+range between 0.0010489814216270439 and 1.884129064832964, range, bar, 4370
+std between 1.265435202025598 and 5.671287387417208, std, bar, 4548
+gini between 0.0039505421844941435 and 0.09158154010772704, gini, line, 10945
+mean between 4.191202395962129 and 31.850277947456604, mean, line, 12240
+max between 5.469374160151328 and 19.999878525272493, max, histogram, 1201
+var between 8941665.196451588 and 110410814.59999862, var, histogram, 686
+line, trace_type, line, 76862
+normality_statistic between 11.224123300121676 and 40.29032087326056, normality_statistic, line, 11776
+Eigthth-order moment between 313954491464076.7 and 2.5877225658845137e+24, Eigthth-order moment, line, 9300
+field_name_length between 5.044516129032258 and 39, field_name_length, scatter, 35887
+sortedness between 0.08363238902341927 and 0.41998404109189585, sortedness, bar, 3037
+entropy between 2.299301989847614 and 3.0664403364735264, entropy, scatter, 17429
+id, symbol_in_name, box, 6
+median between 10816.114516129033 and 17753.6826171875, median, scatter, 8003
+Sixth-order moment between 131908579289215120000 and 132595426535764380000000, Sixth-order moment, histogram, 510
+normalized_mean between 0.9896777660615983 and 2, normalized_mean, heatmap, 71
+ninth-order moment between 728152499793781000 and 47793618722611780000000000, ninth-order moment, box, 2372
+lin_space_sequence_coeff between 1.0657484795201209 and 1.6128226203303184, lin_space_sequence_coeff, scatter, 8562
+var between 32.22537642817343 and 802.6463076486889, var, heatmap, 158
+id, symbol_in_name, line, 60
+ninth-order moment between -8.465492734351432e-15 and 0.8167481387046068, ninth-order moment, histogram, 798
+percent_outliers_3std between 0.029580399275066338 and 1.0322580635547638, percent_outliers_3std, box, 11407
+min between 9.322483742621632 and 69.52466286197784, min, heatmap, 67
+Seventh-order moment between -1.1803249820933024e-29 and 0.035443333685398086, Seventh-order moment, box, 2048
+histogram, trace_type, histogram, 5626
+Third Quartile between 1.65858569099057 and 18.23213297659351, Third Quartile, heatmap, 188
+log_space_sequence_coeff between 0.004471472915141768 and 0.030450508665413562, log_space_sequence_coeff, scatter, 7898
+ninth-order moment between 728152499793781000 and 47793618722611780000000000, ninth-order moment, line, 9860
+is_only_field_True, is_only_field, bar, 103
+Tenth-order moment between 9.571977461719663e-21 and 0.09400793363971076, Tenth-order moment, box, 873
+percent_outliers_3std between 0.029580399275066338 and 1.0322580635547638, percent_outliers_3std, line, 65063
+Seventh-order moment between -1.1803249820933024e-29 and 0.035443333685398086, Seventh-order moment, line, 7847
+range between 34.0001273493613 and 164.9013685854019, range, scatter, 14519
+quant_coeff_disp between 0.34838628983305325 and 1.5, quant_coeff_disp, bar, 3479
+coeff_var between 5.826227477519748 and 326.19710867604397, coeff_var, bar, 3770
+coeff_var between 0.6636052427753325 and 1.7603407242221216, coeff_var, heatmap, 130
+Tenth-order moment between 9.571977461719663e-21 and 0.09400793363971076, Tenth-order moment, line, 9158
+gini between 0.1794668331501945 and 0.2661612808704376, gini, heatmap, 70
+normality_p between 0.590958889088323 and 1.666847586631775, normality_p, heatmap, 63
+var between 1.6052005600929224 and 32.22537642817343, var, heatmap, 145
+lin_space_sequence_coeff between 1.6128226203303184 and 3.0317178572377843, lin_space_sequence_coeff, bar, 4349
+time, data_type, scatter, 3926
+Tenth-order moment between 26054988855.494198 and 2553332197612499.5, Tenth-order moment, box, 2603
+percent_outliers_3iqr between 0.7134887467661212 and 0.8054596785576112, percent_outliers_3iqr, histogram, 467
+range between 6.755743844124582 and 34.0001273493613, range, box, 2811
+Third Quartile between 18.23213297659351 and 2009.0132802261844, Third Quartile, bar, 6550
+isnormal_5, is_normal, histogram, 3638
+Tenth-order moment between 26054988855.494198 and 2553332197612499.5, Tenth-order moment, line, 14559
+first_char_uppercase_name_False, first_char_uppercase_name, histogram, 2421
+Fifth-order moment between -5.119229860089301e-08 and 0.35549705584202634, Fifth-order moment, heatmap, 75
+number_of_words_in_name between 1 and 8, number_of_words_in_name, bar, 19084
+range between 6.755743844124582 and 34.0001273493613, range, line, 9963
+normality_statistic between 2.4420980342741934 and 11.224123300121676, normality_statistic, heatmap, 43
+Fifth-order moment between -1201.2660502772187 and -5.119229860089301e-08, Fifth-order moment, scatter, 9447
+Sixth-order moment between 2608316.9706451613 and 44125102529.89933, Sixth-order moment, heatmap, 225
+Eigthth-order moment between 105.55832996983654 and 7902707318.585811, Eigthth-order moment, box, 3473
+log_space_sequence_coeff between 0.10070002636121156 and 0.19951813624751183, log_space_sequence_coeff, box, 3009
+normality_p between 1.414449563859021e-12 and 0.0004431203660561995, normality_p, heatmap, 400
+gini between 0.5444116135758735 and 1.7769320607185364, gini, heatmap, 87
+percent_outliers_3iqr between 0.9775492457612869 and 1.9800000190734863, percent_outliers_3iqr, scatter, 8880
+Seventh-order moment between 29994971860657480000 and 42188275653726420000000, Seventh-order moment, heatmap, 179
+hasoutliers_3std, has_outliers, scatter, 13563
+is_sorted_False, is_sorted, heatmap, 803
+min between 69.52466286197784 and 2234.3465037487395, min, bar, 4765
+hasoutliers_3iqr, has_outliers, bar, 25143
+Eigthth-order moment between 105.55832996983654 and 7902707318.585811, Eigthth-order moment, line, 15006
+percent_outliers_3iqr between 0.9631309172030419 and 0.9775492457612869, percent_outliers_3iqr, bar, 4763
+log_space_sequence_coeff between 0.10070002636121156 and 0.19951813624751183, log_space_sequence_coeff, line, 10503
+integer, data_type, scatter, 25912
+normalized_mean between 0.40559448752191757 and 0.5259337732099718, normalized_mean, scatter, 9613
+range between 27356.06338867178 and 43421, range, histogram, 662
+space, symbol_in_name, scatter, 40182
+quantitative, general_type, bar, 29469
+median between 5.251452979118592 and 30.791238223660386, median, bar, 6615
+normality_statistic between 2755.4830602633538 and 6167.3212890625, normality_statistic, heatmap, 150
+First Quartile between 17.989219874720412 and 2000.9977107878653, First Quartile, heatmap, 85
+Sixth-order moment between 3.704795885762886e-13 and 24.470863465339907, Sixth-order moment, bar, 4476
+dollar, symbol_in_name, box, 8
+entropy between 7.226597045621564 and 8.682643008232112, entropy, scatter, 10761
+max between 1.369510426136755 and 5.469374160151328, max, scatter, 13446
+digit, symbol_in_name, bar, 11764
+dollar, symbol_in_name, line, 347
+Fifth-order moment between 6066.188035534273 and 602660358950995.5, Fifth-order moment, heatmap, 84
+std between 5.671287387417208 and 28.3294898925289, std, heatmap, 158
+percent_outliers_3iqr between 0.32998837097998585 and 0.7134887467661212, percent_outliers_3iqr, scatter, 10828
+normalized_mean between 0.9896777660615983 and 2, normalized_mean, box, 2618
+var between 32.22537642817343 and 802.6463076486889, var, box, 2361
+min between 9.322483742621632 and 69.52466286197784, min, box, 2041
+min between 1.817272958832402 and 9.322483742621632, min, histogram, 642
+min between 2234.3465037487395 and 3181.360058593754, min, scatter, 7884
+Third Quartile between 1.65858569099057 and 18.23213297659351, Third Quartile, box, 2090
+max between 26214.49350302417 and 74999.69999999998, max, histogram, 459
+normalized_mean between 0.9896777660615983 and 2, normalized_mean, line, 11561
+string, data_type, histogram, 552
+std between 0.005012650750577393 and 1.265435202025598, std, histogram, 508
+normalized_range between 1.0605909924353323 and 1.784245115326297, normalized_range, scatter, 8696
+log_space_sequence_coeff between 0.030450508665413562 and 0.10070002636121156, log_space_sequence_coeff, histogram, 889
+var between 32.22537642817343 and 802.6463076486889, var, line, 12897
+min between 9.322483742621632 and 69.52466286197784, min, line, 6857
+skewness between 0.6223711049364465 and 3.101168877463187, skewness, scatter, 15836
+is_y_src, is_x_or_y, histogram, 600
+Third Quartile between 1.65858569099057 and 18.23213297659351, Third Quartile, line, 12693
+has_none_False, has_none, heatmap, 1097
+lin_space_sequence_coeff between 3.0317178572377843 and 12.837174805364283, lin_space_sequence_coeff, histogram, 825
+coeff_var between 0.6636052427753325 and 1.7603407242221216, coeff_var, box, 3395
+gini between 0.1794668331501945 and 0.2661612808704376, gini, box, 2541
+med_abs_dev between 2452.4554838709664 and 3574.3924560546875, med_abs_dev, bar, 6629
+normality_p between 0.590958889088323 and 1.666847586631775, normality_p, box, 2249
+var between 1.6052005600929224 and 32.22537642817343, var, box, 3902
+First Quartile between 0.993269883817242 and 2.486012015035075, First Quartile, scatter, 10805
+max between 19.999878525272493 and 56.596889114379884, max, histogram, 626
+is_monotonic_False, is_monotonic, histogram, 567
+coeff_var between 0.6636052427753325 and 1.7603407242221216, coeff_var, line, 14582
+kurtosis between -1.484341488230613 and -1.1909797564629585, kurtosis, scatter, 13883
+gini between 0.1794668331501945 and 0.2661612808704376, gini, line, 8391
+normality_p between 0.590958889088323 and 1.666847586631775, normality_p, line, 10388
+var between 1.6052005600929224 and 32.22537642817343, var, line, 15742
+is_monotonic_True, is_monotonic, histogram, 5059
+percent_outliers_15iqr between 0.9843483797965511 and 1.9849246144294739, percent_outliers_15iqr, histogram, 1597
+is_unique_False, is_unique, heatmap, 838
+normality_statistic between 2.4420980342741934 and 11.224123300121676, normality_statistic, box, 2300
+Sixth-order moment between 2608316.9706451613 and 44125102529.89933, Sixth-order moment, box, 3060
+log_space_sequence_coeff between 0.528290071314381 and 1.5822714805603022, log_space_sequence_coeff, heatmap, 31
+gini between 0.5444116135758735 and 1.7769320607185364, gini, box, 1174
+percent_outliers_3iqr between 0.9000023295802455 and 0.9631309172030419, percent_outliers_3iqr, scatter, 14549
+Fifth-order moment between -5.119229860089301e-08 and 0.35549705584202634, Fifth-order moment, line, 7972
+is_sorted_False, is_sorted, box, 11022
+median between 273.1241935483871 and 10816.114516129033, median, histogram, 867
+normality_statistic between 2.4420980342741934 and 11.224123300121676, normality_statistic, line, 8598
+Sixth-order moment between 2608316.9706451613 and 44125102529.89933, Sixth-order moment, line, 17031
+coeff_var between 326.19710867604397 and 8927.435058593765, coeff_var, heatmap, 174
+is_unique_True, is_unique, histogram, 274
+is_sorted_True, is_sorted, bar, 13944
+gini between 0.5444116135758735 and 1.7769320607185364, gini, line, 8140
+lin_space_sequence_coeff between 0.683453381061554 and 1.0657484795201209, lin_space_sequence_coeff, histogram, 92
+percent_outliers_15iqr between 0.9085796858033826 and 0.9596259197881145, percent_outliers_15iqr, heatmap, 148
+is_sorted_False, is_sorted, line, 43095
+quant_coeff_disp between 0.0017868509422987189 and 0.019905503821228736, quant_coeff_disp, bar, 4686
+normality_statistic between 2755.4830602633538 and 6167.3212890625, normality_statistic, box, 1449
+First Quartile between 17.989219874720412 and 2000.9977107878653, First Quartile, box, 2352
+normalized_range between 2.6604745115772372 and 21.228070812840617, normalized_range, bar, 4604
+has_none_True, has_none, histogram, 180
+normality_statistic between 2755.4830602633538 and 6167.3212890625, normality_statistic, line, 10402
+First Quartile between 17.989219874720412 and 2000.9977107878653, First Quartile, line, 8892
+kurtosis between 12.258251583653111 and 19.761921501159687, kurtosis, histogram, 1286
+percent_outliers_1_99 between 0.08696898928573049 and 0.9165140006619115, percent_outliers_1_99, scatter, 8646
+entropy between 3.0664403364735264 and 4.227416124036235, entropy, scatter, 8285
+Fifth-order moment between 6066.188035534273 and 602660358950995.5, Fifth-order moment, box, 2108
+med_abs_dev between 2.42659167633974e-05 and 0.7801671246847796, med_abs_dev, histogram, 1840
+std between 5.671287387417208 and 28.3294898925289, std, box, 2364
+avg_abs_dev between 4.595696832287696 and 21.805817592374737, avg_abs_dev, histogram, 880
+med_abs_dev between 13.45003824418591 and 2452.4554838709664, med_abs_dev, bar, 6189
+normalized_median between 0.3451659363508224 and 0.5100700477919271, normalized_median, histogram, 1119
+Fifth-order moment between 6066.188035534273 and 602660358950995.5, Fifth-order moment, line, 8302
+num_unique_elements between 33.18709677419355 and 293, num_unique_elements, scatter, 23987
+isnormal_1, is_normal, bar, 8317
+std between 5.671287387417208 and 28.3294898925289, std, line, 12894
+percent_outliers_1_99 between 0.990797292186368 and 2, percent_outliers_1_99, histogram, 1786
+var between 2.5077526515815407e-05 and 1.6052005600929224, var, histogram, 508
+avg_abs_dev between 0.0016913167480378925 and 0.8992536992026909, avg_abs_dev, scatter, 7540
+has_none_False, has_none, box, 13419
+normality_statistic between 11.224123300121676 and 40.29032087326056, normality_statistic, bar, 4372
+var between 802.6463076486889 and 8941665.196451588, var, heatmap, 176
+is_x_src, is_x_or_y, scatter, 33554
+min between 0.2605670641891413 and 1.817272958832402, min, scatter, 31406
+normalized_range between 1.784245115326297 and 2.6604745115772372, normalized_range, heatmap, 131
+med_abs_dev between 0.7801671246847796 and 2.1782844193520083, med_abs_dev, heatmap, 72
+is_nan_src, is_x_or_y, scatter, 4
+has_none_False, has_none, line, 73311
+median between 10816.114516129033 and 17753.6826171875, median, bar, 3983
+skewness between -0.393793818426709 and -0.008621457328779548, skewness, histogram, 706
+median between 0.1103014424311057 and 5.251452979118592, median, scatter, 15396
+std between 3000.4648240612346 and 10530.733789062511, std, box, 1852
+hasoutliers_1_99, has_outliers, heatmap, 674
+ninth-order moment between 0.8167481387046068 and 15399884.174838709, ninth-order moment, histogram, 1084
+lin_space_sequence_coeff between 1.0657484795201209 and 1.6128226203303184, lin_space_sequence_coeff, bar, 5191
+Seventh-order moment between 0.035443333685398086 and 35631.60671685986, Seventh-order moment, heatmap, 237
+log_space_sequence_coeff between 0.004471472915141768 and 0.030450508665413562, log_space_sequence_coeff, bar, 3112
+first_char_uppercase_name_True, first_char_uppercase_name, heatmap, 431
+std between 3000.4648240612346 and 10530.733789062511, std, line, 13181
+avg_abs_dev between 21.805817592374737 and 2579.8562310987904, avg_abs_dev, bar, 5282
+max between 639.0702552057083 and 26214.49350302417, max, heatmap, 138
+is_unique_False, is_unique, box, 12906
+mean between 0.1916935728682625 and 4.191202395962129, mean, scatter, 13813
+log_space_sequence_coeff between 0.528290071314381 and 1.5822714805603022, log_space_sequence_coeff, box, 867
+mean between 281.8860048355595 and 8262.562250976542, mean, heatmap, 119
+range between 164.9013685854019 and 27356.06338867178, range, histogram, 739
+range between 34.0001273493613 and 164.9013685854019, range, bar, 6294
+categorical, general_type, scatter, 4799
+Eigthth-order moment between 2.5877225658845137e+24 and 3379487092891821000000000000, Eigthth-order moment, histogram, 454
+range between 1.884129064832964 and 6.755743844124582, range, scatter, 10041
+is_unique_False, is_unique, line, 61767
+coeff_var between 326.19710867604397 and 8927.435058593765, coeff_var, box, 2368
+log_space_sequence_coeff between 0.528290071314381 and 1.5822714805603022, log_space_sequence_coeff, line, 7192
+percent_outliers_15iqr between 0.9596259197881145 and 0.9843483797965511, percent_outliers_15iqr, scatter, 10655
+normalized_median between 0.9933362595496638 and 2, normalized_median, scatter, 8611
+time, data_type, bar, 991
+sortedness between 0.41998404109189585 and 0.7945867153906053, sortedness, histogram, 1398
+percent_outliers_15iqr between 0.9085796858033826 and 0.9596259197881145, percent_outliers_15iqr, box, 3171
+Tenth-order moment between 5.38823068933106e+26 and 318892623097554200000000000000, Tenth-order moment, heatmap, 137
+Eigthth-order moment between 7902707318.585811 and 313954491464076.7, Eigthth-order moment, heatmap, 255
+range between 0.0010489814216270439 and 1.884129064832964, range, heatmap, 57
+std between 1.265435202025598 and 5.671287387417208, std, heatmap, 145
+field_name_length between 5.044516129032258 and 39, field_name_length, histogram, 2662
+coeff_var between 326.19710867604397 and 8927.435058593765, coeff_var, line, 15431
+Tenth-order moment between 2553332197612499.5 and 5.38823068933106e+26, Tenth-order moment, scatter, 9188
+percent_outliers_15iqr between 0.9085796858033826 and 0.9596259197881145, percent_outliers_15iqr, line, 18158
+Third Quartile between 2009.0132802261844 and 4188.793847656234, Third Quartile, box, 2970
+sortedness between 0.08363238902341927 and 0.41998404109189585, sortedness, heatmap, 206
+Tenth-order moment between 0.09400793363971076 and 2059.777588441911, Tenth-order moment, box, 1518
+bar, trace_type, bar, 40200
+percent_outliers_3iqr between 0.9775492457612869 and 1.9800000190734863, percent_outliers_3iqr, bar, 1686
+normality_p between 0.0004431203660561995 and 0.11218227241308455, normality_p, scatter, 7587
+Third Quartile between 2009.0132802261844 and 4188.793847656234, Third Quartile, line, 16477
+hasoutliers_3std, has_outliers, bar, 4040
+normalized_median between 0.0006439799570568022 and 0.3451659363508224, normalized_median, heatmap, 101
+integer, data_type, bar, 15352
+euro, symbol_in_name, box, 2
+space, symbol_in_name, bar, 21096
+is_only_field_True, is_only_field, heatmap, 34
+kurtosis between -0.17026565258541418 and 1.5766148755627292, kurtosis, scatter, 8829
+quant_coeff_disp between 0.34838628983305325 and 1.5, quant_coeff_disp, heatmap, 85
+var between 802.6463076486889 and 8941665.196451588, var, box, 2460
+coeff_var between 5.826227477519748 and 326.19710867604397, coeff_var, heatmap, 138
+euro, symbol_in_name, line, 7
+normalized_range between 1.784245115326297 and 2.6604745115772372, normalized_range, box, 1906
+med_abs_dev between 0.7801671246847796 and 2.1782844193520083, med_abs_dev, box, 1771
+entropy between 7.226597045621564 and 8.682643008232112, entropy, bar, 1499
+percent_outliers_3iqr between 0.8054596785576112 and 0.9000023295802455, percent_outliers_3iqr, histogram, 294
+max between 1.369510426136755 and 5.469374160151328, max, bar, 4118
+ninth-order moment between 15399884.174838709 and 728152499793781000, ninth-order moment, histogram, 998
+percent_outliers_15iqr between 0.7048739443479046 and 0.9085796858033826, percent_outliers_15iqr, scatter, 16917
+gini between 0.381471216414244 and 0.5444116135758735, gini, scatter, 15616
+lin_space_sequence_coeff between 1.6128226203303184 and 3.0317178572377843, lin_space_sequence_coeff, heatmap, 52
+var between 802.6463076486889 and 8941665.196451588, var, line, 12841
+coeff_var between 1.7603407242221216 and 5.826227477519748, coeff_var, histogram, 851
+percent_outliers_3iqr between 0.32998837097998585 and 0.7134887467661212, percent_outliers_3iqr, bar, 5742
+normalized_range between 1.784245115326297 and 2.6604745115772372, normalized_range, line, 10236
+med_abs_dev between 0.7801671246847796 and 2.1782844193520083, med_abs_dev, line, 7933
+hasoutliers_1_99, has_outliers, box, 11390
+max between 5.469374160151328 and 19.999878525272493, max, scatter, 9850
+Third Quartile between 18.23213297659351 and 2009.0132802261844, Third Quartile, heatmap, 121
+min between 2234.3465037487395 and 3181.360058593754, min, bar, 4041
+Seventh-order moment between 0.035443333685398086 and 35631.60671685986, Seventh-order moment, box, 1943
+normalized_range between 1.0605909924353323 and 1.784245115326297, normalized_range, bar, 3722
+first_char_uppercase_name_True, first_char_uppercase_name, box, 12039
+hasoutliers_1_99, has_outliers, line, 60411
+max between 639.0702552057083 and 26214.49350302417, max, box, 2718
+normalized_mean between 0.5259337732099718 and 0.6351002664527585, normalized_mean, histogram, 405
+number_of_words_in_name between 1 and 8, number_of_words_in_name, heatmap, 985
+mean between 281.8860048355595 and 8262.562250976542, mean, box, 2466
+min between 1.817272958832402 and 9.322483742621632, min, heatmap, 154
+Seventh-order moment between 0.035443333685398086 and 35631.60671685986, Seventh-order moment, line, 22176
+normalized_mean between 0.40559448752191757 and 0.5259337732099718, normalized_mean, histogram, 920
+is_log_space_True, is_log_space, histogram, 289
+first_char_uppercase_name_True, first_char_uppercase_name, line, 61812
+max between 639.0702552057083 and 26214.49350302417, max, line, 14426
+min between 69.52466286197784 and 2234.3465037487395, min, heatmap, 64
+mean between 281.8860048355595 and 8262.562250976542, mean, line, 13698
+hasoutliers_3iqr, has_outliers, heatmap, 672
+ninth-order moment between -8.465492734351432e-15 and 0.8167481387046068, ninth-order moment, scatter, 9139
+percent_outliers_3iqr between 0.9631309172030419 and 0.9775492457612869, percent_outliers_3iqr, heatmap, 218
+First Quartile between 0.993269883817242 and 2.486012015035075, First Quartile, bar, 3251
+Seventh-order moment between 35631.60671685986 and 29994971860657480000, Seventh-order moment, histogram, 1054
+Tenth-order moment between 5.38823068933106e+26 and 318892623097554200000000000000, Tenth-order moment, box, 1781
+Eigthth-order moment between 7902707318.585811 and 313954491464076.7, Eigthth-order moment, box, 3706
+kurtosis between -0.8387569783387646 and -0.17026565258541418, kurtosis, histogram, 380
+hasoutliers_15iqr, has_outliers, bar, 25155
+range between 0.0010489814216270439 and 1.884129064832964, range, box, 825
+std between 1.265435202025598 and 5.671287387417208, std, box, 3899
+quantitative, general_type, heatmap, 727
+Tenth-order moment between 5.38823068933106e+26 and 318892623097554200000000000000, Tenth-order moment, line, 10713
+Eigthth-order moment between 7902707318.585811 and 313954491464076.7, Eigthth-order moment, line, 19530
+range between 0.0010489814216270439 and 1.884129064832964, range, line, 8805
+std between 1.265435202025598 and 5.671287387417208, std, line, 15738
+sortedness between 0.08363238902341927 and 0.41998404109189585, sortedness, box, 3319
+percent_outliers_1_99 between 0.9165140006619115 and 0.990797292186368, percent_outliers_1_99, histogram, 1086
+decimal, data_type, bar, 14117
+quant_coeff_disp between 0.019905503821228736 and 0.34838628983305325, quant_coeff_disp, heatmap, 77
+normalized_mean between 0.6351002664527585 and 0.7784608491774528, normalized_mean, histogram, 366
+digit, symbol_in_name, heatmap, 204
+normality_statistic between 40.29032087326056 and 278.8104670961443, normality_statistic, histogram, 819
+percent_outliers_3iqr between 0.9000023295802455 and 0.9631309172030419, percent_outliers_3iqr, bar, 5784
+normality_statistic between 278.8104670961443 and 2755.4830602633538, normality_statistic, histogram, 836
+sortedness between 0.08363238902341927 and 0.41998404109189585, sortedness, line, 8618
+percent_outliers_3iqr between 0.7134887467661212 and 0.8054596785576112, percent_outliers_3iqr, scatter, 7041
+normalized_median between 0.0006439799570568022 and 0.3451659363508224, normalized_median, box, 1488
+Fifth-order moment between -5.119229860089301e-08 and 0.35549705584202634, Fifth-order moment, bar, 2128
+normality_p between 1.414449563859021e-12 and 0.0004431203660561995, normality_p, bar, 3849
+median between 30.791238223660386 and 273.1241935483871, median, bar, 6415
+Seventh-order moment between 29994971860657480000 and 42188275653726420000000, Seventh-order moment, bar, 7698
+isnormal_5, is_normal, scatter, 33309
+normalized_median between 0.0006439799570568022 and 0.3451659363508224, normalized_median, line, 8297
+first_char_uppercase_name_False, first_char_uppercase_name, scatter, 23287
+is_only_field_True, is_only_field, box, 622
+entropy between 1.3727904235932133 and 2.299301989847614, entropy, histogram, 134
+quant_coeff_disp between 0.34838628983305325 and 1.5, quant_coeff_disp, box, 1846
+coeff_var between 5.826227477519748 and 326.19710867604397, coeff_var, box, 1844
+avg_abs_dev between 0.8992536992026909 and 4.595696832287696, avg_abs_dev, heatmap, 135
+kurtosis between -1.484341488230613 and -1.1909797564629585, kurtosis, histogram, 693
+mean between 31.850277947456604 and 281.8860048355595, mean, histogram, 1006
+is_only_field_True, is_only_field, line, 142
+med_abs_dev between 2.1782844193520083 and 13.45003824418591, med_abs_dev, heatmap, 114
+med_abs_dev between 2452.4554838709664 and 3574.3924560546875, med_abs_dev, heatmap, 160
+First Quartile between 2000.9977107878653 and 3760.39501953125, First Quartile, scatter, 15513
+percent_outliers_1_99 between 0.08696898928573049 and 0.9165140006619115, percent_outliers_1_99, bar, 4654
+lin_space_sequence_coeff between 1.6128226203303184 and 3.0317178572377843, lin_space_sequence_coeff, box, 2102
+quant_coeff_disp between 0.34838628983305325 and 1.5, quant_coeff_disp, line, 7901
+coeff_var between 5.826227477519748 and 326.19710867604397, coeff_var, line, 8216
+entropy between 3.0664403364735264 and 4.227416124036235, entropy, bar, 3910
+lin_space_sequence_coeff between 1.6128226203303184 and 3.0317178572377843, lin_space_sequence_coeff, line, 8480
+Third Quartile between 18.23213297659351 and 2009.0132802261844, Third Quartile, box, 2927
+num_unique_elements between 33.18709677419355 and 293, num_unique_elements, bar, 22316
+med_abs_dev between 2.42659167633974e-05 and 0.7801671246847796, med_abs_dev, heatmap, 145
+number_of_words_in_name between 1 and 8, number_of_words_in_name, box, 6951
+avg_abs_dev between 0.0016913167480378925 and 0.8992536992026909, avg_abs_dev, bar, 4417
+Sixth-order moment between 44125102529.89933 and 131908579289215120000, Sixth-order moment, histogram, 774
+Third Quartile between 18.23213297659351 and 2009.0132802261844, Third Quartile, line, 11707
+ninth-order moment between -1401645.8064516135 and -8.465492734351432e-15, ninth-order moment, histogram, 596
+is_x_src, is_x_or_y, bar, 15171
+number_of_words_in_name between 1 and 8, number_of_words_in_name, line, 28529
+min between 0.2605670641891413 and 1.817272958832402, min, bar, 9610
+min between 69.52466286197784 and 2234.3465037487395, min, box, 2145
+gini between 0.2661612808704376 and 0.381471216414244, gini, scatter, 8626
+hasoutliers_3iqr, has_outliers, box, 11339
+is_sorted_True, is_sorted, heatmap, 320
+percent_outliers_3iqr between 0.9631309172030419 and 0.9775492457612869, percent_outliers_3iqr, box, 3480
+string, data_type, scatter, 4799
+std between 0.005012650750577393 and 1.265435202025598, std, scatter, 7599
+normalized_mean between 0.12335866319556385 and 0.40559448752191757, normalized_mean, histogram, 1558
+min between 69.52466286197784 and 2234.3465037487395, min, line, 10224
+quant_coeff_disp between 0.0017868509422987189 and 0.019905503821228736, quant_coeff_disp, heatmap, 33
+quantitative, general_type, box, 12198
+median between 5.251452979118592 and 30.791238223660386, median, box, 3275
+hasoutliers_3iqr, has_outliers, line, 60100
+percent_outliers_3iqr between 0.9631309172030419 and 0.9775492457612869, percent_outliers_3iqr, line, 15511
+lin_space_sequence_coeff between 3.0317178572377843 and 12.837174805364283, lin_space_sequence_coeff, scatter, 7905
+skewness between -0.393793818426709 and -0.008621457328779548, skewness, heatmap, 64
+quantitative, general_type, line, 68911
+mean between 0.1916935728682625 and 4.191202395962129, mean, bar, 3181
+normality_p between 0.11218227241308455 and 0.590958889088323, normality_p, histogram, 607
+quant_coeff_disp between 0.019905503821228736 and 0.34838628983305325, quant_coeff_disp, box, 2614
+digit, symbol_in_name, box, 5608
+categorical, general_type, bar, 9740
+length between 29.32 and 4350, length, histogram, 1474
+max between 19.999878525272493 and 56.596889114379884, max, scatter, 10515
+is_monotonic_False, is_monotonic, scatter, 4981
+med_abs_dev between 13.45003824418591 and 2452.4554838709664, med_abs_dev, heatmap, 206
+quant_coeff_disp between 0.019905503821228736 and 0.34838628983305325, quant_coeff_disp, line, 12204
+digit, symbol_in_name, line, 29075
+percent_outliers_15iqr between 0.9596259197881145 and 0.9843483797965511, percent_outliers_15iqr, bar, 3834
+avg_abs_dev between 2579.8562310987904 and 7894.221777343751, avg_abs_dev, scatter, 14340
+is_monotonic_True, is_monotonic, scatter, 73958
+Tenth-order moment between 2059.777588441911 and 26054988855.494198, Tenth-order moment, heatmap, 62
+isnormal_1, is_normal, heatmap, 534
+percent_outliers_15iqr between 0.9843483797965511 and 1.9849246144294739, percent_outliers_15iqr, scatter, 13938
+Third Quartile between 0.007131026095875904 and 1.65858569099057, Third Quartile, histogram, 2258
+avg_abs_dev between 0.8992536992026909 and 4.595696832287696, avg_abs_dev, box, 3646
+med_abs_dev between 2452.4554838709664 and 3574.3924560546875, med_abs_dev, box, 2104
+gini between 0.09158154010772704 and 0.1794668331501945, gini, scatter, 10658
+entropy between 2.299301989847614 and 3.0664403364735264, entropy, heatmap, 40
+is_unique_True, is_unique, scatter, 17582
+median between 10816.114516129033 and 17753.6826171875, median, heatmap, 93
+avg_abs_dev between 0.8992536992026909 and 4.595696832287696, avg_abs_dev, line, 14805
+lin_space_sequence_coeff between 0.683453381061554 and 1.0657484795201209, lin_space_sequence_coeff, scatter, 10281
+med_abs_dev between 2.1782844193520083 and 13.45003824418591, med_abs_dev, line, 10325
+med_abs_dev between 2452.4554838709664 and 3574.3924560546875, med_abs_dev, line, 14969
+First Quartile between 0.003832620927958784 and 0.993269883817242, First Quartile, scatter, 21372
+lin_space_sequence_coeff between 1.0657484795201209 and 1.6128226203303184, lin_space_sequence_coeff, heatmap, 40
+has_none_True, has_none, scatter, 1863
+unique_percent between 0.5887225893235976 and 2, unique_percent, histogram, 1657
+log_space_sequence_coeff between 0.004471472915141768 and 0.030450508665413562, log_space_sequence_coeff, heatmap, 105
+range between 1.884129064832964 and 6.755743844124582, range, histogram, 605
+avg_abs_dev between 21.805817592374737 and 2579.8562310987904, avg_abs_dev, heatmap, 167
+Eigthth-order moment between 6.96370545438728e-17 and 105.55832996983654, Eigthth-order moment, histogram, 508
+normalized_mean between 0.7784608491774528 and 0.9896777660615983, normalized_mean, histogram, 488

@@ -1,0 +1,61 @@
+
+-Target activity-
+You are an intelligent assistant that helps a human analyst analyze claims against certain entities presented in a structured text input.
+
+-Goal-
+Given a structured text input in the format id,Entity,Description, an entity specification, and a claim description, extract all entities that match the entity specification and all claims against those entities.
+
+-Steps-
+1. Parse the structured input:
+   - Input format is structured as id,Entity,Description.
+     - id: A unique identifier for the record.
+     - Entity: The named entity potentially involved in claims.
+     - Description: A text description containing actions or claims related to the entity.
+
+2. Extract all named entities that match the predefined entity specification:
+   - Entity specification can be either a list of exact entity names (e.g., Company A, Person C) or entity types (e.g., organization, individual).
+   - Match the Entity column against the entity specification to identify relevant entities.
+
+3. For each entity identified in step 2, analyze the Description field to extract claims that match the claim description. For each claim, extract the following details:
+   - Subject: The name of the entity from the Entity column, capitalized.
+   - Object: Name of another entity involved, if mentioned, capitalized. If unknown, use **NONE**.
+   - Claim Type: A category summarizing the claim, capitalized, to ensure similar claims share the same type.
+   - Claim Status: One of **TRUE**, **FALSE**, or **SUSPECTED**, based on the validity or certainty of the claim.
+   - Claim Description: A detailed explanation of the claim, with reasoning and evidence extracted from the Description field.
+   - Claim Date: The date or date range associated with the claim in ISO-8601 format (start_date, end_date). If the date is unknown, use **NONE**.
+   - Claim Source Text: The entire Description field as the source text for the claim.
+
+4. Format each extracted claim as:
+
+   (subject_entity{tuple_delimiter}object_entity{tuple_delimiter}claim_type{tuple_delimiter}claim_status{tuple_delimiter}claim_start_date{tuple_delimiter}claim_end_date{tuple_delimiter}claim_description{tuple_delimiter}claim_source)
+   - Use {record_delimiter} to separate multiple claims.
+   - End the output with {completion_delimiter}.
+
+-Examples-
+Example Input:
+
+id,Entity,Description
+1,Company A,Company A was fined for bid rigging in 2022 by Government Agency B.
+2,Person C,Person C was suspected of corruption activities in 2015.
+
+
+Entity specification: Company A, Person C
+Claim description: red flags associated with an entity
+
+Example Output:
+
+(COMPANY A{tuple_delimiter}GOVERNMENT AGENCY B{tuple_delimiter}ANTI-COMPETITIVE PRACTICES{tuple_delimiter}TRUE{tuple_delimiter}2022-01-01T00:00:00{tuple_delimiter}2022-01-01T00:00:00{tuple_delimiter}Company A was fined for bid rigging in 2022 by Government Agency B.{tuple_delimiter}Company A was fined for bid rigging in 2022 by Government Agency B.)
+{record_delimiter}
+(PERSON C{tuple_delimiter}NONE{tuple_delimiter}CORRUPTION{tuple_delimiter}SUSPECTED{tuple_delimiter}2015-01-01T00:00:00{tuple_delimiter}2015-12-31T00:00:00{tuple_delimiter}Person C was suspected of corruption activities in 2015.{tuple_delimiter}Person C was suspected of corruption activities in 2015.)
+{completion_delimiter}
+
+
+-Real Data-
+Use the following input for your answer.
+Entity specification: {entity_specs}
+Claim description: {claim_description}
+Input Text:
+
+{id,Entity,Description}
+
+Output:

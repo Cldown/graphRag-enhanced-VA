@@ -1,0 +1,69 @@
+
+-Target activity-
+You are an intelligent assistant that helps a human analyst analyze claims against certain entities and their associated attributes, presented in a structured text format.
+
+-Goal-
+Given a structured text input in the format Entity,Relation,Entity, where the relation indicates an attribute or property of the entity, extract claims related to the properties of entities, focusing on the trace_type property as it describes the visualization method for the entity.
+
+-Steps-
+1. Parse Input Format:
+   - The input consists of rows structured as Entity,Relation,Entity, where:
+     - The first column represents the **subject entity**.
+     - The second column represents the **relation**, which often indicates an attribute or property of the subject entity.
+     - The third column represents the **object entity**, which may provide a value for the subject entity's property, or in some cases indicate a different type of entity involved.
+
+2. Entity Identification:
+   - Identify entities in both the **subject** and **object** columns. Entities can appear in either column and should be considered as part of the analysis.
+   - Pay special attention to the trace_type relation, as it indicates how the entity should be visualized. If trace_type appears in any relation, it should be flagged as a key property for the entity.
+
+3. Claim Extraction:
+   - For each relevant row, analyze the relation to extract claims about the entity and its attributes. For each claim, extract the following details:
+     - Subject: Name of the entity in the subject column, capitalized.
+     - Object: Name of the entity in the object column, capitalized. If the object is a value or non-entity, use **NONE**.
+     - Claim Type: This should be the type of claim, based on the relation. For example, if the relation is trace_type, categorize the claim as a **VISUALIZATION** claim.
+     - Claim Status: Set to **TRUE**, **FALSE**, or **SUSPECTED** depending on the certainty of the claim.
+     - Claim Description: A detailed explanation of the claim, with reasoning and evidence inferred from the relation (e.g., "The entity TypeTwoFun:d2eb38 is visualized as a scatter plot, based on the trace_type relation").
+     - Claim Date: The date or date range associated with the claim in ISO-8601 format (start_date, end_date). If the date is unknown, use **NONE**.
+     - Claim Source Text: The entire row as the source text for the claim (e.g., "TypeTwoFun:d2eb38,trace_type,scatter").
+
+4. Output Format:
+   - Format each extracted claim as:
+     (subject_entity{tuple_delimiter}object_entity{tuple_delimiter}claim_type{tuple_delimiter}claim_status{tuple_delimiter}claim_start_date{tuple_delimiter}claim_end_date{tuple_delimiter}claim_description{tuple_delimiter}claim_source)
+   - Use {record_delimiter} to separate multiple claims.
+   - End the output with {completion_delimiter}.
+
+-Examples-
+Example Input:
+
+Entity,Relation,Entity
+decimal,data_type,TypeTwoFun:d2eb38
+q,general_type,TypeTwoFun:d2eb38
+has_none_False,has_none,TypeTwoFun:d2eb38
+is_unique_False,is_unique,TypeTwoFun:d2eb38
+hasoutliers_15iqr,has_outliers,TypeTwoFun:d2eb38
+is_monotonic_True,is_monotonic,TypeTwoFun:d2eb38
+TypeTwoFun:d2eb38,trace_type,scatter
+
+
+Entity specification: TypeTwoFun:d2eb38
+Claim description: visualization details for the entity
+
+Example Output:
+
+(TYPE TWO FUN:D2EB38{tuple_delimiter}NONE{tuple_delimiter}DATA TYPE{tuple_delimiter}TRUE{tuple_delimiter}NONE{tuple_delimiter}NONE{tuple_delimiter}The entity TypeTwoFun:d2eb38 has a data type attribute, inferred from the relation data_type.{tuple_delimiter}decimal,data_type,TypeTwoFun:d2eb38)
+{record_delimiter}
+(TYPE TWO FUN:D2EB38{tuple_delimiter}NONE{tuple_delimiter}GENERAL TYPE{tuple_delimiter}TRUE{tuple_delimiter}NONE{tuple_delimiter}NONE{tuple_delimiter}The entity TypeTwoFun:d2eb38 is associated with the general type q.{tuple_delimiter}q,general_type,TypeTwoFun:d2eb38)
+{record_delimiter}
+(TYPE TWO FUN:D2EB38{tuple_delimiter}NONE{tuple_delimiter}VISUALIZATION{tuple_delimiter}TRUE{tuple_delimiter}NONE{tuple_delimiter}NONE{tuple_delimiter}The entity TypeTwoFun:d2eb38 is visualized as a scatter plot, based on the trace_type relation.{tuple_delimiter}TypeTwoFun:d2eb38,trace_type,scatter)
+{completion_delimiter}
+
+
+-Real Data-
+Use the following input for your answer.
+Entity specification: {entity_specs}
+Claim description: {claim_description}
+Input Text:
+
+{Entity,Relation,Entity}
+
+Output:

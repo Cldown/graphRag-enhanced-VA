@@ -1,0 +1,270 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="level" attr.type="long" />
+  <key id="d12" for="edge" attr.name="human_readable_id" attr.type="long" />
+  <key id="d11" for="edge" attr.name="id" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="description" attr.type="string" />
+  <key id="d8" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d7" for="node" attr.name="id" attr.type="string" />
+  <key id="d6" for="node" attr.name="human_readable_id" attr.type="long" />
+  <key id="d5" for="node" attr.name="degree" attr.type="long" />
+  <key id="d4" for="node" attr.name="level" attr.type="long" />
+  <key id="d3" for="node" attr.name="cluster" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="DECIMAL">
+      <data key="d0">DATA_TYPE</data>
+      <data key="d1">Decimal is a data type used for numeric data with decimal points</data>
+      <data key="d2">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+      <data key="d5">4</data>
+      <data key="d6">0</data>
+      <data key="d7">47ac7d58c46646ac97e7e5da38b90c80</data>
+    </node>
+    <node id="INTEGER">
+      <data key="d0">DATA_TYPE</data>
+      <data key="d1">Integer is a data type used for whole numbers without decimal points</data>
+      <data key="d2">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+      <data key="d7">2cf8481c1af947108839e3e04629cc99</data>
+    </node>
+    <node id="TIME">
+      <data key="d0">DATA_TYPE</data>
+      <data key="d1">Time is a data type used to represent points in time or duration</data>
+      <data key="d2">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">4</data>
+      <data key="d6">2</data>
+      <data key="d7">0c1ab4e8ddc048b5a25a96dccde182a9</data>
+    </node>
+    <node id="SCATTER">
+      <data key="d0">EVENT</data>
+      <data key="d1">Scatter is a type of data visualization technique that shows the relationship between two variables</data>
+      <data key="d2">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">5</data>
+      <data key="d6">3</data>
+      <data key="d7">9d544484c2b548f28ce031c5d2d92452</data>
+    </node>
+    <node id="BAR">
+      <data key="d0">EVENT</data>
+      <data key="d1">Bar is a type of data visualization that uses bars to show comparisons among categories</data>
+      <data key="d2">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+      <data key="d5">4</data>
+      <data key="d6">4</data>
+      <data key="d7">6807596e57be40b9a3454a477bb9bc79</data>
+    </node>
+    <node id="LINE">
+      <data key="d0">EVENT</data>
+      <data key="d1">Line is a data visualization method that uses lines to connect points and show trends over time</data>
+      <data key="d2">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">4</data>
+      <data key="d6">5</data>
+      <data key="d7">b772d197dcec4cd8bc6df33a7f7a6618</data>
+    </node>
+    <node id="STRING">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">6</data>
+      <data key="d7">630980d7584a43a4b580c5e043e6b671</data>
+    </node>
+    <node id="DATA_ANALYST">
+      <data key="d0">PERSON</data>
+      <data key="d1">A person involved in choosing and applying data visualization techniques&gt;</data>
+      <data key="d2">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d3">2</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">7</data>
+      <data key="d7">697be867fa7c4b81abec8ba7279fb893</data>
+    </node>
+    <node id="SOFTWARE_TOOL">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">An organization that provides tools for data visualization&gt;</data>
+      <data key="d2">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d3">2</data>
+      <data key="d4">0</data>
+      <data key="d5">4</data>
+      <data key="d6">8</data>
+      <data key="d7">1e7ef4ac03c947968e6463579179614e</data>
+    </node>
+    <node id="DATA_VISUALIZATION_PROJECT">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d3">2</data>
+      <data key="d4">0</data>
+      <data key="d5">6</data>
+      <data key="d6">9</data>
+      <data key="d7">46edebb6599a4778b3f6172b18706b89</data>
+    </node>
+    <edge source="DECIMAL" target="BAR">
+      <data key="d8">175.0</data>
+      <data key="d9">Decimal data type can be visualized using a bar chart</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">6b8cd1cafc8d4a969ff8a06e1c3a7286</data>
+      <data key="d12">0</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="DECIMAL" target="SCATTER">
+      <data key="d8">124.0</data>
+      <data key="d9">Decimal data type can be visualized using a scatter plot</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">46301f2a04784006b488824783f06bdb</data>
+      <data key="d12">1</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="DECIMAL" target="LINE">
+      <data key="d8">122.0</data>
+      <data key="d9">Decimal data type can be visualized using a line chart</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">8fb3e4228e2046cd9f941670c453bcb4</data>
+      <data key="d12">2</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="DECIMAL" target="DATA_VISUALIZATION_PROJECT">
+      <data key="d8">5.0</data>
+      <data key="d9">Decimal data type is visualized within the project</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">586e2ecf86ae4ecfb39fe4a8d2deb02b</data>
+      <data key="d12">3</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="INTEGER" target="LINE">
+      <data key="d8">114.0</data>
+      <data key="d9">Integer data type can be visualized using a line chart</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">ec1cd8446596418f8dd70463862690c3</data>
+      <data key="d12">4</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="INTEGER" target="SCATTER">
+      <data key="d8">145.0</data>
+      <data key="d9">Integer data type can be visualized using a scatter plot</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">0c4bca99b659486bacf34cf95022504a</data>
+      <data key="d12">5</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="INTEGER" target="DATA_VISUALIZATION_PROJECT">
+      <data key="d8">3.0</data>
+      <data key="d9">Integer data type is visualized within the project</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">909510eed275450a98218d23466dc8f9</data>
+      <data key="d12">6</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="TIME" target="SCATTER">
+      <data key="d8">354.0</data>
+      <data key="d9">TIME data type can be visualized utilizing a scatter plot, as demonstrated by the SCATTER method. This approach allows for the graphical representation of time-based data points, providing a comprehensive view of the dataset's temporal trends and patterns.</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">82d2a0adce414a9f91d1eda2fa11facb</data>
+      <data key="d12">7</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="TIME" target="BAR">
+      <data key="d8">251.0</data>
+      <data key="d9">Time data type can be visualized using a bar chart</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">b06dda08ad9c4c059804e4634737781b</data>
+      <data key="d12">8</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="TIME" target="LINE">
+      <data key="d8">267.0</data>
+      <data key="d9">Time data type can be visualized using a line chart</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">a5a5950e1de8480fbee51f1fef5b5b1f</data>
+      <data key="d12">9</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="TIME" target="DATA_VISUALIZATION_PROJECT">
+      <data key="d8">6.0</data>
+      <data key="d9">Time data type is visualized within the project</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">f4c011744a534b9a98a2d024e5f94251</data>
+      <data key="d12">10</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="SCATTER" target="STRING">
+      <data key="d8">156.0</data>
+      <data key="d9">String data type can be visualized using a scatter plot</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">b70c8463ca694aa98084b110c90e40af</data>
+      <data key="d12">11</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="SCATTER" target="SOFTWARE_TOOL">
+      <data key="d8">5.0</data>
+      <data key="d9">Scatter plots are a feature provided by the software tool</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">22cc3aa8f07e43fc991d08712c2dcd66</data>
+      <data key="d12">12</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="BAR" target="STRING">
+      <data key="d8">250.0</data>
+      <data key="d9">String data type can be visualized using a bar chart</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">ac68d7a606994f3f8811c31bdcb203ff</data>
+      <data key="d12">13</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="BAR" target="SOFTWARE_TOOL">
+      <data key="d8">6.0</data>
+      <data key="d9">Bar charts are a feature provided by the software tool</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">2591bc77f9774bd39a15961437433fef</data>
+      <data key="d12">14</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="LINE" target="SOFTWARE_TOOL">
+      <data key="d8">1.0</data>
+      <data key="d9">Line charts are a feature provided by the software tool</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">9d985688cd4f4517bec1f73b0964d8e7</data>
+      <data key="d12">15</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="STRING" target="DATA_VISUALIZATION_PROJECT">
+      <data key="d8">4.0</data>
+      <data key="d9">String data type is visualized within the project</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">a351986a545a460fab371b55efa0f641</data>
+      <data key="d12">16</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="DATA_ANALYST" target="DATA_VISUALIZATION_PROJECT">
+      <data key="d8">9.0</data>
+      <data key="d9">The data analyst is responsible for the data visualization project</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">62ea7437f6ee46839720b2ee74bbf96c</data>
+      <data key="d12">17</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="SOFTWARE_TOOL" target="DATA_VISUALIZATION_PROJECT">
+      <data key="d8">7.0</data>
+      <data key="d9">The software tool is used in the data visualization project</data>
+      <data key="d10">0abceae13d7df8e2dd79ae1a9dbcabaf</data>
+      <data key="d11">e2fd46b571c0485c80339a5368d132db</data>
+      <data key="d12">18</data>
+      <data key="d13">0</data>
+    </edge>
+  </graph>
+</graphml>

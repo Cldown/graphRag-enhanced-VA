@@ -1,0 +1,92 @@
+
+-Target activity-
+You are an intelligent assistant that helps a human analyst analyze claims against certain entities and their associated attributes, presented in a structured text format.
+
+-Goal-
+Given a structured text input in the format Entity,Relation,Entity, extract all entities and treat both the subject and object entities, as well as the relation, as independent entities. The relation will be treated as an attribute of the subject entity. Additionally, handle duplicate rows by increasing the weight of the relationship. The trace_type relation should be treated as a key property indicating the visualization method for the entity.
+
+-Steps-
+1. Parse Input Format:
+   - The input consists of rows structured as Entity,Relation,Entity, where:
+     - The first column represents the **subject entity** (i.e., the characteristic of the dataset).
+     - The second column represents the **relation** (which is treated as an entity, i.e., an attribute of the subject).
+     - The third column represents the **object entity** (i.e., the visualization method).
+
+2. Entity Identification:
+   - Identify both the subject and **object entities** from each row.
+   - Both the subject entity and **object entity** should be treated as separate entities in the output.
+   - The relation (the second column) should also be treated as an entity, linking the subject and object entities.
+   - Special attention should be given to the trace_type relation, which specifies how the entity is visualized (e.g., scatter). This will be treated as a key property of the subject entity.
+
+3. Handle Duplicate Rows:
+   - If a row appears multiple times, the relationship (e.g., data_type) should have its weight increased accordingly. You can increase the weight by counting the number of occurrences of the row and reflecting this in the claim (e.g., increasing the claim strength or making the relationship more significant).
+
+4. Claim Extraction:
+   - For each row, extract the claim details based on the subject and object entities, with the relation treated as an attribute entity.
+   - For each claim, extract the following information:
+     - Subject: The name of the subject entity, capitalized.
+     - Object: The name of the object entity, capitalized. If the object is a value or non-entity, use **NONE**.
+     - Claim Type: A category based on the relation (e.g., if the relation is data_type, the claim type will be **DATA TYPE**).
+     - Claim Status: Set to **TRUE**, **FALSE**, or **SUSPECTED**, depending on the certainty of the claim.
+     - Claim Description: A detailed description of the claim, based on the relation and entities.
+     - Claim Date: The date or date range associated with the claim in ISO-8601 format (start_date, end_date). If unknown, use **NONE**.
+     - Claim Source Text: The entire row as the source text for the claim.
+
+5. Output Format:
+   - Each extracted claim should be formatted as:
+     (subject_entity{tuple_delimiter}object_entity{tuple_delimiter}claim_type{tuple_delimiter}claim_status{tuple_delimiter}claim_start_date{tuple_delimiter}claim_end_date{tuple_delimiter}claim_description{tuple_delimiter}claim_source)
+   - Use **{record_delimiter}** to separate multiple claims.
+   - End the output with **{completion_delimiter}**.
+
+-Examples-
+Example Input:
+
+Entity,Relation,Entity
+string,data_type,scatter
+string,data_type,scatter
+string,data_type,scatter
+string,data_type,bar
+decimal,data_type,bar
+decimal,data_type,scatter
+decimal,data_type,scatter
+decimal,data_type,line
+decimal,data_type,line
+integer,data_type,line
+integer,data_type,line
+integer,data_type,scatter
+integer,data_type,line
+time,data_type,scatter
+time,data_type,bar
+time,data_type,scatter
+time,data_type,line
+time,data_type,scatter
+time,data_type,scatter
+
+
+Entity specification: data_type
+Claim description: Entity visualization and properties
+
+Example Output:
+
+(STRING{tuple_delimiter}SCATTER{tuple_delimiter}DATA TYPE{tuple_delimiter}TRUE{tuple_delimiter}NONE{tuple_delimiter}NONE{tuple_delimiter}The entity string is visualized as a scatter plot, based on the data_type relation.{tuple_delimiter}string,data_type,scatter)
+{record_delimiter}
+(STRING{tuple_delimiter}SCATTER{tuple_delimiter}DATA TYPE{tuple_delimiter}TRUE{tuple_delimiter}NONE{tuple_delimiter}NONE{tuple_delimiter}The entity string is visualized as a scatter plot, based on the data_type relation.{tuple_delimiter}string,data_type,scatter)
+{record_delimiter}
+(STRING{tuple_delimiter}BAR{tuple_delimiter}DATA TYPE{tuple_delimiter}TRUE{tuple_delimiter}NONE{tuple_delimiter}NONE{tuple_delimiter}The entity string is visualized as a bar chart, based on the data_type relation.{tuple_delimiter}string,data_type,bar)
+{record_delimiter}
+(DECIMAL{tuple_delimiter}SCATTER{tuple_delimiter}DATA TYPE{tuple_delimiter}TRUE{tuple_delimiter}NONE{tuple_delimiter}NONE{tuple_delimiter}The entity decimal is visualized as a scatter plot, based on the data_type relation.{tuple_delimiter}decimal,data_type,scatter)
+{record_delimiter}
+(DECIMAL{tuple_delimiter}LINE{tuple_delimiter}DATA TYPE{tuple_delimiter}TRUE{tuple_delimiter}NONE{tuple_delimiter}NONE{tuple_delimiter}The entity decimal is visualized as a line plot, based on the data_type relation.{tuple_delimiter}decimal,data_type,line)
+{completion_delimiter}
+
+
+-Real Data-
+Use the following input for your answer.
+Entity specification: {entity_specs}
+Claim description: {claim_description}
+Input Text:
+
+{Entity,Relation,Entity}
+
+Output:
+

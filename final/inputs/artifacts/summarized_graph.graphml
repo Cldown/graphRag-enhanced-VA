@@ -1,0 +1,3038 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="level" attr.type="long" />
+  <key id="d12" for="edge" attr.name="human_readable_id" attr.type="long" />
+  <key id="d11" for="edge" attr.name="id" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="description" attr.type="string" />
+  <key id="d8" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d7" for="node" attr.name="id" attr.type="string" />
+  <key id="d6" for="node" attr.name="human_readable_id" attr.type="long" />
+  <key id="d5" for="node" attr.name="degree" attr.type="long" />
+  <key id="d4" for="node" attr.name="level" attr.type="long" />
+  <key id="d3" for="node" attr.name="cluster" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="KURTOSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">Kurtosis is a statistical concept that measures the 'tailedness' of the probability distribution of a real-valued random variable. It is a measure that describes the shape of a distribution's tails relative to its overall shape, providing insight into the dataset's kurtosis. This measure ranges from -1.484 to -1.191 and could be associated with a researcher or an analytical method named 'Kurtosis'. In summary, kurtosis is a statistical event or measurement that helps in understanding the distribution's kurtosis and its relationship to the overall distribution shape.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,0b8c96af03bd9cee6a1b102d04047917,184b50600ae6837d8cad0d2c227eb878,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95,b676b30c1ebb51801feeef9e97d58c62,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">15</data>
+      <data key="d4">1</data>
+      <data key="d5">6</data>
+      <data key="d6">0</data>
+      <data key="d7">fdc0696f4ef14975bed00290798a36fa</data>
+    </node>
+    <node id="MED_ABS_DEV">
+      <data key="d0">EVENT</data>
+      <data key="d1">MED_ABS_DEV is a term that refers to the median absolute deviation from the median of a dataset, which is a robust measure of statistical dispersion. It is a statistical term that could be associated with a research group or project and is also used to describe an event or category related to the median absolute deviation in a dataset. Overall, MED_ABS_DEV encapsulates the concept of quantifying the spread of data points around the median using their absolute differences.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">7</data>
+      <data key="d4">0</data>
+      <data key="d5">4</data>
+      <data key="d6">1</data>
+      <data key="d7">2566927df6ba42068cc8a77458f91ac9</data>
+    </node>
+    <node id="NORMALIZED_MEDIAN">
+      <data key="d0" />
+      <data key="d1">The "NORMALIZED_MEDIAN" is a metric that represents the median of a dataset, which has been normalized to facilitate comparison. This measure falls within a range of 0.835 to 0.993 and is used to describe an event or category in the context of the dataset's normalized central tendency.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,184b50600ae6837d8cad0d2c227eb878,871fc1e4f6e2c7645fa61048e96c2a95,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">17</data>
+      <data key="d4">1</data>
+      <data key="d5">3</data>
+      <data key="d6">2</data>
+      <data key="d7">cba223276bbe4a43ab1fad2e3126e3d7</data>
+    </node>
+    <node id="HISTOGRAM">
+      <data key="d0" />
+      <data key="d1">The HISTOGRAM is a type of statistical plot or visualization that serves as a graphical representation of the distribution of quantitative data. It provides a visual interpretation of the data distribution, allowing for easy analysis of the frequency and pattern of the data points.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,1bded572443aa0e12d31cb3a232f6ae8,98ab0477b6b0d4f190cd45f23bf7e6e8,b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">17</data>
+      <data key="d4">1</data>
+      <data key="d5">9</data>
+      <data key="d6">3</data>
+      <data key="d7">1f5c4b16fee54de99755a4b7d7e622d4</data>
+    </node>
+    <node id="SCATTER">
+      <data key="d0" />
+      <data key="d1">SCATTER is a type of statistical plot or visualization technique used for quantitative data analysis. It is commonly known as a scatter plot, which is an essential event in the broader process of data visualization and analysis.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,1bded572443aa0e12d31cb3a232f6ae8,4d074294304bc327cc2e8b87df8d8cc1,b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">14</data>
+      <data key="d4">1</data>
+      <data key="d5">7</data>
+      <data key="d6">4</data>
+      <data key="d7">d84348bbefb5472fa854503b69370ef3</data>
+    </node>
+    <node id="RANGE">
+      <data key="d0">EVENT</data>
+      <data key="d1">RANGE is a statistical concept that indicates an event or category encompassing a spread of values in a dataset. It is specifically a measure that calculates the difference between the maximum and minimum values found within the dataset. In certain contexts, RANGE can span from as low as 0.001 to as high as 1.884, demonstrating the diversity of values that might be included in the dataset.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,184b50600ae6837d8cad0d2c227eb878,6a23beba3878acffe3ac7caa8b438425,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">5</data>
+      <data key="d7">ca31888c6218493f92f1093445ac7216</data>
+    </node>
+    <node id="AVG_ABS_DEV">
+      <data key="d0">EVENT</data>
+      <data key="d1">The entity "AVG_ABS_DEV" refers to a statistical measure that calculates the average absolute deviation of a set of data points from their mean. It serves as an indicator of the dispersion or spread of the dataset around the central tendency. The value of AVG_ABS_DEV can range from 21.806 to 2579.857, indicating the variability in the dataset. Additionally, AVG_ABS_DEV can also be considered an event or category related to the assessment of average absolute deviation in a dataset, providing a comprehensive view of the deviations from the mean.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,184b50600ae6837d8cad0d2c227eb878,871fc1e4f6e2c7645fa61048e96c2a95,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">7</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">6</data>
+      <data key="d7">9e650893cf4d45d6bd17afb229714f45</data>
+    </node>
+    <node id="IS_SORTED">
+      <data key="d0">EVENT</data>
+      <data key="d1">A boolean measure indicating whether a dataset is sorted&gt;</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878</data>
+      <data key="d3">16</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">7</data>
+      <data key="d7">71da328bf2da4451b4855f7a2bd68c8d</data>
+    </node>
+    <node id="PERCENT_OUTLIERS_15IQR">
+      <data key="d0">EVENT</data>
+      <data key="d1">A measure of the percentage of outliers in a dataset based on the interquartile range&gt;</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878</data>
+      <data key="d5">0</data>
+      <data key="d6">8</data>
+      <data key="d7">9fd5696d869c4bb086bb797067083f9b</data>
+    </node>
+    <node id="TIME">
+      <data key="d0">EVENT</data>
+      <data key="d1">A data type representing time&gt;</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+      <data key="d7">b747145e367148b08d124d420c96326a</data>
+    </node>
+    <node id="LOG_SPACE_SEQUENCE_COEFF">
+      <data key="d0">EVENT</data>
+      <data key="d1">The "LOG_SPACE_SEQUENCE_COEFF" is a coefficient that is utilized in the analysis of log-space sequences. It represents a measure related to the logarithmic distribution of a sequence of data points, providing valuable insights when studying such sequences.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">10</data>
+      <data key="d7">eb46c0f2d81942da85e2c523a2c08053</data>
+    </node>
+    <node id="SIXTH-ORDER MOMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">The "SIXTH-ORDER MOMENT" is a statistical measure that represents the sixth moment of a distribution. It is an entity that can be associated with a data set from a research institution. The value of the SIXTH-ORDER MOMENT ranges from 44125102529.899 to 131908579289215120000, indicating the extent of its measurement in the distribution.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,184b50600ae6837d8cad0d2c227eb878,538fb996d193eff2deddc1d27f71f672</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">11</data>
+      <data key="d7">cc3bec997a744a7aa54493e458d4e9fa</data>
+    </node>
+    <node id="PERCENT_OUTLIERS_1_99">
+      <data key="d0">EVENT</data>
+      <data key="d1">The "PERCENT_OUTLIERS_1_99" is a metric that quantifies the proportion of outliers within a dataset. It is specifically calculated based on the range between the 1st and 99th percentile, serving as an event or category to assess the extent to which data points deviate from the norm.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d5">0</data>
+      <data key="d6">12</data>
+      <data key="d7">9539e097264546dd808a0fe6da5646c2</data>
+    </node>
+    <node id="VAR">
+      <data key="d0">EVENT</data>
+      <data key="d1">VAR is a term that can represent a measure of the variance of a dataset, which is a statistical calculation used to quantify the spread or dispersion between numbers within the dataset. It is also a potential abbreviation that could stand for "variable" or could be the name of an organization with a focus on statistical variance. In its primary context, VAR refers specifically to the variance itself, providing a useful metric to understand the diversity and range of values within a set of data points.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d3">4</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">13</data>
+      <data key="d7">7998499f20114eb189c837edcf0a40ed</data>
+    </node>
+    <node id="QUANT_COEFF_DISP">
+      <data key="d0">EVENT</data>
+      <data key="d1">The entity referred to as "QUANT_COEFF_DISP" is a measure of the coefficient of dispersion for quantiles. It is an event or category within a dataset that is associated with both the coefficient of dispersion and the coefficient of variation. This indicates that "QUANT_COEFF_DISP" plays a role in analyzing the variability or spread of data across different quantiles, which could be interpreted as a measure of the relative dispersion around some central tendency. Any contradictions in the descriptions have been resolved to provide a coherent summary that "QUANT_COEFF_DISP" is a statistical measure used to assess the dispersion characteristics of a dataset, particularly in relation to quantiles and the variability of data points around a mean or median.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d5">0</data>
+      <data key="d6">14</data>
+      <data key="d7">23e3542f5f05454898a62082da592b12</data>
+    </node>
+    <node id="NORMALIZED_RANGE">
+      <data key="d0">EVENT</data>
+      <data key="d1">The term "NORMALIZED_RANGE" refers to a measure that characterizes the range of values after normalization to a specific scale. It is a concept that can be associated with statistical methods or possibly an organization that employs such methods. This term encompasses the idea of standardizing data by adjusting the range to better facilitate comparison and analysis.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d3">7</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">15</data>
+      <data key="d7">a073b1b6baf04dedab1a97cba57785b9</data>
+    </node>
+    <node id="SKEWNESS">
+      <data key="d0">EVENT</data>
+      <data key="d1">Skewness is a statistical measure that quantifies the asymmetry of the probability distribution of a real-valued random variable. It provides insight into the distribution's lack of symmetry, indicating the extent to which the data distribution deviates from being perfectly normal or bell-shaped.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,871fc1e4f6e2c7645fa61048e96c2a95,98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d3">15</data>
+      <data key="d4">1</data>
+      <data key="d5">2</data>
+      <data key="d6">16</data>
+      <data key="d7">f59b9eb193b341ccb0629476c83b24bf</data>
+    </node>
+    <node id="MEAN">
+      <data key="d0">EVENT</data>
+      <data key="d1">The MEAN is a statistical concept that represents the average value of a dataset. It is a measure of the mean value observed across various ranges, initially between 4.191 and 31.850, then expanding to between 31.850 and 281.886, and finally reaching from 281.886 to 8262.562. The term MEAN can also refer to an event or category related to the mean of a dataset. Ultimately, it denotes the average value derived from a set of numbers.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,184b50600ae6837d8cad0d2c227eb878,6a23beba3878acffe3ac7caa8b438425,98ab0477b6b0d4f190cd45f23bf7e6e8,b676b30c1ebb51801feeef9e97d58c62,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">7</data>
+      <data key="d4">0</data>
+      <data key="d5">4</data>
+      <data key="d6">17</data>
+      <data key="d7">ce91cb9a26c348d98f07cad0b737bdc3</data>
+    </node>
+    <node id="NORMALITY_P">
+      <data key="d0">EVENT</data>
+      <data key="d1">NORMALITY_P is a statistical measure that quantifies the probability that a given dataset follows a normal distribution. It is derived from the p-value of a normality test and serves as an indicator of the likelihood that the data conforms to the characteristics of a normal distribution.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,871fc1e4f6e2c7645fa61048e96c2a95,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">7</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">18</data>
+      <data key="d7">aa5edc86dfae4e36af0947d2b90a6b54</data>
+    </node>
+    <node id="FIFTH-ORDER MOMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">The "FIFTH-ORDER MOMENT" is a statistical measure that represents the fifth moment of a distribution, which is a concept related to the characteristics of a probability distribution. It specifically quantifies the asymmetry of the distribution for a real-valued random variable. This moment is an important statistical event or concept used to analyze the shape and structure of the distribution.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,871fc1e4f6e2c7645fa61048e96c2a95,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d5">0</data>
+      <data key="d6">19</data>
+      <data key="d7">87561e65a0c9433e8b51b43c598eae97</data>
+    </node>
+    <node id="NINTH-ORDER MOMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">The "NINTH-ORDER MOMENT" is a statistical concept that quantifies the ninth moment of a distribution. It is a measure that ranges from 15399884.175 to 728152499793781000 and is specifically related to the skewness of the probability distribution associated with a real-valued random variable. This measure provides insight into the distribution's shape and is an important tool in higher-order statistical analysis.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,184b50600ae6837d8cad0d2c227eb878,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95,b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">10</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">20</data>
+      <data key="d7">ff9feb283afa4489b000d192ae49a8b0</data>
+    </node>
+    <node id="TENTH-ORDER MOMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">The "TENTH-ORDER MOMENT" is a statistical measure that represents the tenth moment of a distribution. It is a concept that quantifies the spread or skewness of the data distribution at a high-order level, specifically the tenth power of the deviations from the mean. This measure falls within a wide range, from 5.388e+26 to 318892623097554200000000000000, indicating the potential for significant variability in the data set being analyzed. It is an event or measurement that provides insights into the distribution's tails and the presence of outliers or heavy tails in the data.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,184b50600ae6837d8cad0d2c227eb878,6a23beba3878acffe3ac7caa8b438425,b676b30c1ebb51801feeef9e97d58c62,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">10</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">21</data>
+      <data key="d7">6fa1df3db39a4402badcc7dab6e13975</data>
+    </node>
+    <node id="GINI">
+      <data key="d0">EVENT</data>
+      <data key="d1">The GINI is a measure of statistical dispersion that is widely utilized to represent income inequality. It is a metric that ranges from 0.266 to 0.381 and is frequently employed in economic analysis and reports. In the context of relationships, the GINI is associated with concepts and events related to economic inequality and statistical analysis.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,184b50600ae6837d8cad0d2c227eb878,538fb996d193eff2deddc1d27f71f672,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95,b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">22</data>
+      <data key="d7">78cd9b4ffbe04b45a39bbc1180e153c6</data>
+    </node>
+    <node id="BOX">
+      <data key="d0" />
+      <data key="d1">BOX is a type of statistical plot or visualization technique that serves as a method for graphically displaying the distribution of quantitative data. It is particularly useful for showing groups of numerical data and can illustrate the relationships within the dataset. The box plot is a effective tool for visualizing and understanding the spread, median, and quartiles of the data.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,1bded572443aa0e12d31cb3a232f6ae8,4d074294304bc327cc2e8b87df8d8cc1,b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">16</data>
+      <data key="d4">1</data>
+      <data key="d5">10</data>
+      <data key="d6">23</data>
+      <data key="d7">4c27ad232b04482590cead51f95021d2</data>
+    </node>
+    <node id="HEATMAP">
+      <data key="d0" />
+      <data key="d1">HEATMAP is a type of statistical plot or visualization that serves as a visual representation tool used in data analysis. It can be regarded as an event type, aiding in the interpretation and presentation of data.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,1bded572443aa0e12d31cb3a232f6ae8,4d074294304bc327cc2e8b87df8d8cc1,b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">14</data>
+      <data key="d4">1</data>
+      <data key="d5">5</data>
+      <data key="d6">24</data>
+      <data key="d7">a5a204c600f14b54aa21a9410855dd95</data>
+    </node>
+    <node id="LINE">
+      <data key="d0" />
+      <data key="d1">LINE is a type of statistical plot or visualization.</data>
+      <data key="d2">184b50600ae6837d8cad0d2c227eb878,b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">16</data>
+      <data key="d4">1</data>
+      <data key="d5">4</data>
+      <data key="d6">25</data>
+      <data key="d7">86692a3261954116afbe3a5ae9d5b84e</data>
+    </node>
+    <node id="NUMERICAL_DATA">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">An organization or body that collects and processes numerical data, potentially for research or analysis purposes</data>
+      <data key="d2">694b02ecbdc776be9a697f82a25110f5</data>
+      <data key="d3">5</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">26</data>
+      <data key="d7">01af08e642554c1e9053ba55644d6e08</data>
+    </node>
+    <node id="STATISTICAL_ANALYSIS">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b8c96af03bd9cee6a1b102d04047917,4ea35889679870d71f6def1bdaf3d57f,68ef842c1b1ba3ac780ae492e055d3f8,694b02ecbdc776be9a697f82a25110f5,7ad1c9cde768ba696a61ab202239ee02,8024a2cccb3ac73d84171ae2b6480f06,98ab0477b6b0d4f190cd45f23bf7e6e8,9a8ddecbc0d1a6735c05a6396da8ba40,e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">22</data>
+      <data key="d6">27</data>
+      <data key="d7">48bb8c4870f84ddd9e03b67f6a574002</data>
+    </node>
+    <node id="DATA_METRICS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event or series of events where data metrics such as 'Tenth-order moment' and 'gini' are calculated and studied</data>
+      <data key="d2">694b02ecbdc776be9a697f82a25110f5</data>
+      <data key="d3">5</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">28</data>
+      <data key="d7">092f2cd52eaf436e84f1aa03453eb91c</data>
+    </node>
+    <node id="RESEARCHERS">
+      <data key="d0">PERSON</data>
+      <data key="d1">Individuals involved in performing the statistical analysis and studying the data metrics</data>
+      <data key="d2">694b02ecbdc776be9a697f82a25110f5</data>
+      <data key="d3">5</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">29</data>
+      <data key="d7">fe1e4e4f4c8145fa9598e1b73600327e</data>
+    </node>
+    <node id="DATASET">
+      <data key="d0">GEO</data>
+      <data key="d1">A dataset that represents a collection of data points from which the statistical analysis is conducted</data>
+      <data key="d2">694b02ecbdc776be9a697f82a25110f5</data>
+      <data key="d3">5</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">30</data>
+      <data key="d7">3a6a187522114c0fbf3733b9857aa901</data>
+    </node>
+    <node id="NO_ENTITIES">
+      <data key="d0">UNKNOWN</data>
+      <data key="d1">The provided data does not contain any identifiable entities of types organization, person, geo, or event</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d5">0</data>
+      <data key="d6">31</data>
+      <data key="d7">2b65e2cfe21c4f4c9fb511f5b86cccdd</data>
+    </node>
+    <node id="DATA_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">DATA_ANALYSIS is an event focused on the comprehensive analysis of various statistical data. This includes examining moments, identifying outliers, and exploring other characteristics inherent in the data sets.</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b,e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">12</data>
+      <data key="d6">32</data>
+      <data key="d7">b030c4e5d33c459bac4b21fd04c2da42</data>
+    </node>
+    <node id="STATISTICAL_REPORT">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event resulting in the generation of a report with various statistical measures such as moments, medians, and variances</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d5">0</data>
+      <data key="d6">33</data>
+      <data key="d7">b86d57391c8544e6b3deb3750d282399</data>
+    </node>
+    <node id="FIRST_QUARTILE">
+      <data key="d0">EVENT</data>
+      <data key="d1">The statistical event known as FIRST_QUARTILE involves calculating the first quartile of a dataset within a specific range, which in this case is from 2000.998 to 3760.395. The FIRST_QUARTILE represents the value below which 25% of the data falls.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,45d9e3e207661402f0ad877873dff10b,871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d3">17</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">34</data>
+      <data key="d7">fdf01981bfa64eb58983c2a0a781f21e</data>
+    </node>
+    <node id="FIFTH-ORDER_MOMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where the fifth-order moment of a dataset is determined within a given range</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">35</data>
+      <data key="d7">63f1f4b0364e40b79839f10e67325651</data>
+    </node>
+    <node id="NINTH-ORDER_MOMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where the ninth-order moment of a dataset is calculated within a large range of values"</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">36</data>
+      <data key="d7">9755496a535545c594d7a1354b65beec</data>
+    </node>
+    <node id="PERCENT_OUTLIERS_3IQR">
+      <data key="d0">EVENT</data>
+      <data key="d1">The entity "PERCENT_OUTLIERS_3IQR" refers to an event, category, or project focused on the statistical analysis of outliers. Specifically, it involves calculating the percentage of data points that are considered outliers based on the interquartile range (IQR) and extends to three interquartile ranges. This entity studies the distribution of data to determine the proportion of outliers within this range, which has been observed to vary from 0.805 to 0.900. Therefore, "PERCENT_OUTLIERS_3IQR" can be understood as both a method for identifying outliers and an organization or project dedicated to researching these statistical anomalies.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,45d9e3e207661402f0ad877873dff10b,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">7</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">37</data>
+      <data key="d7">e336240a36114675a18f56f8032ff640</data>
+    </node>
+    <node id="COEFFICIENT_OF_VARIATION">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where the coefficient of variation is computed for a dataset"</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">38</data>
+      <data key="d7">768812ec95614177880f91507fa62421</data>
+    </node>
+    <node id="ENTROPY_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where the entropy of a dataset is measured within a given range"</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">39</data>
+      <data key="d7">d0777657b4d8494e82e2608089dd398c</data>
+    </node>
+    <node id="MEDIAN_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where the median of a dataset is calculated between specific values"</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">40</data>
+      <data key="d7">48c236bef688432888092903f0b22a25</data>
+    </node>
+    <node id="MAXIMUM_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where the maximum value of a dataset is determined within a given range"</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">41</data>
+      <data key="d7">a70b714131934af7b1694994b90afda2</data>
+    </node>
+    <node id="RANGE_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where the range of a dataset is calculated between specific values"</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">42</data>
+      <data key="d7">36a81eae3f194211a1962256b59a7c0b</data>
+    </node>
+    <node id="STANDARD_DEVIATION_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where the standard deviation of a dataset is measured within a given range"</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">43</data>
+      <data key="d7">d44298245d444f98999c6706f816e478</data>
+    </node>
+    <node id="SEVENTH-ORDER_MOMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where the seventh-order moment of a dataset is calculated within a very large range"</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">44</data>
+      <data key="d7">cebec1b902244f1c9b651231a110bb02</data>
+    </node>
+    <node id="KURTOSIS_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">KURTOSIS_ANALYSIS is an event where the kurtosis of a dataset is measured within a given range. This analysis serves as an examination of the 'tailedness' of the data distribution, providing insights into the shape and concentration of data around the mean.</data>
+      <data key="d2">45d9e3e207661402f0ad877873dff10b,871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d3">6</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">45</data>
+      <data key="d7">87420e59c675433da5f6449e0bd9f792</data>
+    </node>
+    <node id="DATA_VISUALIZATION_EVENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where statistical data is visualized using different techniques such as bar charts, scatter plots, and histograms&gt;</data>
+      <data key="d2">b821e1fdcc7a5b4a722370ade6d82088</data>
+      <data key="d5">2</data>
+      <data key="d6">46</data>
+      <data key="d7">e1f7c2bd08bb40b78b952e434a73adef</data>
+    </node>
+    <node id="NUMERICAL_DATASET">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">A dataset containing numerical data that is being analyzed by the Statistical Analysis Company&gt;</data>
+      <data key="d2">b821e1fdcc7a5b4a722370ade6d82088</data>
+      <data key="d5">2</data>
+      <data key="d6">47</data>
+      <data key="d7">ecf74b5dbf4041439a30f106d7354edc</data>
+    </node>
+    <node id="STATISTICIAN_PERSON">
+      <data key="d0">PERSON</data>
+      <data key="d1">A person involved in interpreting the statistical data and generating the reports&gt;</data>
+      <data key="d2">b821e1fdcc7a5b4a722370ade6d82088</data>
+      <data key="d5">2</data>
+      <data key="d6">48</data>
+      <data key="d7">bdeeda6165274352a68a663f3c129846</data>
+    </node>
+    <node id="STATISTICAL_ANALYSIS_COMPANY">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">b821e1fdcc7a5b4a722370ade6d82088</data>
+      <data key="d5">2</data>
+      <data key="d6">49</data>
+      <data key="d7">c76cc9fa77024d58b3b7293d6e958ddb</data>
+    </node>
+    <node id="DATA_REPORT">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where statistical data, including measures like entropy, mean, and median, was reported or analyzed&gt;</data>
+      <data key="d2">58c338d903269ffea07d5750714fcd57</data>
+      <data key="d5">2</data>
+      <data key="d6">50</data>
+      <data key="d7">e9e1ac71970744e49abd25bd6443d3a6</data>
+    </node>
+    <node id="RESEARCH_PROJECT">
+      <data key="d0">EVENT</data>
+      <data key="d1">A project that involved collecting and interpreting the statistical data mentioned in the text&gt;</data>
+      <data key="d2">58c338d903269ffea07d5750714fcd57</data>
+      <data key="d5">2</data>
+      <data key="d6">51</data>
+      <data key="d7">4252c9b351ba42cca69fc15d61169d36</data>
+    </node>
+    <node id="TIRUZIA_DATA_CENTER">
+      <data key="d0">GEO</data>
+      <data key="d1">A hypothetical data center in Tiruzia where the statistical analysis was conducted, assuming Tiruzia is a location&gt;</data>
+      <data key="d2">58c338d903269ffea07d5750714fcd57</data>
+      <data key="d5">1</data>
+      <data key="d6">52</data>
+      <data key="d7">451b4014ef7043bca1d4a9b91205eb83</data>
+    </node>
+    <node id="SCIENTIST_TEAM">
+      <data key="d0">PERSON</data>
+      <data key="d1">A group of scientists or data analysts responsible for interpreting the statistical measures mentioned&gt;</data>
+      <data key="d2">58c338d903269ffea07d5750714fcd57</data>
+      <data key="d5">1</data>
+      <data key="d6">53</data>
+      <data key="d7">a09e9095abb84ec2a8e493b8f7bd7adf</data>
+    </node>
+    <node id="STATISTICAL_ANALYSIS_FIRM">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">58c338d903269ffea07d5750714fcd57</data>
+      <data key="d5">2</data>
+      <data key="d6">54</data>
+      <data key="d7">a663e61d2c944f00aa331e6611400fc0</data>
+    </node>
+    <node id="IS_LIN_SPACE">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event representing a condition where a linear space is present&gt;</data>
+      <data key="d2">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d5">0</data>
+      <data key="d6">55</data>
+      <data key="d7">f89a3a4366e14f2ca03be71e32534015</data>
+    </node>
+    <node id="STANDARD_DEVIATION">
+      <data key="d0">EVENT</data>
+      <data key="d1">A measure of the amount of variation in a set of numbers&gt;</data>
+      <data key="d2">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d5">0</data>
+      <data key="d6">56</data>
+      <data key="d7">a5399d00b00e46f8834b9b9156aa4989</data>
+    </node>
+    <node id="DATA_DISTRIBUTION">
+      <data key="d0">EVENT</data>
+      <data key="d1">DATA_DISTRIBUTION refers to an event or concept that describes the spread and pattern of data points across various measures within a dataset. It encapsulates the overall distribution of data values, providing insights into how the data is scattered or concentrated across the different dimensions or variables of the dataset.</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95,98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d5">4</data>
+      <data key="d6">57</data>
+      <data key="d7">003d6284817e49b19e26502fb2c83e1f</data>
+    </node>
+    <node id="FIRUZABAD">
+      <data key="d0">GEO</data>
+      <data key="d1">A geo entity mentioned in previous examples, assumed to be relevant for context&gt;</data>
+      <data key="d2">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">58</data>
+      <data key="d7">75b67ace44824b08a8164dbe66b0353f</data>
+    </node>
+    <node id="AURELIA">
+      <data key="d0">GEO</data>
+      <data key="d1">A geo entity mentioned in previous examples, assumed to be relevant for context&gt;</data>
+      <data key="d2">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">59</data>
+      <data key="d7">e40dc7ff458f4ae18c8204a49cda7d7b</data>
+    </node>
+    <node id="QUINTARA">
+      <data key="d0">GEO</data>
+      <data key="d1">A geo entity mentioned in previous examples, assumed to be relevant for context&gt;</data>
+      <data key="d2">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d5">1</data>
+      <data key="d6">60</data>
+      <data key="d7">c438d313185c45bd8b12cb00e56b8abc</data>
+    </node>
+    <node id="TIRUZIA">
+      <data key="d0">GEO</data>
+      <data key="d1">A geo entity mentioned in previous examples, assumed to be relevant for context&gt;</data>
+      <data key="d2">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d5">1</data>
+      <data key="d6">61</data>
+      <data key="d7">beb6ea39bbbd482289943d9661536f8d</data>
+    </node>
+    <node id="KROHAARA">
+      <data key="d0">GEO</data>
+      <data key="d1">A geo entity mentioned in previous examples, assumed to be relevant for context&gt;</data>
+      <data key="d2">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d5">1</data>
+      <data key="d6">62</data>
+      <data key="d7">b0fcb2792cd34f6a91b08162d67e657d</data>
+    </node>
+    <node id="CASHION">
+      <data key="d0">GEO</data>
+      <data key="d1">A geo entity mentioned in previous examples, assumed to be relevant for context&gt;</data>
+      <data key="d2">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d5">1</data>
+      <data key="d6">63</data>
+      <data key="d7">e06e90a6c7bd4ed5a17ca21df5509672</data>
+    </node>
+    <node id="UNKNOWN_PERSON">
+      <data key="d0">PERSON</data>
+      <data key="d1">UNKNOWN_PERSON is a potentially involved individual in data analysis or research. The mention of 'symbol_in_name' suggests a personal identifier, which could mean that this person might be an analyst or researcher working with statistical data. Overall, UNKNOWN_PERSON appears to have a role that involves handling and analyzing data, possibly for research purposes.</data>
+      <data key="d2">3f8039bb30bc90ab812a012a6b32fae3,65dff4f0022e42fd20574beed1fa1401</data>
+      <data key="d5">2</data>
+      <data key="d6">64</data>
+      <data key="d7">7a0f9373baed4dffa0655a7999506969</data>
+    </node>
+    <node id="UNKNOWN_GEO">
+      <data key="d0">GEO</data>
+      <data key="d1">A geographical location that could be referenced within the data, though not explicitly mentioned in the text&gt;</data>
+      <data key="d2">3f8039bb30bc90ab812a012a6b32fae3</data>
+      <data key="d5">1</data>
+      <data key="d6">65</data>
+      <data key="d7">f0bf053868cf4d5a9b9ef425d7a999a6</data>
+    </node>
+    <node id="DATA_ANALYSIS_EVENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">The DATA_ANALYSIS_EVENT is an event or process characterized by the examination and interpretation of various statistical data points mentioned in the text. It involves a thorough analysis of statistical data to derive insights and inform decision-making.</data>
+      <data key="d2">3f8039bb30bc90ab812a012a6b32fae3,65dff4f0022e42fd20574beed1fa1401</data>
+      <data key="d5">3</data>
+      <data key="d6">66</data>
+      <data key="d7">83c862b8575c4b61bc16a439f7d862f6</data>
+    </node>
+    <node id="UNKNOWN_ORGANIZATION">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">3f8039bb30bc90ab812a012a6b32fae3,65dff4f0022e42fd20574beed1fa1401,aa8624b63c348930575e4f55c902b8ba,cc934700fc77d92620f0e1f918c348a6</data>
+      <data key="d5">3</data>
+      <data key="d6">67</data>
+      <data key="d7">689b0871f55544c786b02a819cc3df14</data>
+    </node>
+    <node id="UNKNOWN_EVENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">The UNKNOWN_EVENT refers to an event or process that includes the collection and analysis of statistical data. It may also allude to a study or event that could potentially result in the production of such statistical data, although the specifics of this event or study are not explicitly mentioned in the text.</data>
+      <data key="d2">aa8624b63c348930575e4f55c902b8ba,cc934700fc77d92620f0e1f918c348a6</data>
+      <data key="d5">2</data>
+      <data key="d6">68</data>
+      <data key="d7">042a7231ecbd4f5db51b6a76355ec305</data>
+    </node>
+    <node id="DATA_TYPE_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event focused on the analysis of different data types, such as string, is_nan_src, is_x_or_y, etc.</data>
+      <data key="d2">9a8ddecbc0d1a6735c05a6396da8ba40</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">69</data>
+      <data key="d7">6540c462967f4250be2813d685972f89</data>
+    </node>
+    <node id="NORMALITY_STATISTIC">
+      <data key="d0">EVENT</data>
+      <data key="d1">The entity known as "NORMALITY_STATISTIC" is a specific measure within the realm of statistical analysis, which is primarily concerned with assessing the normality of data. It is a statistical value that can range from 11.224 to 40.290 and is likely to be a component of a report or analysis. This event or category, "NORMALITY_STATISTIC," includes the calculation of normality-related statistics such as normality_p and normality_statistic itself, providing a comprehensive assessment of the normal distribution of a dataset.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,538fb996d193eff2deddc1d27f71f672,8024a2cccb3ac73d84171ae2b6480f06,9a8ddecbc0d1a6735c05a6396da8ba40,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">13</data>
+      <data key="d4">1</data>
+      <data key="d5">3</data>
+      <data key="d6">70</data>
+      <data key="d7">6dd7f391f05245908e42f25a08c77a99</data>
+    </node>
+    <node id="SEQUENCE_COEFFICIENT_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where sequence coefficients, such as lin_space_sequence_coeff and log_space_sequence_coeff, are studied&gt;</data>
+      <data key="d2">9a8ddecbc0d1a6735c05a6396da8ba40</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">2</data>
+      <data key="d6">71</data>
+      <data key="d7">48a6c742e35a44ffb05bf7532be1e073</data>
+    </node>
+    <node id="VARIANCE_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where variance and other related statistical measures like var and coeff_var are analyzed&gt;</data>
+      <data key="d2">9a8ddecbc0d1a6735c05a6396da8ba40</data>
+      <data key="d3">13</data>
+      <data key="d4">1</data>
+      <data key="d5">3</data>
+      <data key="d6">72</data>
+      <data key="d7">804e0ebf9e7544fa84f00a9fc519be07</data>
+    </node>
+    <node id="BAR">
+      <data key="d0">EVENT</data>
+      <data key="d1">BAR is a type of statistical plot or visualization technique, specifically a bar chart, which is a graphical representation used in data analysis. It is employed to represent categorical data using bars, where each bar corresponds to a category and can be considered an event or a specific data point within the dataset.</data>
+      <data key="d2">1bded572443aa0e12d31cb3a232f6ae8,4d074294304bc327cc2e8b87df8d8cc1,b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">5</data>
+      <data key="d6">73</data>
+      <data key="d7">d9d802c3c2b14ca59fdbd8ff3a8d8583</data>
+    </node>
+    <node id="QUANTITATIVE">
+      <data key="d0" />
+      <data key="d1">"QUANTITATIVE" is a term that is likely associated with a branch or organization primarily focused on conducting quantitative analysis. This implies a dedication to the measurement and interpretation of numerical data, which could be applied across various industries or fields. While specific relationships to other entities are not definitively provided, the term suggests a hypothetical involvement in data-driven decision-making processes and a potential for relationships with other entities that require such analytical approaches.</data>
+      <data key="d2">1bded572443aa0e12d31cb3a232f6ae8,6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d3">14</data>
+      <data key="d4">1</data>
+      <data key="d5">6</data>
+      <data key="d6">74</data>
+      <data key="d7">1bfee37f478b4c68b076fc6d6890d590</data>
+    </node>
+    <node id="HAS_NONE_TRUE">
+      <data key="d0">EVENT</data>
+      <data key="d1">An indicator of a dataset having no values present</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">75</data>
+      <data key="d7">ac4c40b935b84dcda5795b1dde0da6af</data>
+    </node>
+    <node id="IS_LOG_SPACE_FALSE">
+      <data key="d0">EVENT</data>
+      <data key="d1">An indicator that the data is not distributed logarithmically</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">76</data>
+      <data key="d7">d0cb7a71705d48e084d29b5d443459cf</data>
+    </node>
+    <node id="COEFF_VAR">
+      <data key="d0">EVENT</data>
+      <data key="d1">COEFF_VAR is a term associated with an organization or project that deals with the coefficient of variation, a statistical measure representing the relative variability of a dataset. This measure ranges from 1.760 to 5.826, indicating a scope of variability in the data. It can also be considered as an event or category related to the analysis of the dataset's coefficient of variation.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,1bda0ab5bd42f5dc3a0705156b7159e5,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">4</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">77</data>
+      <data key="d7">5f897271fc3c47cf84475f8f680f70c6</data>
+    </node>
+    <node id="STD">
+      <data key="d0">EVENT</data>
+      <data key="d1">The entity referred to as "STD" is a measure of the standard deviation of a dataset. It represents the amount of variation or dispersion within the data, with values ranging from 28.329 to 3000.465. The term "STD" is associated with statistical methods used to calculate standard deviation and can also refer to an event or category related to this statistical concept.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">4</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">78</data>
+      <data key="d7">25efd1d036f34b408e24814926d48b56</data>
+    </node>
+    <node id="LIN_SPACE_SEQUENCE_COEFF">
+      <data key="d0">EVENT</data>
+      <data key="d1">The entity known as LIN_SPACE_SEQUENCE_COEFF is a coefficient that pertains to the linearity of a sequence of data points. It has a range from 12.837 to 19.220 and is associated with concepts or projects focused on linear space sequences. LIN_SPACE_SEQUENCE_COEFF may also refer to an event or category within the scientific community that is concerned with the study or application of such coefficients in relation to linear space sequences.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">4</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">79</data>
+      <data key="d7">ef3223b1054b4ffe89a1f2b4da3d4326</data>
+    </node>
+    <node id="SORTEDNESS">
+      <data key="d0">EVENT</data>
+      <data key="d1">SORTEDNESS is a metric used to measure the degree of order or sortedness within a dataset. It quantifies how the data points are arranged in relation to each other, indicating the level of orderliness present. This term is applicable to events or categories that pertain to the organization or sequence of data.</data>
+      <data key="d2">1bda0ab5bd42f5dc3a0705156b7159e5,8024a2cccb3ac73d84171ae2b6480f06,871fc1e4f6e2c7645fa61048e96c2a95,b676b30c1ebb51801feeef9e97d58c62,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">2</data>
+      <data key="d6">80</data>
+      <data key="d7">5ee5774590064f2c9687ed9117b018c4</data>
+    </node>
+    <node id="ENTROPY">
+      <data key="d0">EVENT</data>
+      <data key="d1">ENTROPY is a measure that quantifies the uncertainty associated with a dataset. This statistical measure ranges from 0.225 to 2.299 and could be associated with a researcher or an analytical method named 'Entropy'. It is also used to describe an event or category related to the entropy of a dataset, providing a comprehensive way to understand and express the unpredictability within data.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,0b8c96af03bd9cee6a1b102d04047917,871fc1e4f6e2c7645fa61048e96c2a95,b676b30c1ebb51801feeef9e97d58c62,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">8</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">81</data>
+      <data key="d7">8f1f33e95d0b41289943af886cf8248a</data>
+    </node>
+    <node id="SEVENTH-ORDER MOMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">The "SEVENTH-ORDER MOMENT" is a statistical concept and measure that pertains to the seventh moment of a distribution. It is specifically used as an indicator of the peakedness of the distribution. This term is also associated with statistical research and events focused on distribution analysis.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95,b676b30c1ebb51801feeef9e97d58c62,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">15</data>
+      <data key="d4">1</data>
+      <data key="d5">3</data>
+      <data key="d6">82</data>
+      <data key="d7">f7dbfbe34e4d4d938715542408f5f70e</data>
+    </node>
+    <node id="IS_UNIQUE_FALSE">
+      <data key="d0">EVENT</data>
+      <data key="d1">An indicator that the data contains duplicates</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">0</data>
+      <data key="d6">83</data>
+      <data key="d7">f4922466f80e4163873a4c95b7ef2f40</data>
+    </node>
+    <node id="MAX">
+      <data key="d0">EVENT</data>
+      <data key="d1">MAX is a concept or event in statistical analysis that refers to the highest value observed within a dataset. In the context of the provided information, the MAX value ranges from 639.070 to 26214.494, indicating the extent of the maximum limit found in the data.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">84</data>
+      <data key="d7">87aa8f28c7f14892a7b354cebb4b82cf</data>
+    </node>
+    <node id="HAS_NONE_FALSE">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">85</data>
+      <data key="d7">18b77db525164522b55f5252a769c428</data>
+    </node>
+    <node id="NORMALIZED_RANGE_MEASURE">
+      <data key="d0">EVENT</data>
+      <data key="d1">A measure that assesses the range of data after normalization</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">86</data>
+      <data key="d7">45876c7c3fa8440b856b844ae8d071b4</data>
+    </node>
+    <node id="NORMALITY_PROBABILITY">
+      <data key="d0">EVENT</data>
+      <data key="d1">An assessment of how likely it is that the data follows a normal distribution</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">87</data>
+      <data key="d7">f82e9563ab0e4f808b000562b5fad8c0</data>
+    </node>
+    <node id="FIRST_QUARTILE_CALCULATION">
+      <data key="d0">EVENT</data>
+      <data key="d1">The determination of the first quartile value in a dataset</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">0</data>
+      <data key="d6">88</data>
+      <data key="d7">004ceeec12ab4b0fb6d5d4719f3d139f</data>
+    </node>
+    <node id="MEDIAN_ABSOLUTE_DEVIATION">
+      <data key="d0">EVENT</data>
+      <data key="d1">A robust measure of the spread of data around the median</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">89</data>
+      <data key="d7">81c6e98281544d30b774301ced403c8d</data>
+    </node>
+    <node id="AVERAGE_ABSOLUTE_DEVIATION">
+      <data key="d0">EVENT</data>
+      <data key="d1">An average measure of the absolute differences between data points and the mean</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">90</data>
+      <data key="d7">744c5870f9f84f46a20f0b1d11c901d8</data>
+    </node>
+    <node id="LOGARITHMIC_DISTRIBUTION_CHECK">
+      <data key="d0">EVENT</data>
+      <data key="d1">An evaluation of whether the data is distributed logarithmically</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">91</data>
+      <data key="d7">1d6662befd52450996534b91b78d6c77</data>
+    </node>
+    <node id="NORMALIZED_MEDIAN_CALCULATION">
+      <data key="d0">EVENT</data>
+      <data key="d1">The process of determining the median of the data after normalization</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">92</data>
+      <data key="d7">ab1942625c94432bb2aff9ef82c9f447</data>
+    </node>
+    <node id="VARIABILITY_COEFFICIENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">A measure of the relative variability of the data</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">93</data>
+      <data key="d7">faefac6a7c70454188a40c885c4c204f</data>
+    </node>
+    <node id="FIFTH_ORDER_MOMENT_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An analysis of the asymmetry of the data distribution at the fifth order</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d3">6</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">94</data>
+      <data key="d7">0de7f385609749faaa54fdda613afce4</data>
+    </node>
+    <node id="OUTLIER_PERCENTAGE_CALCULATION">
+      <data key="d0">EVENT</data>
+      <data key="d1">The determination of the percentage of outliers in the data</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">95</data>
+      <data key="d7">e0c8c7a3d7f044449f6bc806eb6bc01e</data>
+    </node>
+    <node id="VARIANCE_MEASURE">
+      <data key="d0">EVENT</data>
+      <data key="d1">A measure of the spread of data values around the mean</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">96</data>
+      <data key="d7">36d4281bd4a64b79abfa65bb862a066b</data>
+    </node>
+    <node id="STANDARD_DEVIATION_ESTIMATE">
+      <data key="d0">EVENT</data>
+      <data key="d1">An estimate of the amount of variation or dispersion in the data</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">97</data>
+      <data key="d7">b7b07e7753c548fa85c19dc13e86f6a1</data>
+    </node>
+    <node id="SORTEDNESS_ASSESSMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">An evaluation of how sorted or ordered the data is</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">98</data>
+      <data key="d7">21bed8b6700c48299d2a3588e0cbc42f</data>
+    </node>
+    <node id="GINI_COEFFICIENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">A measure of income inequality within a dataset</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">99</data>
+      <data key="d7">e836f4bc0861424683cb33b94b86cf22</data>
+    </node>
+    <node id="ENTROPY_ESTIMATE">
+      <data key="d0">EVENT</data>
+      <data key="d1">An estimate of the uncertainty associated with the data</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">100</data>
+      <data key="d7">91e8c739080b4a699c90e376c02fb8b7</data>
+    </node>
+    <node id="SEVENTH_ORDER_MOMENT_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An analysis of the peakedness of the data distribution at the seventh order</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">101</data>
+      <data key="d7">0f88d87628b249e58773f73d7f7bbf1d</data>
+    </node>
+    <node id="UNIQUENESS_CHECK">
+      <data key="d0">EVENT</data>
+      <data key="d1">A process to determine if the data contains unique values</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">102</data>
+      <data key="d7">c0234e197762491f8d9741cd2116b067</data>
+    </node>
+    <node id="MAXIMUM_VALUE_IDENTIFICATION">
+      <data key="d0">EVENT</data>
+      <data key="d1">The identification of the highest value in the dataset</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">103</data>
+      <data key="d7">7789f037ae4f4d60b18095fb8b555959</data>
+    </node>
+    <node id="INTERQUARTILE_RANGE_OUTLIER_PERCENTAGE">
+      <data key="d0">EVENT</data>
+      <data key="d1">The calculation of the percentage of outliers based on the interquartile range</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">104</data>
+      <data key="d7">af8ecd49a61c4369a25d722b44e46d5f</data>
+    </node>
+    <node id="NINTH_ORDER_MOMENT_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An analysis of the skewness of the data distribution at the ninth order</data>
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d3">6</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">105</data>
+      <data key="d7">0b6d2bc41edf4780b083b11a045fe559</data>
+    </node>
+    <node id="LINEARITY_COEFFICIENT">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d5">1</data>
+      <data key="d6">106</data>
+      <data key="d7">5f401bab436b43d8a87f3cad1c90c72d</data>
+    </node>
+    <node id="DATA_SET">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">DATA_SET refers to both the organization or body that maintains the dataset utilized for statistical analysis, and the collection or group of data points that are themselves being analyzed for their statistical properties. This entity is also responsible for the collection and analysis of the statistical data mentioned within the given text. In essence, DATA_SET encompasses the data, the maintainers, and the analytical process associated with the statistics being examined.</data>
+      <data key="d2">68ef842c1b1ba3ac780ae492e055d3f8,70d4919a584418d82069f0bfc4e6a8c1,8024a2cccb3ac73d84171ae2b6480f06</data>
+      <data key="d3">9</data>
+      <data key="d4">0</data>
+      <data key="d5">4</data>
+      <data key="d6">107</data>
+      <data key="d7">2981655faee44c40a6d0d3199c569109</data>
+    </node>
+    <node id="TEMPORAL_ANALYSIS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event or type of analysis that deals with temporal aspects of the data</data>
+      <data key="d2">8024a2cccb3ac73d84171ae2b6480f06</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">108</data>
+      <data key="d7">bd6108a1729b4491809ab5bd6b2e27fc</data>
+    </node>
+    <node id="HAS_OUTLIERS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event indicating the presence of outliers in the dataset&gt;</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d3">7</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">109</data>
+      <data key="d7">b378dd59c9314f44a835ef8952a6ad5c</data>
+    </node>
+    <node id="FIRST_CHAR_UPPERCASE_NAME">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event or condition related to the naming convention where the first character is uppercase&gt;</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d5">0</data>
+      <data key="d6">110</data>
+      <data key="d7">26f7dd912b95461e9e1dc5f8f8533432</data>
+    </node>
+    <node id="X">
+      <data key="d0">EVENT</data>
+      <data key="d1">A variable or event represented by the symbol 'x'&gt;</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d5">0</data>
+      <data key="d6">111</data>
+      <data key="d7">0fbeb7f9645e4b51933bd6ee0631b75d</data>
+    </node>
+    <node id="EIGTH-ORDER MOMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">A measure of the eighth-order moment of a distribution, ranging from 7902707318.586 to 313954491464076.7&gt;</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d5">0</data>
+      <data key="d6">112</data>
+      <data key="d7">0aa4041a75f3402da39873c3d42c3c2b</data>
+    </node>
+    <node id="NORMALIZED_MEAN">
+      <data key="d0">EVENT</data>
+      <data key="d1">The "NORMALIZED_MEAN" is a measure that ranges from 0.406 to 0.635 and is associated with either a statistical method or an organization. It can also refer to an event or category related to the normalized mean of a dataset. In summary, "NORMALIZED_MEAN" encompasses a range of values and has applications in statistical analysis or within a specific organizational context, possibly also categorizing events or data points.</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9,6a23beba3878acffe3ac7caa8b438425,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">15</data>
+      <data key="d4">1</data>
+      <data key="d5">2</data>
+      <data key="d6">113</data>
+      <data key="d7">a8cd5b66517441749150c8ef89305ff9</data>
+    </node>
+    <node id="IS_LOG_SPACE">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event or condition indicating whether the space is logarithmic&gt;)For relationships, it is even more speculative as the text does not provide explicit connections between entities. However, I can suggest some potential relationships based on the statistical measures:("relationship"</data>
+      <data key="d2">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d5">0</data>
+      <data key="d6">114</data>
+      <data key="d7">1a512a43968644cf912f909b8db0c106</data>
+    </node>
+    <node id="UNKNOWN PERSON">
+      <data key="d0">PERSON</data>
+      <data key="d1">There is no clear mention of a person, but assuming a person or analyst is involved in interpreting the data&gt;</data>
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d5">1</data>
+      <data key="d6">115</data>
+      <data key="d7">222afb47eaa94afb95bdfa75edced515</data>
+    </node>
+    <node id="DATA ANALYSIS EVENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">The process described in the text could be considered an event related to data analysis&gt;</data>
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d5">2</data>
+      <data key="d6">116</data>
+      <data key="d7">c4ac71540a7a4276b0efa18915a89161</data>
+    </node>
+    <node id="COMPUTATIONAL GEOSPATIAL DATA">
+      <data key="d0">GEO</data>
+      <data key="d1">The data mentioned could be related to a geographic information system or a geospatial analysis&gt;</data>
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d5">1</data>
+      <data key="d6">117</data>
+      <data key="d7">f45c8c6f06aa4952993185454ec6c2ee</data>
+    </node>
+    <node id="UNKNOWN ORGANIZATION">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d5">2</data>
+      <data key="d6">118</data>
+      <data key="d7">081c4001d8ae48ebb03707c762c5d727</data>
+    </node>
+    <node id="NORMALIZED MEAN">
+      <data key="d0">EVENT</data>
+      <data key="d1">Another statistical event or measurement&gt;</data>
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">16</data>
+      <data key="d4">1</data>
+      <data key="d5">2</data>
+      <data key="d6">119</data>
+      <data key="d7">de7a9313bb164194af171a7b5d65dff8</data>
+    </node>
+    <node id="NORMALIZED MEDIAN">
+      <data key="d0">EVENT</data>
+      <data key="d1">A statistical event or measurement&gt;</data>
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">17</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">120</data>
+      <data key="d7">a87606c71cc342399d4dfef69ded97b9</data>
+    </node>
+    <node id="PERCENT OUTLIERS 1-99">
+      <data key="d0">EVENT</data>
+      <data key="d1">A statistical event or measurement&gt;</data>
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">16</data>
+      <data key="d4">1</data>
+      <data key="d5">2</data>
+      <data key="d6">121</data>
+      <data key="d7">c5274a42746d41fe8717e506f771ea07</data>
+    </node>
+    <node id="NORMALITY STATISTIC">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">16</data>
+      <data key="d4">1</data>
+      <data key="d5">2</data>
+      <data key="d6">122</data>
+      <data key="d7">57b65b6c16e44c2595c067ab6829502d</data>
+    </node>
+    <node id="EIGTHTH-ORDER MOMENT">
+      <data key="d0" />
+      <data key="d1">The "EIGHTH-ORDER MOMENT" is a statistical concept that is associated with the eighth moment of a distribution. It represents a specific statistical event or measure that characterizes the shape of a distribution, providing insights into the tails and the spread of the data around the mean to the eighth power.</data>
+      <data key="d2">6a23beba3878acffe3ac7caa8b438425,b676b30c1ebb51801feeef9e97d58c62,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">14</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">123</data>
+      <data key="d7">c53a246a57884e2097e24fd5b39af00d</data>
+    </node>
+    <node id="QUANT COEFF DISP">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">17</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">124</data>
+      <data key="d7">63711b377b7c46c48aeb36bf9fdd43e3</data>
+    </node>
+    <node id="COEFF VAR">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">17</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">125</data>
+      <data key="d7">845f9fdc5532494e8429a39d723bba55</data>
+    </node>
+    <node id="LENGTH">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">14</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">126</data>
+      <data key="d7">358de14bc6df4a97aec4def472c58d14</data>
+    </node>
+    <node id="LIN SPACE SEQUENCE COEFF">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">17</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">127</data>
+      <data key="d7">479c6df3205b4e6ab58309b77ae14b6b</data>
+    </node>
+    <node id="THIRD QUARTILE">
+      <data key="d0" />
+      <data key="d1">The THIRD QUARTILE is a statistical event or concept that represents the third quartile. This term refers to the value below which 75% of the data falls in a normal distribution, indicating a threshold marking the upper 25% of a dataset.</data>
+      <data key="d2">6a23beba3878acffe3ac7caa8b438425,b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">18</data>
+      <data key="d4">1</data>
+      <data key="d5">3</data>
+      <data key="d6">128</data>
+      <data key="d7">4e893522ad8b48b3bcc6890ac9c6b95c</data>
+    </node>
+    <node id="DOLLAR">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">14</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">129</data>
+      <data key="d7">0cdd28305f2a48ddacc813e19410ff53</data>
+    </node>
+    <node id="NORMALIZED RANGE">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">130</data>
+      <data key="d7">7541a941578e41fba6f4f06d91c51363</data>
+    </node>
+    <node id="FIRST QUARTILE">
+      <data key="d0" />
+      <data key="d1">The term "FIRST QUARTILE" refers to a statistical event or concept that represents the first quartile of a dataset. It is an event or category related to the top 25% of the lowest values within the dataset when it is divided into four equal parts. This indicates the threshold below which 25% of the data points fall.</data>
+      <data key="d2">6a23beba3878acffe3ac7caa8b438425,b676b30c1ebb51801feeef9e97d58c62,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">131</data>
+      <data key="d7">1f7cc3e78117407791eb1982fdbdef11</data>
+    </node>
+    <node id="UNKNOWN">
+      <data key="d0">EVENT</data>
+      <data key="d1">The entity referred to as "UNKNOWN" pertains to a certain event, which could be a research study or a data collection effort that resulted in the gathering of statistical data. This data was presumably compiled or analyzed by an individual, though their specific identity is not known. The location where this data was collected or is pertinent to is also unspecified. Despite these unknown factors, the context suggests that "UNKNOWN" involves a dedicated effort to collect and potentially analyze information for unspecified purposes at a particular location, under the supervision of an unnamed individual.</data>
+      <data key="d2">0b8c96af03bd9cee6a1b102d04047917</data>
+      <data key="d5">2</data>
+      <data key="d6">132</data>
+      <data key="d7">02e22936a1ba4961a488495693bd9de0</data>
+    </node>
+    <node id="DATA_COLLECTION">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event that encompasses the gathering of data for statistical analysis</data>
+      <data key="d2">0b8c96af03bd9cee6a1b102d04047917</data>
+      <data key="d3">8</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">133</data>
+      <data key="d7">a9fb38d441604c92b3d5e2f9e2847096</data>
+    </node>
+    <node id="RESEARCH_GROUP">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">An organization or group responsible for conducting the statistical analysis</data>
+      <data key="d2">0b8c96af03bd9cee6a1b102d04047917</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">134</data>
+      <data key="d7">c4da32b069ec446e8a084084350c1cf8</data>
+    </node>
+    <node id="DATA_POINTS">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">DATA_POINTS refers to a collection of numerical values that are being examined as part of a potential research project. These data points include specific examples such as 56.596889114379884 and 0.019905503821228736, which are integral components of the analysis being conducted.</data>
+      <data key="d2">0b8c96af03bd9cee6a1b102d04047917,4ea35889679870d71f6def1bdaf3d57f</data>
+      <data key="d3">8</data>
+      <data key="d4">0</data>
+      <data key="d5">4</data>
+      <data key="d6">135</data>
+      <data key="d7">7c0a87926be5456a8a88c55eef78fe95</data>
+    </node>
+    <node id="STATISTICAL_DATA">
+      <data key="d0">EVENT</data>
+      <data key="d1">In the realm of data analysis, the entity known as "STATISTICAL_DATA" plays a pivotal role. The collection of such statistical data is, in fact, an 'event' within this context. It signifies a gathering of information that is crucial for various analytical processes and decision-making.</data>
+      <data key="d2">cc934700fc77d92620f0e1f918c348a6</data>
+      <data key="d5">1</data>
+      <data key="d6">136</data>
+      <data key="d7">e8f24c31dd904166b4c759834598bfcf</data>
+    </node>
+    <node id="GINI_MEASUREMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">A specific statistical event where gini values are being measured between certain ranges for further analysis&gt;</data>
+      <data key="d2">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d3">12</data>
+      <data key="d4">1</data>
+      <data key="d5">2</data>
+      <data key="d6">137</data>
+      <data key="d7">fc133e0d7d314ae19669cea02777649e</data>
+    </node>
+    <node id="TENTH-ORDER_MOMENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event focused on the analysis of the tenth-order moment with values ranging from very small to very large numbers&gt;</data>
+      <data key="d2">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d3">12</data>
+      <data key="d4">1</data>
+      <data key="d5">2</data>
+      <data key="d6">138</data>
+      <data key="d7">cd627db6939c4491a78404f3edd989c6</data>
+    </node>
+    <node id="STATISTICAL_METRICS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event that encompasses the calculation and interpretation of various statistical metrics such as gini, moments, and ranges&gt;</data>
+      <data key="d2">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d5">2</data>
+      <data key="d6">139</data>
+      <data key="d7">518ecc6518e245e48efd54d764308db7</data>
+    </node>
+    <node id="ORGANIZATION_X">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">An organization that is conducting the statistical analysis, possibly for internal research or client report&gt;</data>
+      <data key="d2">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d5">2</data>
+      <data key="d6">140</data>
+      <data key="d7">9558f6bf6c4d4a7da3f5c66589ff26d3</data>
+    </node>
+    <node id="RESEARCH_TEAM">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">A team within Organization X responsible for the data analysis and interpretation&gt;</data>
+      <data key="d2">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d5">1</data>
+      <data key="d6">141</data>
+      <data key="d7">d3586a898cc04442893d4e283f26991d</data>
+    </node>
+    <node id="DR_JOHN_SMITH">
+      <data key="d0">PERSON</data>
+      <data key="d1">A lead researcher on the Research Team, who is overseeing the analysis of the statistical data&gt;</data>
+      <data key="d2">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d5">1</data>
+      <data key="d6">142</data>
+      <data key="d7">eccef048be7e4d889d2506da3adb38d5</data>
+    </node>
+    <node id="DATA_SOURCE">
+      <data key="d0">GEO</data>
+      <data key="d1">A geographical location or database from where the data for analysis is being sourced&gt;</data>
+      <data key="d2">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d5">1</data>
+      <data key="d6">143</data>
+      <data key="d7">36f244baa1ed40b5a094d8b9614b237e</data>
+    </node>
+    <node id="ANALYSIS_REPORT">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where the findings of the data analysis will be compiled into a report for dissemination&gt;</data>
+      <data key="d2">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d5">2</data>
+      <data key="d6">144</data>
+      <data key="d7">c8d9dd45e1c54b579043cf7094d9a8b7</data>
+    </node>
+    <node id="DATA_ANALYSIS_SESSION">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d5">3</data>
+      <data key="d6">145</data>
+      <data key="d7">c3eee5e3a8724fdf93fc4606d529fbf2</data>
+    </node>
+    <node id="MARTIN SMITH">
+      <data key="d0">PERSON</data>
+      <data key="d1">Martin Smith is the chair of the Verdantis's Central Institution</data>
+      <data key="d2">352acfb20c147eb1ab0ae1091f361f46</data>
+      <data key="d5">1</data>
+      <data key="d6">146</data>
+      <data key="d7">eaded6d253004f44a670b91c012d614b</data>
+    </node>
+    <node id="MARKET STRATEGY COMMITTEE">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">The Market Strategy Committee is a committee functioning within Verdantis's Central Institution. It holds the significant responsibility of setting the benchmark interest rate for the institution. This committee plays a crucial role in determining the financial policies that guide Verdantis's economic strategies.</data>
+      <data key="d2">352acfb20c147eb1ab0ae1091f361f46</data>
+      <data key="d5">1</data>
+      <data key="d6">147</data>
+      <data key="d7">508413eaf603465694bf70c544a5ab96</data>
+    </node>
+    <node id="VERDANTIS'S CENTRAL INSTITUTION">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">352acfb20c147eb1ab0ae1091f361f46</data>
+      <data key="d5">2</data>
+      <data key="d6">148</data>
+      <data key="d7">2d96c79140a34cb4a73b13d08ed9dc26</data>
+    </node>
+    <node id="GEO_ANALYSIS">
+      <data key="d0">GEO</data>
+      <data key="d1">A geographical analysis that could be inferred from terms like 'range', 'max', 'min', which might pertain to spatial data</data>
+      <data key="d2">70d4919a584418d82069f0bfc4e6a8c1</data>
+      <data key="d3">9</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">149</data>
+      <data key="d7">78369bfb5d30445c98a876dd86392695</data>
+    </node>
+    <node id="PERSONAL_DATA">
+      <data key="d0">PERSON</data>
+      <data key="d1">A person's data that is being analyzed, assuming the text refers to personal statistics or characteristics</data>
+      <data key="d2">70d4919a584418d82069f0bfc4e6a8c1</data>
+      <data key="d3">9</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">150</data>
+      <data key="d7">815abf3ebc844c23b7bd46db6bcc94bf</data>
+    </node>
+    <node id="STATISTIC_ANALYSIS">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">70d4919a584418d82069f0bfc4e6a8c1</data>
+      <data key="d3">9</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">151</data>
+      <data key="d7">e15d652e65694c58a91de3b4582dc88c</data>
+    </node>
+    <node id="_OUTLIERS">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">4d074294304bc327cc2e8b87df8d8cc1</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">152</data>
+      <data key="d7">e7c15ea6fd3e432788a8e3e1d2c0db54</data>
+    </node>
+    <node id="MEDIAN">
+      <data key="d0">EVENT</data>
+      <data key="d1">The entity "MEDIAN" refers to a statistical measure that represents the middle value of a dataset. It is also used to describe an event or category that is related to the median of a dataset. In both contexts, MEDIAN plays a crucial role in understanding the central tendency of the data.</data>
+      <data key="d2">1bda0ab5bd42f5dc3a0705156b7159e5,f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d5">0</data>
+      <data key="d6">153</data>
+      <data key="d7">a40ee8de463d4d67ac33e3ae1e14c8fa</data>
+    </node>
+    <node id="GENERAL_TYPE">
+      <data key="d0">EVENT</data>
+      <data key="d1">A category that encompasses various types, possibly including temporal events&gt;</data>
+      <data key="d2">f52160983089b9be1afbfe2281f1c8ab</data>
+      <data key="d5">2</data>
+      <data key="d6">154</data>
+      <data key="d7">17d778a70d774c4b9d7cb4daa3477187</data>
+    </node>
+    <node id="POUND">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">Could potentially refer to an entity named 'Pound', though it is more likely a symbol&gt;</data>
+      <data key="d2">f52160983089b9be1afbfe2281f1c8ab</data>
+      <data key="d5">1</data>
+      <data key="d6">155</data>
+      <data key="d7">effdd670941241bda4c1e17ee7e6f702</data>
+    </node>
+    <node id="TEMPORAL">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">f52160983089b9be1afbfe2281f1c8ab</data>
+      <data key="d5">1</data>
+      <data key="d6">156</data>
+      <data key="d7">a3343bcad793459abf239ab241a844b3</data>
+    </node>
+    <node id="DR. JANE SMITH">
+      <data key="d0">PERSON</data>
+      <data key="d1">A lead statistician at STATSINC, responsible for interpreting data and generating reports</data>
+      <data key="d2">07e4f6a8de5b1ec538d95eda68b38325</data>
+      <data key="d5">2</data>
+      <data key="d6">157</data>
+      <data key="d7">cc278185f3f04b2d8bc4654e3e025d38</data>
+    </node>
+    <node id="DATAANALYSISCONGRESS">
+      <data key="d0">EVENT</data>
+      <data key="d1">An annual event where statisticians and data scientists gather to share their findings</data>
+      <data key="d2">07e4f6a8de5b1ec538d95eda68b38325</data>
+      <data key="d5">3</data>
+      <data key="d6">158</data>
+      <data key="d7">3a7cd46bd5b047dfa1732f8aa67444c8</data>
+    </node>
+    <node id="NEWYORKCITY">
+      <data key="d0">GEO</data>
+      <data key="d1">The location where the DATAANALYSISCONGRESS is held every year</data>
+      <data key="d2">07e4f6a8de5b1ec538d95eda68b38325</data>
+      <data key="d5">1</data>
+      <data key="d6">159</data>
+      <data key="d7">d3a43df395bf4d5eb7bbc148e5ca1ea2</data>
+    </node>
+    <node id="STATSINC">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">07e4f6a8de5b1ec538d95eda68b38325</data>
+      <data key="d5">2</data>
+      <data key="d6">160</data>
+      <data key="d7">2aa0ef79435a4a968befaae98ef986b2</data>
+    </node>
+    <node id="DATA_ANALYSIS_REPORT">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where statistical data is compiled and analyzed for various metrics&gt;</data>
+      <data key="d2">fa3da54a34b635afe7dcd39b2a5adaac</data>
+      <data key="d5">3</data>
+      <data key="d6">161</data>
+      <data key="d7">b7eb0f78bb23402ba23476ff9b8067d1</data>
+    </node>
+    <node id="METRIC_1">
+      <data key="d0">EVENT</data>
+      <data key="d1">A specific data metric that is part of the analysis, possibly related to 'normalized_median'&gt;</data>
+      <data key="d2">fa3da54a34b635afe7dcd39b2a5adaac</data>
+      <data key="d5">1</data>
+      <data key="d6">162</data>
+      <data key="d7">2b4840ae3d15415fbc700569d9c56ef0</data>
+    </node>
+    <node id="METRIC_2">
+      <data key="d0">EVENT</data>
+      <data key="d1">A specific data metric that is part of the analysis, possibly related to 'fifth-order moment'&gt;</data>
+      <data key="d2">fa3da54a34b635afe7dcd39b2a5adaac</data>
+      <data key="d5">1</data>
+      <data key="d6">163</data>
+      <data key="d7">5059502fa50a4f07a3dd064632e64aaf</data>
+    </node>
+    <node id="STATISTICS_BUREAU">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">fa3da54a34b635afe7dcd39b2a5adaac</data>
+      <data key="d5">1</data>
+      <data key="d6">164</data>
+      <data key="d7">b12bad53cfd24aceb1cdfb418d6a7818</data>
+    </node>
+    <node id="VARIABLE_METRICS">
+      <data key="d0">EVENT</data>
+      <data key="d1">VARIABLE_METRICS refers to a collection of various statistical measures that include normalized_median, sortedness, and Tenth-order moment. These metrics are employed to analyze and assess different aspects of a given dataset, providing a comprehensive statistical overview.</data>
+      <data key="d2">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">165</data>
+      <data key="d7">848cd467492148b6a83d9ce7e9575c04</data>
+    </node>
+    <node id="DATA_TYPE_BAR">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where bar charts are used to represent data types</data>
+      <data key="d2">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">166</data>
+      <data key="d7">e7621dd930ae4d349caf00040728aaa3</data>
+    </node>
+    <node id="DATA_TYPE_HEATMAP">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where heatmaps are used to represent data types</data>
+      <data key="d2">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">167</data>
+      <data key="d7">ead7818f5daa4c04b361ded960b0b249</data>
+    </node>
+    <node id="DATA_TYPE_LINE">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where line graphs are used to represent data types</data>
+      <data key="d2">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">168</data>
+      <data key="d7">f2f7b083ac3649b79a47927146cd8d71</data>
+    </node>
+    <node id="DATA_TYPE_HISTOGRAM">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where histograms are used to represent data types</data>
+      <data key="d2">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">169</data>
+      <data key="d7">bfb068d2df5446daabc6a1ba188ecf40</data>
+    </node>
+    <node id="DATA_TYPE_SCATTER">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where scatter plots are used to represent data types</data>
+      <data key="d2">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">170</data>
+      <data key="d7">a30ff092a4c343cebaeeaa96c7e3c6d6</data>
+    </node>
+    <node id="DATA_TYPE_BOX">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event where box plots are used to represent data types</data>
+      <data key="d2">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">171</data>
+      <data key="d7">d97f5f21142548c2b9e25afe8a11b192</data>
+    </node>
+    <node id="HASOUTLIERS_1_99">
+      <data key="d0">EVENT</data>
+      <data key="d1">The entity referred to as "HASOUTLIERS_1_99" is a concept that pertains to the existence of outliers within statistical datasets. Additionally, the term can be interpreted as a designation for an organization or study that specializes in researching or dealing with these exceptional data points. Thus, "HASOUTLIERS_1_99" could signify both a theme in data analysis and a possible group or research area dedicated to understanding and managing outliers.</data>
+      <data key="d2">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">172</data>
+      <data key="d7">c8da6fba682a4dec9de8cdbbd16faef6</data>
+    </node>
+    <node id="MIN">
+      <data key="d0">EVENT</data>
+      <data key="d1">A concept or event related to minimum values in statistical analysis|</data>
+      <data key="d2">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d3">18</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">173</data>
+      <data key="d7">a69e9ff347044568be93e7b82bca3f88</data>
+    </node>
+    <node id="FIRST_CHAR_UPPERCASE_NAME_TRUE">
+      <data key="d0">EVENT</data>
+      <data key="d1">A concept or event related to naming conventions|</data>
+      <data key="d2">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d5">1</data>
+      <data key="d6">174</data>
+      <data key="d7">1a9da84b6ed74585b455e90ac334dc85</data>
+    </node>
+    <node id="NUMBER_OF_WORDS_IN_NAME">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">A potential project or organization focused on data analysis|</data>
+      <data key="d2">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d5">1</data>
+      <data key="d6">175</data>
+      <data key="d7">44be85d65b9e4270bce12d7ed287e41f</data>
+    </node>
+    <node id="IS_LOG_SPACE_TRUE">
+      <data key="d0">EVENT</data>
+      <data key="d1">A concept or event related to logarithmic space|</data>
+      <data key="d2">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d3">10</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">176</data>
+      <data key="d7">f32bc267e9644573911b9e85f0592fe1</data>
+    </node>
+    <node id="HASOUTLIERS_3IQR">
+      <data key="d0">EVENT</data>
+      <data key="d1">A concept related to the presence of outliers in statistical data|</data>
+      <data key="d2">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d3">10</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">177</data>
+      <data key="d7">446402bd51bb4f9e868de1d8939715ff</data>
+    </node>
+    <node id="HASOUTLIERS_15IQR">
+      <data key="d0">EVENT</data>
+      <data key="d1">A concept related to the presence of outliers in statistical data|</data>
+      <data key="d2">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d3">4</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">178</data>
+      <data key="d7">8965d3743dfb4e82803f4e3dce1720fd</data>
+    </node>
+    <node id="DECIMAL">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event or category related to decimal data types&gt;</data>
+      <data key="d2">f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d5">0</data>
+      <data key="d6">179</data>
+      <data key="d7">ff2db9a982d84ceba6e81d1dc345563b</data>
+    </node>
+    <node id="DIGIT">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event or category related to digits in a dataset&gt;</data>
+      <data key="d2">f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d5">0</data>
+      <data key="d6">180</data>
+      <data key="d7">ff43b61969104037a7f2578a1dfae4f7</data>
+    </node>
+    <node id="ISNORMAL_5">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event or category related to a dataset being normal based on a certain criteria&gt;</data>
+      <data key="d2">f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d5">0</data>
+      <data key="d6">181</data>
+      <data key="d7">ee5942007ee844cca9c032124691483b</data>
+    </node>
+    <node id="FIRST_CHAR_UPPERCASE_NAME_FALSE">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event or category related to the naming convention of data fields&gt;</data>
+      <data key="d2">f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d5">0</data>
+      <data key="d6">182</data>
+      <data key="d7">97191ce86db445e9ad42a1d76525b1f7</data>
+    </node>
+    <node id="IS_ONLY_FIELD_TRUE">
+      <data key="d0">EVENT</data>
+      <data key="d1">An event or category related to a specific condition in a dataset&gt;</data>
+      <data key="d2">f9dde78a93cfba4e5c9d0f12195f8716</data>
+      <data key="d5">0</data>
+      <data key="d6">183</data>
+      <data key="d7">d880031a20a447fba27416c5120064fa</data>
+    </node>
+    <node id="METRICS">
+      <data key="d0">EVENT</data>
+      <data key="d1">A set of metrics including quant_coeff_disp, med_abs_dev, avg_abs_dev, etc., used in the analysis|</data>
+      <data key="d2">4ea35889679870d71f6def1bdaf3d57f</data>
+      <data key="d3">8</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">184</data>
+      <data key="d7">20b1e17edaf44866870097d73d1b7687</data>
+    </node>
+    <edge source="KURTOSIS" target="SCATTER">
+      <data key="d8">4.0</data>
+      <data key="d9">Kurtosis values are commonly displayed and visualized in a scatter plot, as represented by the entity SCATTER in relation to the entity KURTOSIS. This method is frequently utilized to present the distribution of kurtosis data points effectively.</data>
+      <data key="d10">184b50600ae6837d8cad0d2c227eb878</data>
+      <data key="d11">70cd62c2afb940c3b2188df3721ecc94</data>
+      <data key="d12">0</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="KURTOSIS" target="SKEWNESS">
+      <data key="d8">2.0</data>
+      <data key="d9">Both are measures of the shape of a probability distribution</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">5eba605fa09e44de817295cecb4b6c72</data>
+      <data key="d12">1</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="KURTOSIS" target="SEVENTH-ORDER MOMENT">
+      <data key="d8">6.0</data>
+      <data key="d9">Kurtosis and Seventh-Order Moment are two entities that serve as measures of the shape of a statistical distribution. They are interconnected in their purpose and can be studied together to gain deeper insights into the distribution's form. These terms, Kurtosis and Seventh-Order Moment, both provide information about the extent to which a distribution's tails deviate from the normal distribution, offering a comprehensive view of the distribution's skewness and kurtosis characteristics.</data>
+      <data key="d10">08b4be1d79a7a2278264957868068ca9,6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">1422e44f2e844e3b96c8ca8f072a6f16</data>
+      <data key="d12">2</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="KURTOSIS" target="BOX">
+      <data key="d8">2.0</data>
+      <data key="d9">Kurtosis is visualized using a box plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">c5458cf7bfe942bf999433fd2d259206</data>
+      <data key="d12">3</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="KURTOSIS" target="DATA_POINTS">
+      <data key="d8">3.0</data>
+      <data key="d9">The data points are being analyzed for kurtosis</data>
+      <data key="d10">0b8c96af03bd9cee6a1b102d04047917</data>
+      <data key="d11">9b0bfe8a348640be84a9d806892aa036</data>
+      <data key="d12">4</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="KURTOSIS" target="STATISTICAL_ANALYSIS">
+      <data key="d8">5.0</data>
+      <data key="d9">'Kurtosis' is a measure used in the statistical analysis event</data>
+      <data key="d10">0b8c96af03bd9cee6a1b102d04047917</data>
+      <data key="d11">dab590d16cb942f3a22e19ef6303fbe5</data>
+      <data key="d12">5</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="MED_ABS_DEV" target="BOX">
+      <data key="d8">1.0</data>
+      <data key="d9">The med_abs_dev measure can be shown using a box plot</data>
+      <data key="d10">184b50600ae6837d8cad0d2c227eb878</data>
+      <data key="d11">a862c140311148e498583f91322cd50d</data>
+      <data key="d12">6</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="MED_ABS_DEV" target="AVG_ABS_DEV">
+      <data key="d8">2.0</data>
+      <data key="d9">Both are measures of the deviation of data points from the mean</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">8cd77619aadf49b88dfc352d81d4f8c0</data>
+      <data key="d12">7</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="MED_ABS_DEV" target="NORMALIZED_MEDIAN">
+      <data key="d8">2.0</data>
+      <data key="d9">Both are measures that use the median in their calculation</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">2f160b623d1d43a09f114537fb610cae</data>
+      <data key="d12">8</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="MED_ABS_DEV" target="PERCENT_OUTLIERS_3IQR">
+      <data key="d8">3.0</data>
+      <data key="d9">Both terms are related to statistical analysis and could be used together to identify anomalies in data</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">8451429993834687b0c0b24a0b0da1d9</data>
+      <data key="d12">9</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NORMALIZED_MEDIAN" target="HISTOGRAM">
+      <data key="d8">6.0</data>
+      <data key="d9">TheNormalized_MEDIAN is commonly represented and visualized through a HISTOGRAM, which graphically displays the data distribution, including the normalized median value.</data>
+      <data key="d10">184b50600ae6837d8cad0d2c227eb878</data>
+      <data key="d11">a56643ef97164fc7ae6b58997ff6c3ba</data>
+      <data key="d12">10</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NORMALIZED_MEDIAN" target="FIRST_QUARTILE">
+      <data key="d8">2.0</data>
+      <data key="d9">NORMALIZED_MEDIAN and FIRST_QUARTILE are related as they both describe positions within a dataset's distribution</data>
+      <data key="d10">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d11">c56df14efc1644c4b7fc91e629ebb8d2</data>
+      <data key="d12">11</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HISTOGRAM" target="SKEWNESS">
+      <data key="d8">2.0</data>
+      <data key="d9">Skewness is a measure that can be derived from the shape of a histogram</data>
+      <data key="d10">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d11">e4fd2b5439b8444fb07892f966280c75</data>
+      <data key="d12">12</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HISTOGRAM" target="QUANTITATIVE">
+      <data key="d8">4.0</data>
+      <data key="d9">Quantitative data is commonly displayed using a histogram to show its distribution</data>
+      <data key="d10">1bded572443aa0e12d31cb3a232f6ae8</data>
+      <data key="d11">19776040ac054ddc98bc873f3f204276</data>
+      <data key="d12">13</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HISTOGRAM" target="SORTEDNESS">
+      <data key="d8">2.0</data>
+      <data key="d9">Sortedness is represented by a histogram</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">9faa04e53b404e3189ceb4409e7cabb5</data>
+      <data key="d12">14</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HISTOGRAM" target="NORMALIZED MEDIAN">
+      <data key="d8">1.0</data>
+      <data key="d9">The normalized median is represented by a histogram</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">8d93d81e8a504719a647ce9cc3167a2d</data>
+      <data key="d12">15</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HISTOGRAM" target="QUANT COEFF DISP">
+      <data key="d8">1.0</data>
+      <data key="d9">Quant coefficient of dispersion is represented by a histogram</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">fd7187d427da410193d77683f842ab41</data>
+      <data key="d12">16</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HISTOGRAM" target="COEFF VAR">
+      <data key="d8">1.0</data>
+      <data key="d9">Coefficient of variation is represented by a histogram</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">96b19d649f084af3a793012bea4ddfb9</data>
+      <data key="d12">17</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HISTOGRAM" target="LIN SPACE SEQUENCE COEFF">
+      <data key="d8">1.0</data>
+      <data key="d9">Linear space sequence coefficient is represented by a histogram</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">3444ac8fa7aa40f68de6b37418bf40a3</data>
+      <data key="d12">18</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HISTOGRAM" target="THIRD QUARTILE">
+      <data key="d8">1.0</data>
+      <data key="d9">The third quartile is represented by a histogram</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">37f624d29e104b0b9776ffc699daf45b</data>
+      <data key="d12">19</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="SCATTER" target="AVG_ABS_DEV">
+      <data key="d8">2.0</data>
+      <data key="d9">The avg_abs_dev measure is often visualized in a scatter plot</data>
+      <data key="d10">184b50600ae6837d8cad0d2c227eb878</data>
+      <data key="d11">1f481d5b7e9d424a9821639191cb35cd</data>
+      <data key="d12">20</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="SCATTER" target="QUANTITATIVE">
+      <data key="d8">3.0</data>
+      <data key="d9">Quantitative data is often visualized using a scatter plot</data>
+      <data key="d10">1bded572443aa0e12d31cb3a232f6ae8</data>
+      <data key="d11">88244775dbfe484d99ad61e01eba9a50</data>
+      <data key="d12">21</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="SCATTER" target="TENTH-ORDER MOMENT">
+      <data key="d8">1.0</data>
+      <data key="d9">The tenth-order moment is visualized using a scatter plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">d7c2893fbf0f40b1a00e4d99ab348904</data>
+      <data key="d12">22</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="SCATTER" target="EIGTHTH-ORDER MOMENT">
+      <data key="d8">1.0</data>
+      <data key="d9">The eigthth-order moment is visualized using a scatter plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">da0236fc3d0c4e139fc3c6c27beeeeee</data>
+      <data key="d12">23</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="SCATTER" target="DOLLAR">
+      <data key="d8">1.0</data>
+      <data key="d9">The dollar symbol is used in a scatter plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">cb15493b2f584c59a5cbbe0c90d8f17d</data>
+      <data key="d12">24</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="SCATTER" target="_OUTLIERS">
+      <data key="d8">1.0</data>
+      <data key="d9">_outliers can be identified in a scatter plot, indicating a relationship in data analysis&gt;</data>
+      <data key="d10">4d074294304bc327cc2e8b87df8d8cc1</data>
+      <data key="d11">2fd4f4a386ac46f4bdc94d819a4d898d</data>
+      <data key="d12">25</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="RANGE" target="HEATMAP">
+      <data key="d8">1.0</data>
+      <data key="d9">The range is sometimes represented in a heatmap</data>
+      <data key="d10">184b50600ae6837d8cad0d2c227eb878</data>
+      <data key="d11">1b71cef6199c450ea202a9dc8240e5d4</data>
+      <data key="d12">26</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="RANGE" target="MAX">
+      <data key="d8">5.0</data>
+      <data key="d9">MAX is the highest value within the RANGE of values in a dataset</data>
+      <data key="d10">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d11">a572a8daf8004828a144b01c0409b964</data>
+      <data key="d12">27</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="RANGE" target="FIRST QUARTILE">
+      <data key="d8">3.0</data>
+      <data key="d9">The first quartile and the range are related statistical measures that describe the spread of data</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">e8a3af50e95248d68468295a45463b31</data>
+      <data key="d12">28</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="AVG_ABS_DEV" target="MEAN">
+      <data key="d8">2.0</data>
+      <data key="d9">AVG_ABS_DEV and MEAN are related as they both provide information about the central tendency of a dataset</data>
+      <data key="d10">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d11">1a05a2fbdd0c4edeb9b431e1bb3b066c</data>
+      <data key="d12">29</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="IS_SORTED" target="LINE">
+      <data key="d8">1.0</data>
+      <data key="d9">The is_sorted measure can be represented by a line plot</data>
+      <data key="d10">184b50600ae6837d8cad0d2c227eb878</data>
+      <data key="d11">b1a6abca4d754bd78f8d7c11211c981a</data>
+      <data key="d12">30</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="LOG_SPACE_SEQUENCE_COEFF" target="IS_LOG_SPACE_FALSE">
+      <data key="d8">1.0</data>
+      <data key="d9">The former indicates non-logarithmic distribution, while the latter is a measure of such distribution</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">757382b5d6024d9db1e11d1cb1b9ed2a</data>
+      <data key="d12">31</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="SIXTH-ORDER MOMENT" target="GINI">
+      <data key="d8">1.0</data>
+      <data key="d9">Both entities could be related as part of a comprehensive data analysis report</data>
+      <data key="d10">538fb996d193eff2deddc1d27f71f672</data>
+      <data key="d11">eb576b15a8e94d6894b5dd4bcbdc3c95</data>
+      <data key="d12">32</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="VAR" target="COEFF_VAR">
+      <data key="d8">8.0</data>
+      <data key="d9">VAR and COEFF_VAR are two entities that serve as measures of variability within a dataset. VAR represents the variance, which is a fundamental measure of how spread out the data points are. COEFF_VAR, also known as the coefficient of variation, is a normalized version of the variance. It is derived from the variance and indicates a direct relationship to it. This coefficient is particularly useful as it allows for the comparison of the variability between different datasets, normalizing for differences in scale. In summary, while VAR provides the raw variability measure, COEFF_VAR offers a standardized way to interpret this variability relative to the mean of the dataset.</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425,871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">180e4291f7f641dc9200a085258d6c16</data>
+      <data key="d12">33</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="VAR" target="LIN_SPACE_SEQUENCE_COEFF">
+      <data key="d8">2.0</data>
+      <data key="d9">The two terms could be related in a research project where the former is used to analyze the latter's properties</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">a0d6f1b410f8475c8f12d38adca440fd</data>
+      <data key="d12">34</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NORMALIZED_RANGE" target="NORMALITY_P">
+      <data key="d8">1.0</data>
+      <data key="d9">Both are statistical measures used in analyzing data distributions</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">9a026fad93c84a33abd2715a6e685952</data>
+      <data key="d12">35</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NORMALIZED_RANGE" target="MEAN">
+      <data key="d8">3.0</data>
+      <data key="d9">Normalized range could be a method used to analyze the mean, showing a relationship in statistical processing</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">f7a13439a7a341ba99159c8b695549cf</data>
+      <data key="d12">36</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="MEAN" target="NORMALITY_STATISTIC">
+      <data key="d8">3.0</data>
+      <data key="d9">The MEAN and NORMALITY_STATISTIC are related as they both provide insights into the distribution of data</data>
+      <data key="d10">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d11">00fa5e45b0af4d83867f34f3cb0e61fc</data>
+      <data key="d12">37</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="MEAN" target="BOX">
+      <data key="d8">1.0</data>
+      <data key="d9">The mean is visualized using a box plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">76e1c4742365457a90cd282c71ec7782</data>
+      <data key="d12">38</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NINTH-ORDER MOMENT" target="TENTH-ORDER MOMENT">
+      <data key="d8">3.0</data>
+      <data key="d9">NINTH-ORDER MOMENT and TENTH-ORDER MOMENT are related as they are both higher moments of a distribution</data>
+      <data key="d10">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d11">9bb50459ab9941c8a6b0147b53782947</data>
+      <data key="d12">39</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NINTH-ORDER MOMENT" target="HEATMAP">
+      <data key="d8">1.0</data>
+      <data key="d9">The ninth-order moment is visualized using a heatmap</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">7bd89688272147efab672f0dd7cb4775</data>
+      <data key="d12">40</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NINTH-ORDER MOMENT" target="HASOUTLIERS_3IQR">
+      <data key="d8">2.0</data>
+      <data key="d9">Outlier detection may be relevant when analyzing the ninth moment of a distribution</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">0e41013b654f4656ae61a21c7527b667</data>
+      <data key="d12">41</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="TENTH-ORDER MOMENT" target="IS_LOG_SPACE_TRUE">
+      <data key="d8">1.0</data>
+      <data key="d9">The concept of logarithmic space could be relevant to the analysis of the tenth moment</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">07a7251f052b4e27b34b5d315bf7c37b</data>
+      <data key="d12">42</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="GINI" target="NORMALIZED_MEAN">
+      <data key="d8">1.0</data>
+      <data key="d9">NORMALIZED_MEAN and GINI both provide measures of central tendency and inequality in a dataset</data>
+      <data key="d10">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d11">d69cf7d3aa7448fcaa6ef72318f01fab</data>
+      <data key="d12">43</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="GINI" target="BAR">
+      <data key="d8">1.0</data>
+      <data key="d9">Gini coefficient is represented by a bar plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">7e8d200312844b7e9178e5fc2e3093c0</data>
+      <data key="d12">44</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="BOX" target="QUANTITATIVE">
+      <data key="d8">3.0</data>
+      <data key="d9">Quantitative data can be visualized using a box plot</data>
+      <data key="d10">1bded572443aa0e12d31cb3a232f6ae8</data>
+      <data key="d11">8e1b4e5854e141ac9e3ba5621b8b4f8f</data>
+      <data key="d12">45</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="BOX" target="NORMALIZED MEAN">
+      <data key="d8">1.0</data>
+      <data key="d9">The normalized mean is visualized using a box plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">f8fffa608b4e4423b673d33d40a965d4</data>
+      <data key="d12">46</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="BOX" target="SEVENTH-ORDER MOMENT">
+      <data key="d8">1.0</data>
+      <data key="d9">The seventh-order moment is visualized using a box plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">78727c80d98e4032944a837732ad86d0</data>
+      <data key="d12">47</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="BOX" target="PERCENT OUTLIERS 1-99">
+      <data key="d8">1.0</data>
+      <data key="d9">The percentage of outliers is represented by a box plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">f52280aaf09b448281484b18de48cad7</data>
+      <data key="d12">48</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="BOX" target="NORMALITY STATISTIC">
+      <data key="d8">1.0</data>
+      <data key="d9">The normality statistic is represented by a box plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">c939d3a285494663835f3559c4184d54</data>
+      <data key="d12">49</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="BOX" target="ENTROPY">
+      <data key="d8">1.0</data>
+      <data key="d9">Entropy is visualized using a box plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">1600f0b774634d4b9f62653b5d7d594a</data>
+      <data key="d12">50</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="BOX" target="_OUTLIERS">
+      <data key="d8">1.0</data>
+      <data key="d9">_outliers are a part of box plot analysis, indicating a relationship in statistical visualization&gt;</data>
+      <data key="d10">4d074294304bc327cc2e8b87df8d8cc1</data>
+      <data key="d11">f82e7a1184724a00a740115b298a0b94</data>
+      <data key="d12">51</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HEATMAP" target="QUANTITATIVE">
+      <data key="d8">2.0</data>
+      <data key="d9">Quantitative data can be represented in a heatmap for visualizing matrix data</data>
+      <data key="d10">1bded572443aa0e12d31cb3a232f6ae8</data>
+      <data key="d11">ed87f4a73a0546df9c6d8edd73522707</data>
+      <data key="d12">52</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HEATMAP" target="LENGTH">
+      <data key="d8">1.0</data>
+      <data key="d9">Length is visualized using a heatmap</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">c2a9c0c095114a9887ecfd8d6d72d98e</data>
+      <data key="d12">53</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HEATMAP" target="THIRD QUARTILE">
+      <data key="d8">1.0</data>
+      <data key="d9">The third quartile is visualized using a heatmap</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">ad856d1cbc0d4f459b9e229abc11dfee</data>
+      <data key="d12">54</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="LINE" target="NORMALIZED MEAN">
+      <data key="d8">2.0</data>
+      <data key="d9">The normalized mean is represented by a line plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">a37e0e2e488f40f8a32f422e3ae833ba</data>
+      <data key="d12">55</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="LINE" target="PERCENT OUTLIERS 1-99">
+      <data key="d8">1.0</data>
+      <data key="d9">The percentage of outliers is also represented by a line plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">cdcb73e8854441cf8ca4ea0161bb9df2</data>
+      <data key="d12">56</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="LINE" target="NORMALITY STATISTIC">
+      <data key="d8">1.0</data>
+      <data key="d9">The normality statistic is represented by a line plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">6c7b52e1ab814fdfbfd80c225896fc91</data>
+      <data key="d12">57</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NUMERICAL_DATA" target="STATISTICAL_ANALYSIS">
+      <data key="d8">8.0</data>
+      <data key="d9">The statistical analysis event is performed using the numerical data collected by the organization</data>
+      <data key="d10">694b02ecbdc776be9a697f82a25110f5</data>
+      <data key="d11">0bb8e21a79904168b6465e40ee15180f</data>
+      <data key="d12">58</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NUMERICAL_DATA" target="DATA_METRICS">
+      <data key="d8">7.0</data>
+      <data key="d9">The numerical data is used to calculate various data metrics</data>
+      <data key="d10">694b02ecbdc776be9a697f82a25110f5</data>
+      <data key="d11">ce372925035b4b2ea4cd27728d3eb4d9</data>
+      <data key="d12">59</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NUMERICAL_DATA" target="DATASET">
+      <data key="d8">5.0</data>
+      <data key="d9">The numerical data is sourced from a dataset</data>
+      <data key="d10">694b02ecbdc776be9a697f82a25110f5</data>
+      <data key="d11">20b6600439704bc3a1f7b783e80c613b</data>
+      <data key="d12">60</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="FIRUZABAD">
+      <data key="d8">3.0</data>
+      <data key="d9">Assuming the statistical analysis is related to Firuzabad, possibly for economic or social data</data>
+      <data key="d10">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d11">e777ca7b0c6d41229bf14ab639ccee59</data>
+      <data key="d12">61</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="AURELIA">
+      <data key="d8">3.0</data>
+      <data key="d9">Assuming the statistical analysis is related to Aurelia, possibly for economic or social data</data>
+      <data key="d10">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d11">51caef87dd684f5ca8207ef2161367eb</data>
+      <data key="d12">62</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="DATA_TYPE_ANALYSIS">
+      <data key="d8">3.0</data>
+      <data key="d9">Data type analysis is a part of the broader statistical analysis being performed</data>
+      <data key="d10">9a8ddecbc0d1a6735c05a6396da8ba40</data>
+      <data key="d11">63685b88b4cd4b399932a96b3cb68d08</data>
+      <data key="d12">63</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="NORMALITY_STATISTIC">
+      <data key="d8">11.0</data>
+      <data key="d9">The entity known as STATISTICAL_ANALYSIS encompasses the process of evaluating data, which includes the specific task of calculating the NORMALITY_STATISTIC. This normality statistic is an integral part of the overall statistical analysis, ensuring that the data's distribution is assessed for normality.</data>
+      <data key="d10">8024a2cccb3ac73d84171ae2b6480f06,9a8ddecbc0d1a6735c05a6396da8ba40</data>
+      <data key="d11">38a3b3c204b34c61b047ba392913e64f</data>
+      <data key="d12">64</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="SEQUENCE_COEFFICIENT_ANALYSIS">
+      <data key="d8">5.0</data>
+      <data key="d9">The statistical analysis involves the examination of sequence coefficients</data>
+      <data key="d10">9a8ddecbc0d1a6735c05a6396da8ba40</data>
+      <data key="d11">11a4be583b604b01b5932cac46527100</data>
+      <data key="d12">65</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="VARIANCE_ANALYSIS">
+      <data key="d8">5.0</data>
+      <data key="d9">The statistical analysis encompasses the study of variance and related measures</data>
+      <data key="d10">9a8ddecbc0d1a6735c05a6396da8ba40</data>
+      <data key="d11">cc43a4e70f2b4bcf934fe268bd6dd686</data>
+      <data key="d12">66</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="DATA_SET">
+      <data key="d8">15.0</data>
+      <data key="d9">The entity known as STATISTICAL_ANALYSIS is currently being conducted on the DATA_SET. This analysis is happening with the data set that was provided by an organization. Therefore, it can be summarized that the DATA_SET is undergoing a STATISTICAL_ANALYSIS event, utilizing the information made available by the organization.</data>
+      <data key="d10">68ef842c1b1ba3ac780ae492e055d3f8,8024a2cccb3ac73d84171ae2b6480f06</data>
+      <data key="d11">b28577c0507545fc9b44c2b24c82fb88</data>
+      <data key="d12">67</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="TEMPORAL_ANALYSIS">
+      <data key="d8">4.0</data>
+      <data key="d9">Temporal analysis is a component of the broader statistical analysis</data>
+      <data key="d10">8024a2cccb3ac73d84171ae2b6480f06</data>
+      <data key="d11">267d12677bc943eaac29bb47d8126005</data>
+      <data key="d12">68</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="SORTEDNESS">
+      <data key="d8">5.0</data>
+      <data key="d9">Sortedness is a measure used in the statistical analysis to assess data order</data>
+      <data key="d10">8024a2cccb3ac73d84171ae2b6480f06</data>
+      <data key="d11">4ea6b57f7eb641ea85fe81cb188a646d</data>
+      <data key="d12">69</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="RESEARCH_GROUP">
+      <data key="d8">8.0</data>
+      <data key="d9">The research group is conducting the statistical analysis event</data>
+      <data key="d10">0b8c96af03bd9cee6a1b102d04047917</data>
+      <data key="d11">adf44e09d3654c9589ef6440c68161d5</data>
+      <data key="d12">70</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="ENTROPY">
+      <data key="d8">5.0</data>
+      <data key="d9">'Entropy' is a measure used in the statistical analysis event</data>
+      <data key="d10">0b8c96af03bd9cee6a1b102d04047917</data>
+      <data key="d11">00f45f3db13e4e21ad877f757bfae664</data>
+      <data key="d12">71</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="GINI_MEASUREMENT">
+      <data key="d8">7.0</data>
+      <data key="d9">The statistical analysis includes the measurement of gini values as part of its broader scope</data>
+      <data key="d10">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d11">debc2326ad5848e6af813fc9a9f9e30a</data>
+      <data key="d12">72</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="TENTH-ORDER_MOMENT">
+      <data key="d8">7.0</data>
+      <data key="d9">The analysis also involves calculating the tenth-order moment, indicating a comprehensive study</data>
+      <data key="d10">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d11">6e53f731c0e643f9b0252a14212b3621</data>
+      <data key="d12">73</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="DATA_TYPE_BAR">
+      <data key="d8">3.0</data>
+      <data key="d9">The statistical analysis includes the use of bar charts for data representation</data>
+      <data key="d10">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d11">7e967e9ab6f54396b55caa96b182f9eb</data>
+      <data key="d12">74</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="DATA_TYPE_HEATMAP">
+      <data key="d8">3.0</data>
+      <data key="d9">The statistical analysis includes the use of heatmaps for data representation</data>
+      <data key="d10">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d11">a393cc2715d44a77a3df851cdd70ca46</data>
+      <data key="d12">75</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="DATA_TYPE_LINE">
+      <data key="d8">3.0</data>
+      <data key="d9">The statistical analysis includes the use of line graphs for data representation</data>
+      <data key="d10">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d11">343c89bdf588404b8c821a74d746989e</data>
+      <data key="d12">76</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="DATA_TYPE_HISTOGRAM">
+      <data key="d8">3.0</data>
+      <data key="d9">The statistical analysis includes the use of histograms for data representation</data>
+      <data key="d10">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d11">32a31a11d62140b5836f497eabead0ba</data>
+      <data key="d12">77</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="DATA_TYPE_SCATTER">
+      <data key="d8">3.0</data>
+      <data key="d9">The statistical analysis includes the use of scatter plots for data representation</data>
+      <data key="d10">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d11">b674fd0fe0ab47099e1fa3c07cd604a8</data>
+      <data key="d12">78</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="DATA_TYPE_BOX">
+      <data key="d8">3.0</data>
+      <data key="d9">The statistical analysis includes the use of box plots for data representation</data>
+      <data key="d10">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d11">1aa5224f96c1438a85bdb7c6178f5e74</data>
+      <data key="d12">79</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_ANALYSIS" target="METRICS">
+      <data key="d8">7.0</data>
+      <data key="d9">The metrics are part of the broader statistical analysis event</data>
+      <data key="d10">4ea35889679870d71f6def1bdaf3d57f</data>
+      <data key="d11">bb32771445704d6a8309b25f7e47a028</data>
+      <data key="d12">80</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_METRICS" target="RESEARCHERS">
+      <data key="d8">6.0</data>
+      <data key="d9">The researchers are studying the data metrics as part of the statistical analysis event</data>
+      <data key="d10">694b02ecbdc776be9a697f82a25110f5</data>
+      <data key="d11">8d51436266404431817b4825e4379fc5</data>
+      <data key="d12">81</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="RESEARCHERS" target="DATASET">
+      <data key="d8">1.0</data>
+      <data key="d9">The researchers are utilizing the dataset for their statistical analysis</data>
+      <data key="d10">694b02ecbdc776be9a697f82a25110f5</data>
+      <data key="d11">32c3502d63e6482491d5a6c0eee4a85a</data>
+      <data key="d12">82</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="FIFTH-ORDER_MOMENT">
+      <data key="d8">3.0</data>
+      <data key="d9">The fifth-order moment is a statistical measure derived during data analysis</data>
+      <data key="d10">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d11">91393afb4b474562a26c9c5380c5f5bf</data>
+      <data key="d12">83</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="NINTH-ORDER_MOMENT">
+      <data key="d8">4.0</data>
+      <data key="d9">The ninth-order moment is calculated as part of a comprehensive data analysis</data>
+      <data key="d10">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d11">14e646ec121948eababa625231bafebe</data>
+      <data key="d12">84</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="PERCENT_OUTLIERS_3IQR">
+      <data key="d8">2.0</data>
+      <data key="d9">The percentage of outliers beyond three interquartile ranges is determined during data analysis</data>
+      <data key="d10">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d11">0d2f455a62ec4e6882d0f301c7fc2a9e</data>
+      <data key="d12">85</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="COEFFICIENT_OF_VARIATION">
+      <data key="d8">3.0</data>
+      <data key="d9">The coefficient of variation is a measure used in data analysis to assess the relative variability</data>
+      <data key="d10">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d11">142f2adaae81477c94d38588d8835fe8</data>
+      <data key="d12">86</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="ENTROPY_ANALYSIS">
+      <data key="d8">2.0</data>
+      <data key="d9">Entropy analysis is a component of the broader data analysis process</data>
+      <data key="d10">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d11">3e3fd3a4b72a42df8bf82a00c3bb200c</data>
+      <data key="d12">87</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="MEDIAN_ANALYSIS">
+      <data key="d8">3.0</data>
+      <data key="d9">Median analysis is performed as part of the data analysis to understand the central tendency</data>
+      <data key="d10">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d11">b66e74fbc5e64f659bf1b69d04d64cdc</data>
+      <data key="d12">88</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="MAXIMUM_ANALYSIS">
+      <data key="d8">3.0</data>
+      <data key="d9">Maximum value analysis is a part of the data analysis to identify the upper limit of the dataset</data>
+      <data key="d10">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d11">5d2d9e2e38004f43902c7c395b5c13d4</data>
+      <data key="d12">89</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="RANGE_ANALYSIS">
+      <data key="d8">3.0</data>
+      <data key="d9">Range analysis is conducted to understand the spread of the dataset within the data analysis</data>
+      <data key="d10">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d11">d30aabf7c625435488e30df1cde99769</data>
+      <data key="d12">90</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="STANDARD_DEVIATION_ANALYSIS">
+      <data key="d8">4.0</data>
+      <data key="d9">Standard deviation analysis is a crucial part of understanding the variability in the data analysis</data>
+      <data key="d10">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d11">d2131c2849844c44a921b3ee3faf4a37</data>
+      <data key="d12">91</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="SEVENTH-ORDER_MOMENT">
+      <data key="d8">2.0</data>
+      <data key="d9">The seventh-order moment is a less common measure derived during detailed data analysis</data>
+      <data key="d10">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d11">c802ed49475345bcbde52e8aa189b16d</data>
+      <data key="d12">92</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="KURTOSIS_ANALYSIS">
+      <data key="d8">1.0</data>
+      <data key="d9">Kurtosis analysis is performed to assess the shape of the distribution in the data analysis</data>
+      <data key="d10">45d9e3e207661402f0ad877873dff10b</data>
+      <data key="d11">e286c862e25f430fb55991831816442f</data>
+      <data key="d12">93</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS" target="VARIABLE_METRICS">
+      <data key="d8">3.0</data>
+      <data key="d9">The event focusing on DATA_ANALYSIS includes the examination of various VARIABLE_METRICS, which serve as entities within this context. These VARIABLE_METRICS are integral components of a comprehensive data analysis process.</data>
+      <data key="d10">e8de4fc0015898e85ba89974bbaca49c</data>
+      <data key="d11">49881bd884e64cd0a4313dc51f92f397</data>
+      <data key="d12">94</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="PERCENT_OUTLIERS_3IQR" target="HAS_OUTLIERS">
+      <data key="d8">4.0</data>
+      <data key="d9">HAS_OUTLIERS and PERCENT_OUTLIERS_3IQR are related as they both deal with the presence and percentage of outliers in a dataset</data>
+      <data key="d10">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d11">fba9c4de16ae401bb532e56be7299697</data>
+      <data key="d12">95</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="KURTOSIS_ANALYSIS" target="FIFTH_ORDER_MOMENT_ANALYSIS">
+      <data key="d8">4.0</data>
+      <data key="d9">Both entities are involved in analyzing the shape of the data distribution</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">753f3b13d8504b05ae45d37712e9f5e6</data>
+      <data key="d12">96</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="KURTOSIS_ANALYSIS" target="NINTH_ORDER_MOMENT_ANALYSIS">
+      <data key="d8">4.0</data>
+      <data key="d9">Both entities analyze different aspects of the data distribution's asymmetry</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">cabcb2e142b3438fa2fc1308fd2c097d</data>
+      <data key="d12">97</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_VISUALIZATION_EVENT" target="NUMERICAL_DATASET">
+      <data key="d8">5.0</data>
+      <data key="d9">The Data Visualization Event is using the Numerical Dataset for visualizations</data>
+      <data key="d10">b821e1fdcc7a5b4a722370ade6d82088</data>
+      <data key="d11">b238009749074ea99e585be4aa4d14bc</data>
+      <data key="d12">98</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_VISUALIZATION_EVENT" target="STATISTICIAN_PERSON">
+      <data key="d8">4.0</data>
+      <data key="d9">The Statistician Person is participating in the Data Visualization Event</data>
+      <data key="d10">b821e1fdcc7a5b4a722370ade6d82088</data>
+      <data key="d11">8f976299c04442eea362b21d93d432cb</data>
+      <data key="d12">99</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NUMERICAL_DATASET" target="STATISTICAL_ANALYSIS_COMPANY">
+      <data key="d8">7.0</data>
+      <data key="d9">The Statistical Analysis Company is analyzing the Numerical Dataset</data>
+      <data key="d10">b821e1fdcc7a5b4a722370ade6d82088</data>
+      <data key="d11">65018b4cd0364773bc2eff215164f948</data>
+      <data key="d12">100</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICIAN_PERSON" target="STATISTICAL_ANALYSIS_COMPANY">
+      <data key="d8">8.0</data>
+      <data key="d9">The Statistician Person works for the Statistical Analysis Company</data>
+      <data key="d10">b821e1fdcc7a5b4a722370ade6d82088</data>
+      <data key="d11">f920829a9c1146ecabf7db2e4c9b2f25</data>
+      <data key="d12">101</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_REPORT" target="STATISTICAL_ANALYSIS_FIRM">
+      <data key="d8">7.0</data>
+      <data key="d9">The firm is responsible for generating the data report that includes the various statistical measures</data>
+      <data key="d10">58c338d903269ffea07d5750714fcd57</data>
+      <data key="d11">6404d1b87d0e49c88dbe2b6262e7a5e0</data>
+      <data key="d12">102</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_REPORT" target="RESEARCH_PROJECT">
+      <data key="d8">5.0</data>
+      <data key="d9">The data report is the outcome of the research project</data>
+      <data key="d10">58c338d903269ffea07d5750714fcd57</data>
+      <data key="d11">17a8864aafe24fa99ecdb54df22adf11</data>
+      <data key="d12">103</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="RESEARCH_PROJECT" target="SCIENTIST_TEAM">
+      <data key="d8">8.0</data>
+      <data key="d9">The team of scientists conducted the research project resulting in the statistical data</data>
+      <data key="d10">58c338d903269ffea07d5750714fcd57</data>
+      <data key="d11">b0aa9572eb7f49969bc3330d449b4145</data>
+      <data key="d12">104</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="TIRUZIA_DATA_CENTER" target="STATISTICAL_ANALYSIS_FIRM">
+      <data key="d8">6.0</data>
+      <data key="d9">The data center is operated by the statistical analysis firm</data>
+      <data key="d10">58c338d903269ffea07d5750714fcd57</data>
+      <data key="d11">d8c45806b1b641ccbafdc118bc156ccc</data>
+      <data key="d12">105</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_DISTRIBUTION" target="QUINTARA">
+      <data key="d8">2.0</data>
+      <data key="d9">The data distribution is relevant to Quintara, possibly for comparison purposes</data>
+      <data key="d10">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d11">5924d20124aa408e8ccd3f0b3589eb5b</data>
+      <data key="d12">106</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_DISTRIBUTION" target="TIRUZIA">
+      <data key="d8">2.0</data>
+      <data key="d9">The data distribution is relevant to Tiruzia, possibly for local analysis</data>
+      <data key="d10">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d11">20641ac7edf8440f9ee3f46a30e5f003</data>
+      <data key="d12">107</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_DISTRIBUTION" target="KROHAARA">
+      <data key="d8">2.0</data>
+      <data key="d9">The data distribution is relevant to Krohaara, possibly for regional analysis</data>
+      <data key="d10">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d11">4daadde1992047df83cbe8782c0a9294</data>
+      <data key="d12">108</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_DISTRIBUTION" target="CASHION">
+      <data key="d8">1.0</data>
+      <data key="d9">The data distribution is relevant to Cashion, possibly for national analysis</data>
+      <data key="d10">98ab0477b6b0d4f190cd45f23bf7e6e8</data>
+      <data key="d11">8c26a746eb424ea8b0ae49ce9b76385b</data>
+      <data key="d12">109</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="UNKNOWN_PERSON" target="UNKNOWN_ORGANIZATION">
+      <data key="d8">7.0</data>
+      <data key="d9">UNKNOWN_PERSON is likely associated with UNKNOWN_ORGANIZATION, potentially being a part of the group that contributed to and conducted the data analysis.</data>
+      <data key="d10">3f8039bb30bc90ab812a012a6b32fae3,65dff4f0022e42fd20574beed1fa1401</data>
+      <data key="d11">3c5f54ab440a49a2aee5908bd015fe8e</data>
+      <data key="d12">110</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="UNKNOWN_PERSON" target="DATA_ANALYSIS_EVENT">
+      <data key="d8">5.0</data>
+      <data key="d9">UNKNOWN_PERSON is confirmed to be involved in the DATA_ANALYSIS_EVENT. There is a possibility that they might be participating in the event of data analysis. It can be concluded that UNKNOWN_PERSON has a role in the DATA_ANALYSIS_EVENT, with the certainty of their involvement and the potential for further engagement in data analytical activities within the event.</data>
+      <data key="d10">3f8039bb30bc90ab812a012a6b32fae3,65dff4f0022e42fd20574beed1fa1401</data>
+      <data key="d11">8671b7bf62a64a2984fd9d0727f50b85</data>
+      <data key="d12">111</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="UNKNOWN_GEO" target="DATA_ANALYSIS_EVENT">
+      <data key="d8">1.0</data>
+      <data key="d9">The geographical location might be relevant to the data analysis event, though not directly stated</data>
+      <data key="d10">3f8039bb30bc90ab812a012a6b32fae3</data>
+      <data key="d11">ae060decfe0246d78614812e73fad9e8</data>
+      <data key="d12">112</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS_EVENT" target="UNKNOWN_ORGANIZATION">
+      <data key="d8">10.0</data>
+      <data key="d9">The DATA_ANALYSIS_EVENT is an event that is either being conducted by or for the UNKNOWN_ORGANIZATION, or it might be associated with the organization. There is uncertainty about the exact nature of their relationship, but it is clear that there is a link between the event and the organization.</data>
+      <data key="d10">3f8039bb30bc90ab812a012a6b32fae3,65dff4f0022e42fd20574beed1fa1401</data>
+      <data key="d11">56b82b8caed5471b91966830175a20f7</data>
+      <data key="d12">113</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="UNKNOWN_ORGANIZATION" target="UNKNOWN_EVENT">
+      <data key="d8">2.0</data>
+      <data key="d9">UNKNOWN_ORGANIZATION is an entity that is involved in the event of data collection and analysis, possibly associated with the study or event that led to the production of statistical data, known as UNKNOWN_EVENT. The organization's role seems to be focused on gathering and examining information, which could be related to the event or research conducted.</data>
+      <data key="d10">aa8624b63c348930575e4f55c902b8ba,cc934700fc77d92620f0e1f918c348a6</data>
+      <data key="d11">077ba4d4d6d14948948bd8b39d008c93</data>
+      <data key="d12">114</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="UNKNOWN_EVENT" target="STATISTICAL_DATA">
+      <data key="d8">5.0</data>
+      <data key="d9">The event or study resulted in the production of various statistical data points</data>
+      <data key="d10">cc934700fc77d92620f0e1f918c348a6</data>
+      <data key="d11">25a455a3762d434f9e94ddf319ddc816</data>
+      <data key="d12">115</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NORMALITY_STATISTIC" target="VARIANCE_ANALYSIS">
+      <data key="d8">4.0</data>
+      <data key="d9">Normality statistics and variance analysis are related aspects of statistical evaluation</data>
+      <data key="d10">9a8ddecbc0d1a6735c05a6396da8ba40</data>
+      <data key="d11">d78a9e5ab7eb4c978b3d665fef90d5d0</data>
+      <data key="d12">116</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="SEQUENCE_COEFFICIENT_ANALYSIS" target="VARIANCE_ANALYSIS">
+      <data key="d8">1.0</data>
+      <data key="d9">Sequence coefficient analysis may be used in understanding variance in data</data>
+      <data key="d10">9a8ddecbc0d1a6735c05a6396da8ba40</data>
+      <data key="d11">7a46fb6dafe549ebbbfb87a3d6d7fa0b</data>
+      <data key="d12">117</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="BAR" target="QUANTITATIVE">
+      <data key="d8">2.0</data>
+      <data key="d9">Quantitative data can be represented in a bar chart for categorical comparison</data>
+      <data key="d10">1bded572443aa0e12d31cb3a232f6ae8</data>
+      <data key="d11">d4e619d737554d56829b5af42fd96880</data>
+      <data key="d12">118</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="BAR" target="NORMALIZED RANGE">
+      <data key="d8">1.0</data>
+      <data key="d9">The normalized range is represented by a bar plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">e069883b8b86426eb1becf27e9ed2b47</data>
+      <data key="d12">119</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="BAR" target="FIRST QUARTILE">
+      <data key="d8">1.0</data>
+      <data key="d9">The first quartile is represented by a bar plot</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">83de9ada1c314e6ca0492b90ff1bad5a</data>
+      <data key="d12">120</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="BAR" target="_OUTLIERS">
+      <data key="d8">1.0</data>
+      <data key="d9">_outliers can be represented in a bar chart, indicating a relationship in data representation&gt;</data>
+      <data key="d10">4d074294304bc327cc2e8b87df8d8cc1</data>
+      <data key="d11">d0886f7c06ac4bf5ad896f2e0911a1bf</data>
+      <data key="d12">121</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="QUANTITATIVE" target="COEFF_VAR">
+      <data key="d8">1.0</data>
+      <data key="d9">Quantitative analysis may involve the use of the coefficient of variation as a measure</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">9d91050236934020913ba6dfd3dc704f</data>
+      <data key="d12">122</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="HAS_NONE_TRUE" target="HAS_NONE_FALSE">
+      <data key="d8">3.0</data>
+      <data key="d9">These are opposite indicators of the presence of data in a dataset</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">bae7dc6ea3694c4f9a99c5de3c4bc98c</data>
+      <data key="d12">123</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="COEFF_VAR" target="STD">
+      <data key="d8">3.0</data>
+      <data key="d9">COEFF_VAR and STD are related as they both measure the variability or dispersion of data</data>
+      <data key="d10">08b4be1d79a7a2278264957868068ca9</data>
+      <data key="d11">6166b773c8174ccab461ca8dce973b17</data>
+      <data key="d12">124</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STD" target="HASOUTLIERS_15IQR">
+      <data key="d8">4.0</data>
+      <data key="d9">The presence of outliers can affect the calculation of the standard deviation, indicating a relationship</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">f2a7255b8d4842839fa578fa350970c4</data>
+      <data key="d12">125</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="ENTROPY" target="DATA_POINTS">
+      <data key="d8">3.0</data>
+      <data key="d9">The data points are being analyzed for entropy</data>
+      <data key="d10">0b8c96af03bd9cee6a1b102d04047917</data>
+      <data key="d11">6969740382034151a713619f79e5436a</data>
+      <data key="d12">126</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="SEVENTH-ORDER MOMENT" target="NORMALIZED_MEAN">
+      <data key="d8">2.0</data>
+      <data key="d9">The seventh-order moment may be used in conjunction with the normalized mean for certain statistical analyses</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">9dc80ffd25a04116a1512da7579acde0</data>
+      <data key="d12">127</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="MAX" target="HASOUTLIERS_1_99">
+      <data key="d8">2.0</data>
+      <data key="d9">The concept of outliers could be applied to the analysis of maximum values</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">a2537743c2e942b58045c09ee287d7e3</data>
+      <data key="d12">128</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NORMALIZED_RANGE_MEASURE" target="NORMALITY_PROBABILITY">
+      <data key="d8">3.0</data>
+      <data key="d9">These entities are related as they both assess the characteristics of the data distribution</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">3372555f651a48fc93c48ad8fbcde4b1</data>
+      <data key="d12">129</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="MEDIAN_ABSOLUTE_DEVIATION" target="AVERAGE_ABSOLUTE_DEVIATION">
+      <data key="d8">4.0</data>
+      <data key="d9">Both entities measure the deviation of data points from a central tendency</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">b748be961a504f759cbfacb7ee3bf240</data>
+      <data key="d12">130</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="LOGARITHMIC_DISTRIBUTION_CHECK" target="LINEARITY_COEFFICIENT">
+      <data key="d8">2.0</data>
+      <data key="d9">These entities are related as they assess different aspects of data distribution patterns</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">9a2342030dd244e39ac2d5bbe4456e59</data>
+      <data key="d12">131</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="NORMALIZED_MEDIAN_CALCULATION" target="VARIABILITY_COEFFICIENT">
+      <data key="d8">3.0</data>
+      <data key="d9">Both entities use the median in their calculations and assess data variability</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">e9963b2ab29e49a5b10809b81e044c9a</data>
+      <data key="d12">132</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="OUTLIER_PERCENTAGE_CALCULATION" target="UNIQUENESS_CHECK">
+      <data key="d8">2.0</data>
+      <data key="d9">These entities are related as they both involve identifying unique or outlying data points</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">0fdb0a746f8f476f8ceb00d71b32eaab</data>
+      <data key="d12">133</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="VARIANCE_MEASURE" target="STANDARD_DEVIATION_ESTIMATE">
+      <data key="d8">5.0</data>
+      <data key="d9">Variance and standard deviation are related measures of data spread</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">97b943529d8b4f87b4aa3f3cfaa7d414</data>
+      <data key="d12">134</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="SORTEDNESS_ASSESSMENT" target="GINI_COEFFICIENT">
+      <data key="d8">3.0</data>
+      <data key="d9">Both entities are involved in assessing the order and distribution of data</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">64a0c5d7f5ca4c65bd84d05f1d1ad151</data>
+      <data key="d12">135</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="ENTROPY_ESTIMATE" target="SEVENTH_ORDER_MOMENT_ANALYSIS">
+      <data key="d8">3.0</data>
+      <data key="d9">Both entities are related to understanding the uncertainty and distribution shape</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">d9e9a43729da4532b41e7bc2172c8d5f</data>
+      <data key="d12">136</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="MAXIMUM_VALUE_IDENTIFICATION" target="INTERQUARTILE_RANGE_OUTLIER_PERCENTAGE">
+      <data key="d8">4.0</data>
+      <data key="d9">Both entities involve identifying extreme values in the data</data>
+      <data key="d10">871fc1e4f6e2c7645fa61048e96c2a95</data>
+      <data key="d11">175ccf6d14134e9c997d426f351888c5</data>
+      <data key="d12">137</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_SET" target="STATISTIC_ANALYSIS">
+      <data key="d8">7.0</data>
+      <data key="d9">The statistical analysis event is being conducted on the data set provided by the organization</data>
+      <data key="d10">70d4919a584418d82069f0bfc4e6a8c1</data>
+      <data key="d11">7f4fa798c7d440de96e1a1677ce3b603</data>
+      <data key="d12">138</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_SET" target="GEO_ANALYSIS">
+      <data key="d8">5.0</data>
+      <data key="d9">The geographical analysis is part of the data set provided by the organization</data>
+      <data key="d10">70d4919a584418d82069f0bfc4e6a8c1</data>
+      <data key="d11">3468c4e51a5741979f9e4fae996e669e</data>
+      <data key="d12">139</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_SET" target="PERSONAL_DATA">
+      <data key="d8">4.0</data>
+      <data key="d9">The personal data is included in the data set being analyzed</data>
+      <data key="d10">70d4919a584418d82069f0bfc4e6a8c1</data>
+      <data key="d11">8125b5c77fbc4f458ea49d5d1ae24a5c</data>
+      <data key="d12">140</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="UNKNOWN PERSON" target="UNKNOWN ORGANIZATION">
+      <data key="d8">5.0</data>
+      <data key="d9">The person is likely associated with the organization that is conducting the data analysis</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">a291bfce1bcf4d4ea228795077740a77</data>
+      <data key="d12">141</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA ANALYSIS EVENT" target="UNKNOWN ORGANIZATION">
+      <data key="d8">16.0</data>
+      <data key="d9">The event of data analysis is being carried out by the organization</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">f3bf9131064f4ebdbd1b32f9c8c8da44</data>
+      <data key="d12">142</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA ANALYSIS EVENT" target="COMPUTATIONAL GEOSPATIAL DATA">
+      <data key="d8">8.0</data>
+      <data key="d9">The data is being analyzed as part of the data analysis event</data>
+      <data key="d10">b676b30c1ebb51801feeef9e97d58c62</data>
+      <data key="d11">d90db5d53e764ac386e22a5ec135f5d1</data>
+      <data key="d12">143</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="THIRD QUARTILE" target="MIN">
+      <data key="d8">2.0</data>
+      <data key="d9">The third quartile and the minimum are related statistical measures that define the spread of data</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">cae1cc3c6ad548b49a9043a55691011d</data>
+      <data key="d12">144</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="UNKNOWN" target="UNKNOWN">
+      <data key="d8">1.0</data>
+      <data key="d9">The statistical data seems to be interconnected, suggesting relationships between different variables and measurements</data>
+      <data key="d10">0b8c96af03bd9cee6a1b102d04047917</data>
+      <data key="d11">0e4516042e3b4c98ba3bbb8ae9b675c3</data>
+      <data key="d12">145</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_COLLECTION" target="DATA_POINTS">
+      <data key="d8">8.0</data>
+      <data key="d9">The data points were collected as part of the data collection event</data>
+      <data key="d10">0b8c96af03bd9cee6a1b102d04047917</data>
+      <data key="d11">a33f8dae23f647a49c1211cc868a247a</data>
+      <data key="d12">146</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_POINTS" target="METRICS">
+      <data key="d8">5.0</data>
+      <data key="d9">Each metric includes specific data points as part of the analysis</data>
+      <data key="d10">4ea35889679870d71f6def1bdaf3d57f</data>
+      <data key="d11">5ea88e7b1e9b4bcc97c5a039493b1d6f</data>
+      <data key="d12">147</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="GINI_MEASUREMENT" target="TENTH-ORDER_MOMENT">
+      <data key="d8">4.0</data>
+      <data key="d9">Both gini measurements and the tenth-order moment are part of the same statistical analysis, suggesting related findings</data>
+      <data key="d10">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d11">e80676b255104d3a8cdf9cea2894b237</data>
+      <data key="d12">148</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_METRICS" target="DR_JOHN_SMITH">
+      <data key="d8">7.0</data>
+      <data key="d9">Dr. John Smith is particularly interested in the calculation and interpretation of the statistical metrics</data>
+      <data key="d10">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d11">6fdcd228209946b9b81b6f9073b37bcf</data>
+      <data key="d12">149</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="STATISTICAL_METRICS" target="ANALYSIS_REPORT">
+      <data key="d8">5.0</data>
+      <data key="d9">The findings from the Statistical Metrics will be compiled into the Analysis Report for further action</data>
+      <data key="d10">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d11">506804a490704f6e95a318d734d34f3b</data>
+      <data key="d12">150</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="ORGANIZATION_X" target="DATA_ANALYSIS_SESSION">
+      <data key="d8">8.0</data>
+      <data key="d9">Organization X has initiated the Data Analysis Session to gain insights from the statistical data</data>
+      <data key="d10">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d11">5a8185bb1eab4ab4a5203d581e1719f7</data>
+      <data key="d12">151</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="ORGANIZATION_X" target="ANALYSIS_REPORT">
+      <data key="d8">7.0</data>
+      <data key="d9">Organization X will receive the Analysis Report to inform their decision-making processes</data>
+      <data key="d10">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d11">bd2427ca4d75456b989d83ac5290e032</data>
+      <data key="d12">152</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="RESEARCH_TEAM" target="DATA_ANALYSIS_SESSION">
+      <data key="d8">9.0</data>
+      <data key="d9">The Research Team is conducting the Data Analysis Session under the guidance of Dr. John Smith</data>
+      <data key="d10">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d11">617002d7aa674c9ba28983f1172791ac</data>
+      <data key="d12">153</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_SOURCE" target="DATA_ANALYSIS_SESSION">
+      <data key="d8">6.0</data>
+      <data key="d9">The data used in the analysis session is sourced from a particular location or database, which is crucial for the research</data>
+      <data key="d10">7ad1c9cde768ba696a61ab202239ee02</data>
+      <data key="d11">ebed3d3d09b0443fb0af8c614cc80ba9</data>
+      <data key="d12">154</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="MARTIN SMITH" target="VERDANTIS'S CENTRAL INSTITUTION">
+      <data key="d8">2.0</data>
+      <data key="d9">Martin Smith is the chair of the Verdantis's Central Institution</data>
+      <data key="d10">352acfb20c147eb1ab0ae1091f361f46</data>
+      <data key="d11">07a88e542b814399bb23918d633aef3e</data>
+      <data key="d12">155</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="MARKET STRATEGY COMMITTEE" target="VERDANTIS'S CENTRAL INSTITUTION">
+      <data key="d8">3.0</data>
+      <data key="d9">The Market Strategy Committee is part of the Verdantis's Central Institution</data>
+      <data key="d10">352acfb20c147eb1ab0ae1091f361f46</data>
+      <data key="d11">59fca97727c74bb5bdabd94304cc6b45</data>
+      <data key="d12">156</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="GEO_ANALYSIS" target="STATISTIC_ANALYSIS">
+      <data key="d8">6.0</data>
+      <data key="d9">The statistical analysis includes a geographical component</data>
+      <data key="d10">70d4919a584418d82069f0bfc4e6a8c1</data>
+      <data key="d11">4fa12d85eee04e0cb9705257d84bc871</data>
+      <data key="d12">157</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="PERSONAL_DATA" target="STATISTIC_ANALYSIS">
+      <data key="d8">5.0</data>
+      <data key="d9">The statistical analysis event involves the analysis of personal data</data>
+      <data key="d10">70d4919a584418d82069f0bfc4e6a8c1</data>
+      <data key="d11">9b0e26fd3d4f47ab97a04704da2310cc</data>
+      <data key="d12">158</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="GENERAL_TYPE" target="TEMPORAL">
+      <data key="d8">3.0</data>
+      <data key="d9">Temporal is a subset of general types, indicating a relationship where temporal events are a type of general event</data>
+      <data key="d10">f52160983089b9be1afbfe2281f1c8ab</data>
+      <data key="d11">fd1280e1d46a4fb9bd66d379e9df91ff</data>
+      <data key="d12">159</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="GENERAL_TYPE" target="POUND">
+      <data key="d8">1.0</data>
+      <data key="d9">If Pound is considered an organization, it may be associated with a general type of activity or category</data>
+      <data key="d10">f52160983089b9be1afbfe2281f1c8ab</data>
+      <data key="d11">712c01b3bc0845cfaae1a0af1035d62c</data>
+      <data key="d12">160</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DR. JANE SMITH" target="STATSINC">
+      <data key="d8">8.0</data>
+      <data key="d9">Dr. Jane Smith is an employee of STATSINC, contributing to statistical analysis projects</data>
+      <data key="d10">07e4f6a8de5b1ec538d95eda68b38325</data>
+      <data key="d11">81486ed859dd41118fab84446d5d4f18</data>
+      <data key="d12">161</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DR. JANE SMITH" target="DATAANALYSISCONGRESS">
+      <data key="d8">1.0</data>
+      <data key="d9">Dr. Jane Smith is a frequent presenter at the DATAANALYSISCONGRESS</data>
+      <data key="d10">07e4f6a8de5b1ec538d95eda68b38325</data>
+      <data key="d11">e374bffe6a43450b9da9e5d29fbaa54a</data>
+      <data key="d12">162</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATAANALYSISCONGRESS" target="STATSINC">
+      <data key="d8">5.0</data>
+      <data key="d9">STATSINC regularly presents its research findings at the DATAANALYSISCONGRESS</data>
+      <data key="d10">07e4f6a8de5b1ec538d95eda68b38325</data>
+      <data key="d11">a18785a9014142c78f144a26c1e0eea0</data>
+      <data key="d12">163</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATAANALYSISCONGRESS" target="NEWYORKCITY">
+      <data key="d8">3.0</data>
+      <data key="d9">The DATAANALYSISCONGRESS takes place in New York City annually</data>
+      <data key="d10">07e4f6a8de5b1ec538d95eda68b38325</data>
+      <data key="d11">81e02ce3e00e434e9fa2ea63731f7aac</data>
+      <data key="d12">164</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS_REPORT" target="STATISTICS_BUREAU">
+      <data key="d8">8.0</data>
+      <data key="d9">The Statistics Bureau is the source of the Data Analysis Report</data>
+      <data key="d10">fa3da54a34b635afe7dcd39b2a5adaac</data>
+      <data key="d11">54f18110482c494fa48f650e0dc59846</data>
+      <data key="d12">165</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS_REPORT" target="METRIC_1">
+      <data key="d8">5.0</data>
+      <data key="d9">METRIC_1 is one of the metrics included in the Data Analysis Report</data>
+      <data key="d10">fa3da54a34b635afe7dcd39b2a5adaac</data>
+      <data key="d11">4f70280378e547e49694c115295b9ef2</data>
+      <data key="d12">166</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="DATA_ANALYSIS_REPORT" target="METRIC_2">
+      <data key="d8">5.0</data>
+      <data key="d9">METRIC_2 is one of the metrics included in the Data Analysis Report</data>
+      <data key="d10">fa3da54a34b635afe7dcd39b2a5adaac</data>
+      <data key="d11">ad8c7e249bc44807a40ca14a7eb2139b</data>
+      <data key="d12">167</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="FIRST_CHAR_UPPERCASE_NAME_TRUE" target="NUMBER_OF_WORDS_IN_NAME">
+      <data key="d8">2.0</data>
+      <data key="d9">Both terms seem to relate to data naming conventions and could be used together for data organization</data>
+      <data key="d10">6a23beba3878acffe3ac7caa8b438425</data>
+      <data key="d11">8c05ad48ee574c43b340c300b58adfe9</data>
+      <data key="d12">168</data>
+      <data key="d13">1</data>
+    </edge>
+  </graph>
+</graphml>

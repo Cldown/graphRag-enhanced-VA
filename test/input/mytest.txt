@@ -1,0 +1,12 @@
+Entity,Relation,Entity,Weight
+string,data_type,scatter,156
+string,data_type,bar,250
+decimal,data_type,bar,175
+decimal,data_type,scatter,124
+decimal,data_type,line,122
+integer,data_type,line,114
+integer,data_type,scatter,145
+time,data_type,scatter,143
+time,data_type,bar,251
+time,data_type,line,267
+time,data_type,scatter,211

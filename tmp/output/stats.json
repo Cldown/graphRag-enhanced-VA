@@ -1,0 +1,11 @@
+{
+    "total_runtime": 0.8440170288085938,
+    "num_documents": 1,
+    "input_load_time": 0,
+    "workflows": {
+        "create_base_text_units": {
+            "overall": 0.7330758571624756,
+            "0_create_base_text_units": 0.7330758571624756
+        }
+    }
+}

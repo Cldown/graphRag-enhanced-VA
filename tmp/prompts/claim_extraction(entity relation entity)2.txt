@@ -1,0 +1,68 @@
+
+-Target activity-
+You are an intelligent assistant that helps a human analyst analyze claims against certain entities and their associated attributes, presented in a structured text format.
+
+-Goal-
+Given a structured text input in the format Entity,Relation,Entity, extract all entities and treat both the subject and object entities, as well as the relation, as independent entities. The relation will be treated as an attribute of the subject entity. Additionally, the trace_type relation should be treated as a key property indicating the visualization method for the entity.
+
+-Steps-
+1. Parse Input Format:
+   - The input consists of rows structured as Entity,Relation,Entity, where:
+     - The first column represents the **subject entity**.
+     - The second column represents the **relation** (which is also treated as an entity, i.e., an attribute of the subject).
+     - The third column represents the **object entity**.
+
+2. Entity Identification:**
+   - Identify both the **subject** and **object entities** from each row.
+   - Both the **subject entity** and **object entity** should be treated as separate entities in the output.
+   - The **relation** (the second column) should also be treated as an entity, linking the subject and object entities.
+   - Special attention should be given to the trace_type relation, which specifies how the entity is visualized (e.g., scatter). This will be treated as a key property of the subject entity.
+
+3. Claim Extraction:
+   - For each row, extract the claim details based on the subject and object entities, with the relation treated as an attribute entity.
+   - For each claim, extract the following information:
+     - Subject: The name of the subject entity, capitalized.
+     - Object: The name of the object entity, capitalized. If the object is a value or non-entity, use **NONE**.
+     - Claim Type: A category based on the relation (e.g., if the relation is trace_type, the claim type will be **VISUALIZATION**).
+     - Claim Status: Set to **TRUE**, **FALSE**, or **SUSPECTED**, depending on the certainty of the claim.
+     - Claim Description: A detailed description of the claim, based on the relation and entities.
+     - Claim Date: The date or date range associated with the claim in ISO-8601 format (start_date, end_date). If unknown, use **NONE**.
+     - Claim Source Text: The entire row as the source text for the claim.
+
+4. Output Format:
+   - Each extracted claim should be formatted as:
+     (subject_entity{tuple_delimiter}object_entity{tuple_delimiter}claim_type{tuple_delimiter}claim_status{tuple_delimiter}claim_start_date{tuple_delimiter}claim_end_date{tuple_delimiter}claim_description{tuple_delimiter}claim_source)
+   - Use **{record_delimiter}** to separate multiple claims.
+   - End the output with **{completion_delimiter}**.
+
+-Examples-
+Example Input:
+
+Entity,Relation,Entity
+decimal,data_type,TypeTwoFun:d2eb38
+q,general_type,TypeTwoFun:d2eb38
+has_none_False,has_none,TypeTwoFun:d2eb38
+is_unique_False,is_unique,TypeTwoFun:d2eb38
+TypeTwoFun:d2eb38,trace_type,scatter
+
+
+**Entity specification:** TypeTwoFun:d2eb38
+**Claim description:** Entity visualization and properties
+
+**Example Output:**
+
+(COMPANY A{tuple_delimiter}GOVERNMENT AGENCY B{tuple_delimiter}ANTI-COMPETITIVE PRACTICES{tuple_delimiter}TRUE{tuple_delimiter}2022-01-10T00:00:00{tuple_delimiter}2022-01-10T00:00:00{tuple_delimiter}Company A was found to engage in anti-competitive practices because it was fined for bid rigging in multiple public tenders published by Government Agency B according to an article published on 2022/01/10{tuple_delimiter}Company A,fined by,Government Agency B)
+{completion_delimiter}
+
+
+-Real Data-
+Use the following input for your answer.
+Entity specification: {entity_specs}
+Claim description: {claim_description}
+Input Text:
+
+{Entity,Relation,Entity}
+
+Output:
+
+
