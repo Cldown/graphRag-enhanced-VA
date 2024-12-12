@@ -1,0 +1,7 @@
+Region,Truck (Count),Train (Count),Ship (Count),Plane (Count),Pipeline (Count)
+North America,500,250,300,400,200
+South America,200,150,100,100,50
+Europe,300,400,250,200,150
+Asia,1000,800,500,1200,600
+Africa,100,50,25,50,20
+Australia,300,200,100,150,75
