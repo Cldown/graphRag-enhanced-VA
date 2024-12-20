@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 import io
 import re
-from datetime import time
+from time import time
+from datetime import datetime
 
 import numpy as np
 import scipy as sc
@@ -410,7 +411,7 @@ def print_field_features(all_field_features):
             output.write(f"Column {i + 1}: {column_name}\n")
             for key, value in field_features.items():
                 # Skip empty values
-                if value is not None and value != '':
+                if value is not None and value != '' and value != False:
                     if key != 'fid' and key != 'field_id':
                         output.write(f"The {key} of this field is {value}\n")
             output.write("-------------\n")
@@ -445,7 +446,8 @@ def read_field_data_from_csv(filename):
 
 
 # Example usage:
-filename = 'user_input.csv'
+# filename = 'user_input.csv'
+filename = 'feature/feature_extraction/features/user_input.csv'
 fields = read_field_data_from_csv(filename)
 # print(fields)
 
