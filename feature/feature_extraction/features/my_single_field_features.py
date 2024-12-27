@@ -432,7 +432,11 @@ def print_field_features(all_field_features):
                             key = 'symbol_in_name'
 
 
-                        output.write(f"The {key} of this field is {value}\n")
+                        # output.write(f"The {key} of this field is {value}\n")
+                        if isinstance(value, bool) and value is True:
+                            output.write(f"{key}_{value}, {key}\n")
+                        else:
+                            output.write(f"{key} is {value}, {key}\n")
             output.write("-------------\n")
 
     return output.getvalue()  # 返回字符串形式的内容
