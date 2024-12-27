@@ -413,6 +413,25 @@ def print_field_features(all_field_features):
                 # Skip empty values
                 if value is not None and value != '' and value != False:
                     if key != 'fid' and key != 'field_id':
+                        if (key.startswith('data_type_')
+                                or key.startswith('general_type_')
+                                or key == 'exists'
+                                or key == 'mean_value_length'
+                                or key == 'median_value_length'
+                                or key == 'min_value_length'
+                                or key == 'max_value_length'
+                                or key == 'std_value_length'
+                                or key == 'list_entropy'
+                                ):
+                            continue
+                        if (key == 'x_in_name' or key == 'y_in_name'
+                            or key == 'id_in_name' or key == 'time_in_name'
+                            or key == 'digit_in_name' or key == 'dollar_in_name'
+                            or key == 'pound_in_name' or key == 'euro_in_name'
+                            or key == 'yen_in_name' or key == 'space_in_name'):
+                            key = 'symbol_in_name'
+
+
                         output.write(f"The {key} of this field is {value}\n")
             output.write("-------------\n")
 
