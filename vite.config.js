@@ -5,10 +5,10 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     proxy: {
-      '/datas': {
-        target: 'http://localhost:8088', // Flask 后端地址
+      '/api': {
+        target: 'http://localhost:8088',
         changeOrigin: true,
-        secure: false
+        rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
   }
