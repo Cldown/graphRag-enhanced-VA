@@ -76,34 +76,43 @@ const handleFileSelect = (event) => {
 }
 
 const sendMessage = () => {
-  if (!userInput.value.trim() && !selectedFile.value) return
+  if (!userInput.value.trim() && !selectedFile.value) return;
+  
   // 添加用户消息
   messages.value.push({
     text: userInput.value,
     isUser: true,
     image: false,
-  })
+  });
 
-  console.log(userInput.value)
+  console.log(userInput.value);
 
   var data = {
     order: userInput.value
-  }
+  };
 
-  axios.post('/api/orders', data).then(response => {
-    console.log(response.data)
-    messages.value.push({
-      text: response.data,
-      isUser: false,
-      image: response.data
+  axios.post('/api/orders', data, { responseType: 'arraybuffer' }) // 设置responseType为arraybuffer来接收二进制数据
+    .then(response => {
+      console.log(response.data);
+
+      // 创建Blob对象并生成URL
+      const imageBlob = new Blob([response.data], { type: 'image/png' });
+      const imageUrl = URL.createObjectURL(imageBlob);
+
+      // 将图片显示到消息中
+      messages.value.push({
+        text: "",  // 留空，因为是图片
+        isUser: false,
+        image: imageUrl  // 存储图片URL
+      });
     })
-  })
     .catch(error => {
-      console.error(error)
-    })
+      console.error(error);
+    });
 
   // 清空输入
-  userInput.value = ''
-  selectedFile.value = null
-}
+  userInput.value = '';
+  selectedFile.value = null;
+};
+
 </script>
