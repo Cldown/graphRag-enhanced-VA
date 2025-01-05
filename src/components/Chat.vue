@@ -1,33 +1,35 @@
 <template>
-  <div class="container mx-auto px-4 py-8 max-w-4xl">
-    <div class="bg-white rounded-lg shadow-lg">
-      <!-- 聊天记录区域 -->
-      <div class="h-[600px] overflow-y-auto p-6 space-y-4">
+  <div class="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+    <div class="container max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden">
+      <!-- Chat history area -->
+      <div class="h-[600px] overflow-y-auto p-6 space-y-4 bg-gray-50">
         <div v-for="(message, index) in messages" :key="index"
           :class="['flex', message.isUser ? 'justify-end' : 'justify-start']">
-          <div :class="['max-w-[70%] rounded-lg p-4',
-            message.isUser ? 'bg-blue-500 text-white' : 'bg-gray-100']">
+          <div :class="['max-w-[70%] rounded-2xl p-4 shadow-md',
+            message.isUser ? 'bg-blue-500 text-white' : 'bg-white']">
             <img v-if="message.image" :src="message.image" class="mt-2 rounded-lg max-w-full h-auto" />
-            <p v-else>{{ message.text }}</p>
+            <p v-else :class="message.isUser ? 'text-white' : 'text-gray-800'">{{ message.text }}</p>
           </div>
         </div>
       </div>
 
-      <!-- 输入区域 -->
-      <div class="border-t p-4 space-y-4">
-
+      <!-- Input area -->
+      <div class="border-t border-gray-200 p-6 bg-white">
         <div class="flex gap-4">
           <input type="text" v-model="userInput"
-            class="flex-1 border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            class="flex-1 border border-gray-300 rounded-full px-6 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300 ease-in-out"
             placeholder="请输入您的问题..." />
 
-          <label class="cursor-pointer bg-gray-200 hover:bg-gray-300 rounded-lg px-4 py-2">
-            选择CSV文件
+          <label class="cursor-pointer bg-gray-200 hover:bg-gray-300 rounded-full px-6 py-3 transition duration-300 ease-in-out flex items-center justify-center">
+            <span class="text-gray-700">选择CSV文件</span>
             <input type="file" accept=".csv" @change="handleFileSelect" class="hidden" />
           </label>
 
-          <button @click="sendMessage" class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
-            发送
+          <button @click="sendMessage" class="bg-blue-500 text-white px-8 py-3 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out flex items-center justify-center">
+            <span>发送</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
           </button>
         </div>
       </div>
@@ -57,7 +59,6 @@ const handleFileSelect = (event) => {
     selectedFile.value = file
     var formData = new FormData()
     formData.append('file', file)
-    // formData.append('type', 'csv')
     axios.post('/api/datas', formData)
       .then(response => {
         console.log(response.data)
@@ -78,7 +79,6 @@ const handleFileSelect = (event) => {
 const sendMessage = () => {
   if (!userInput.value.trim() && !selectedFile.value) return;
   
-  // 添加用户消息
   messages.value.push({
     text: userInput.value,
     isUser: true,
@@ -91,28 +91,29 @@ const sendMessage = () => {
     order: userInput.value
   };
 
-  axios.post('/api/orders', data, { responseType: 'arraybuffer' }) // 设置responseType为arraybuffer来接收二进制数据
+  axios.post('/api/orders', data, { responseType: 'arraybuffer' })
     .then(response => {
       console.log(response.data);
 
-      // 创建Blob对象并生成URL
       const imageBlob = new Blob([response.data], { type: 'image/png' });
       const imageUrl = URL.createObjectURL(imageBlob);
 
-      // 将图片显示到消息中
       messages.value.push({
-        text: "",  // 留空，因为是图片
+        text: "",
         isUser: false,
-        image: imageUrl  // 存储图片URL
+        image: imageUrl
       });
     })
     .catch(error => {
       console.error(error);
     });
 
-  // 清空输入
   userInput.value = '';
   selectedFile.value = null;
 };
 
 </script>
+
+<style scoped>
+/* Add any additional custom styles here if needed */
+</style>
