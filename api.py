@@ -42,7 +42,7 @@ def post_orders():
     order = json_data['order'] #请求
     print(order)
     image_path = './this.png'
-    return send_file(image_path), 200
+    return send_file(image_path, mimetype='image/png'), 200
 
 
 if __name__ == '__main__':

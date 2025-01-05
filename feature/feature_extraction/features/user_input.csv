@@ -1,5 +1,6 @@
-Department,Employees,Average Salary(k USD)
-HR,100,40
-Accounting,80,30
-IT,60,55
-Sales,120,45
+Category,Number of Laws Passed,Number of Regulations Issued,Amount of Government Spending (Billion USD),Percentage of Population Affected (%),Number of Government Programs
+Education,50,150,100,25%,10
+Healthcare,40,100,200,30%,15
+Infrastructure,25,75,150,20%,5
+Environment,35,120,75,10%,8
+Finance,30,80,175,15%,12
