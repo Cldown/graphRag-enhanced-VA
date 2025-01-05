@@ -1,6 +1,5 @@
-Year,International Tourists,Domestic Tourists
-2001,10000,20000
-2002,15000,25000
-2003,20000,30000
-2004,25000,35000
-2005,30000,40000
+Department,Employees,Average Salary(k USD)
+HR,100,40
+Accounting,80,30
+IT,60,55
+Sales,120,45
