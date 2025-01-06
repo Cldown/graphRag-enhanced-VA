@@ -1,62 +1,247 @@
-My data has the following characteristics, What type do you think I should use for visualization:
-Column 1: Indicator
-The column_name of this field is Indicator
-The exists of this field is True
-The length of this field is 5
-The data_type of this field is string
-The general_type of this field is categorical
-The general_type_is_categorical of this field is True
+The question is 分析一下这个数据.  My data set has the following characteristics, What type do you think I should use to visualize the data : 
+Column 1: Category
+column_name is Category, column_name
+length is 5, length
+num_unique_elements is 5, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+percentage_of_mode is 0.2, percentage_of_mode
+field_name_length is 8, field_name_length
+symbol_in_name_True, symbol_in_name
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 1, num_uppercase_characters
+number_of_words_in_name is 1, number_of_words_in_name
+data_type is string, data_type
+general_type is categorical, general_type
 -------------
-Column 2: Doctors per 1000 people
-The column_name of this field is Doctors per 1000 people
-The exists of this field is True
-The length of this field is 5
-The data_type of this field is decimal
-The general_type of this field is quantitative
-The general_type_is_quantitative of this field is True
+Column 2: Number of Laws Passed
+column_name is Number of Laws Passed, column_name
+length is 5, length
+num_unique_elements is 5, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+mean is 36.0, mean
+normalized_mean is 0.72, normalized_mean
+median is 35.0, median
+normalized_median is 0.7, normalized_median
+var is 74.0, var
+std is 8.602325267042627, std
+coeff_var is 2.0555555555555554, coeff_var
+min is 25, min
+max is 50, max
+range is 25, range
+normalized_range is 0.6944444444444444, normalized_range
+entropy is 1.581282808336522, entropy
+gini is 0.13333333296296296, gini
+First Quartile is 25.05, First Quartile
+Third Quartile is 25.15, Third Quartile
+med_abs_dev is 5.0, med_abs_dev
+avg_abs_dev is 7.2, avg_abs_dev
+quant_coeff_disp is 0.0019920318725099176, quant_coeff_disp
+skewness is 0.39587033734381705, skewness
+kurtosis is -1.0054784514243973, kurtosis
+fifth-order moment is 74004.0, fifth-order moment
+sixth-order moment is 1870370.0, sixth-order moment
+seventh-order moment is 17132556.0, seventh-order moment
+eighth-order moment is 338378618.0, eighth-order moment
+ninth-order moment is 3658656708.0, ninth-order moment
+tenth-order moment is 63050718866.0, tenth-order moment
+percent_outliers_15iqr is 0.8, percent_outliers_15iqr
+percent_outliers_3iqr is 0.8, percent_outliers_3iqr
+percent_outliers_1_99 is 1.0, percent_outliers_1_99
+has_outliers_15iqr is True, has_outliers_15iqr
+has_outliers_3iqr is True, has_outliers_3iqr
+has_outliers_1_99 is True, has_outliers_1_99
+field_name_length is 21, field_name_length
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 3, num_uppercase_characters
+symbol_in_name_True, symbol_in_name
+number_of_words_in_name is 4, number_of_words_in_name
+is_monotonic is True, is_monotonic
+sortedness is 0.6891891891891893, sortedness
+lin_space_sequence_coeff is 0.3464101615137755, lin_space_sequence_coeff
+log_space_sequence_coeff is 0.03338411883774472, log_space_sequence_coeff
+data_type is integer, data_type
+general_type is quantitative, general_type
 -------------
-Column 3: Nurses per 1000 people
-The column_name of this field is Nurses per 1000 people
-The exists of this field is True
-The length of this field is 5
-The data_type_is_decimal of this field is True
-The data_type of this field is decimal
-The general_type of this field is quantitative
-The general_type_is_quantitative of this field is True
+Column 3: Number of Regulations Issued
+column_name is Number of Regulations Issued, column_name
+length is 5, length
+num_unique_elements is 5, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+mean is 105.0, mean
+normalized_mean is 0.7, normalized_mean
+median is 100.0, median
+normalized_median is 0.6666666666666666, normalized_median
+var is 760.0, var
+std is 27.568097504180443, std
+coeff_var is 7.238095238095238, coeff_var
+min is 75, min
+max is 150, max
+range is 75, range
+normalized_range is 0.7142857142857143, normalized_range
+entropy is 1.5758076699511916, entropy
+gini is 0.1447619046240363, gini
+First Quartile is 75.05, First Quartile
+Third Quartile is 75.15, Third Quartile
+med_abs_dev is 20.0, med_abs_dev
+avg_abs_dev is 24.0, avg_abs_dev
+quant_coeff_disp is 0.0006657789613848771, quant_coeff_disp
+skewness is 0.4939920518841198, skewness
+kurtosis is -1.146641274238227, kurtosis
+fifth-order moment is 30243750.0, fifth-order moment
+sixth-order moment is 1857662500.0, sixth-order moment
+seventh-order moment is 69173343750.0, seventh-order moment
+eighth-order moment is 3525275312500.0, eighth-order moment
+ninth-order moment is 146644277343750.0, ninth-order moment
+tenth-order moment is 6947412601562499.0, tenth-order moment
+percent_outliers_15iqr is 0.8, percent_outliers_15iqr
+percent_outliers_3iqr is 0.8, percent_outliers_3iqr
+percent_outliers_1_99 is 1.0, percent_outliers_1_99
+has_outliers_15iqr is True, has_outliers_15iqr
+has_outliers_3iqr is True, has_outliers_3iqr
+has_outliers_1_99 is True, has_outliers_1_99
+field_name_length is 28, field_name_length
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 3, num_uppercase_characters
+symbol_in_name_True, symbol_in_name
+number_of_words_in_name is 4, number_of_words_in_name
+is_monotonic is True, is_monotonic
+sortedness is 0.519736842105263, sortedness
+lin_space_sequence_coeff is 0.4760952285695233, lin_space_sequence_coeff
+log_space_sequence_coeff is 0.06692053242837655, log_space_sequence_coeff
+data_type is integer, data_type
+general_type is quantitative, general_type
 -------------
-Column 4: Beds per 1000 people
-The column_name of this field is Beds per 1000 people
-The exists of this field is True
-The length of this field is 5
-The data_type_is_decimal of this field is True
-The data_type of this field is decimal
-The general_type of this field is quantitative
-The general_type_is_quantitative of this field is True
+Column 4: Amount of Government Spending (Billion USD)
+column_name is Amount of Government Spending (Billion USD), column_name
+length is 5, length
+num_unique_elements is 5, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+mean is 140.0, mean
+normalized_mean is 0.7, normalized_mean
+median is 150.0, median
+normalized_median is 0.75, normalized_median
+var is 2150.0, var
+std is 46.36809247747852, std
+coeff_var is 15.357142857142858, coeff_var
+min is 75, min
+max is 200, max
+range is 125, range
+normalized_range is 0.8928571428571429, normalized_range
+entropy is 1.5519018493652716, entropy
+gini is 0.18571428558163267, gini
+First Quartile is 75.25, First Quartile
+Third Quartile is 75.75, Third Quartile
+med_abs_dev is 50.0, med_abs_dev
+avg_abs_dev is 42.0, avg_abs_dev
+quant_coeff_disp is 0.0033112582781456954, quant_coeff_disp
+skewness is -0.1579875514375958, skewness
+kurtosis is -1.4908058409951326, kurtosis
+fifth-order moment is -86493750.0, fifth-order moment
+sixth-order moment is 25602031250.0, sixth-order moment
+seventh-order moment is -440471718750.0, seventh-order moment
+eighth-order moment is 99082397656250.0, eighth-order moment
+ninth-order moment is -2163508839843749.5, ninth-order moment
+tenth-order moment is 3.928360823632813e+17, tenth-order moment
+percent_outliers_15iqr is 0.8, percent_outliers_15iqr
+percent_outliers_3iqr is 0.8, percent_outliers_3iqr
+percent_outliers_1_99 is 1.0, percent_outliers_1_99
+has_outliers_15iqr is True, has_outliers_15iqr
+has_outliers_3iqr is True, has_outliers_3iqr
+has_outliers_1_99 is True, has_outliers_1_99
+field_name_length is 43, field_name_length
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 7, num_uppercase_characters
+symbol_in_name_True, symbol_in_name
+number_of_words_in_name is 6, number_of_words_in_name
+is_monotonic is True, is_monotonic
+sortedness is 0.011627906976744207, sortedness
+lin_space_sequence_coeff is 0.34641016151377546, lin_space_sequence_coeff
+log_space_sequence_coeff is 0.10725185597356736, log_space_sequence_coeff
+data_type is integer, data_type
+general_type is quantitative, general_type
 -------------
-Column 5: Healthcare Spending per capita
-The column_name of this field is Healthcare Spending per capita
-The exists of this field is True
-The length of this field is 5
-The data_type_is_string of this field is True
-The data_type of this field is string
-The general_type of this field is categorical
-The general_type_is_categorical of this field is True
+Column 5: Percentage of Population Affected (%)
+column_name is Percentage of Population Affected (%), column_name
+length is 5, length
+num_unique_elements is 5, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+percentage_of_mode is 0.2, percentage_of_mode
+field_name_length is 37, field_name_length
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 3, num_uppercase_characters
+symbol_in_name_True, symbol_in_name
+number_of_words_in_name is 5, number_of_words_in_name
+data_type is string, data_type
+general_type is categorical, general_type
 -------------
-Column 6: Life Expectancy (years)
-The column_name of this field is Life Expectancy (years)
-The exists of this field is True
-The length of this field is 5
-The data_type_is_integer of this field is True
-The data_type of this field is integer
-The general_type of this field is quantitative
-The general_type_is_quantitative of this field is True
+Column 6: Number of Government Programs
+column_name is Number of Government Programs, column_name
+length is 5, length
+num_unique_elements is 5, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+mean is 10.0, mean
+normalized_mean is 0.6666666666666666, normalized_mean
+median is 10.0, median
+normalized_median is 0.6666666666666666, normalized_median
+var is 11.6, var
+std is 3.40587727318528, std
+coeff_var is 1.16, coeff_var
+min is 5, min
+max is 15, max
+range is 10, range
+normalized_range is 1.0, normalized_range
+entropy is 1.54905889263737, entropy
+gini is 0.19199999808, gini
+First Quartile is 5.03, First Quartile
+Third Quartile is 5.09, Third Quartile
+med_abs_dev is 2.0, med_abs_dev
+avg_abs_dev is 2.8, avg_abs_dev
+quant_coeff_disp is 0.005928853754940672, quant_coeff_disp
+kurtosis is -1.0945303210463735, kurtosis
+sixth-order moment is 6275.6, sixth-order moment
+eighth-order moment is 156352.4, eighth-order moment
+tenth-order moment is 3906659.6, tenth-order moment
+percent_outliers_15iqr is 0.8, percent_outliers_15iqr
+percent_outliers_3iqr is 0.8, percent_outliers_3iqr
+percent_outliers_1_99 is 1.0, percent_outliers_1_99
+has_outliers_15iqr is True, has_outliers_15iqr
+has_outliers_3iqr is True, has_outliers_3iqr
+has_outliers_1_99 is True, has_outliers_1_99
+field_name_length is 29, field_name_length
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 3, num_uppercase_characters
+symbol_in_name_True, symbol_in_name
+number_of_words_in_name is 4, number_of_words_in_name
+is_monotonic is True, is_monotonic
+sortedness is 0.06896551724137928, sortedness
+lin_space_sequence_coeff is 0.2, lin_space_sequence_coeff
+log_space_sequence_coeff is 0.1068939795418694, log_space_sequence_coeff
+data_type is integer, data_type
+general_type is quantitative, general_type
 -------------
-Column 7: Infant Mortality Rate (deaths per 1000 births)
-The column_name of this field is Infant Mortality Rate (deaths per 1000 births)
-The exists of this field is True
-The length of this field is 5
-The data_type_is_integer of this field is True
-The data_type of this field is integer
-The general_type of this field is quantitative
-The general_type_is_quantitative of this field is True
--------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

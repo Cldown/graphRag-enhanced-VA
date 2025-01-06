@@ -413,7 +413,8 @@ def csv_to_string(file_path):
 def encode_image_to_base64(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
-def get_response(image_path,question):
+def get_response(question):
+    image_path = "output_filter.png"
     image_base64 = encode_image_to_base64(image_path)
     client = ZhipuAI(api_key="a939104d5a999a9b68fdcfa4e651356b.wmgjEahqOumFPwol")  # 请填写您自己的APIKey
     response = client.chat.completions.create(
@@ -440,7 +441,7 @@ def get_response(image_path,question):
 def filter(code,question):
     client = ZhipuAI(api_key="a939104d5a999a9b68fdcfa4e651356b.wmgjEahqOumFPwol")
     message = """
-    请聚焦于问题所需要展现的数据，对以下Vega-lite代码进行修改(使用Vega-Lite的对应Transform操作），如果没有修改，返回原代码即可，注意：不要添加除了Vega-lite代码以外的任何句子。
+    请聚焦于问题所需要展现的数据，对以下Vega-lite代码进行修改(使用Vega-Lite的对应Transform操作），如果没有针对该问题不需要添加任何过滤的条件，返回原代码即可，注意：不要添加除了Vega-lite代码以外的任何句子。
     question:
     {}
     code:
@@ -462,9 +463,24 @@ def filter(code,question):
     vega_lite_spec = json.loads(vega_lite_spec)
     chart = alt.Chart.from_dict(vega_lite_spec)
     chart.save("output_filter.png")
-image_path="output.png"
-question="筛选一下Layers大于12000的数据"
-get_response(image_path,question)
+def get_type():
+    client = ZhipuAI(api_key="a939104d5a999a9b68fdcfa4e651356b.wmgjEahqOumFPwol")
+    with open('output.txt', 'r', encoding='utf-8') as file:
+        text = file.read()
+    message = """
+        总结以下报告，从"bar, line, heatmap, histogram, box, scatter"中得到最推荐的可视化类型，注意:只允许生成一个类型，不要添加其他任何内容
+        {}
+        """.format(text)
+    response = client.chat.completions.create(
+        model="glm-4-plus",
+        messages=[{"role": "user", "content": message}],
+    )
+    print(response.choices[0].message.content)
+    return response.choices[0].message.content  # 直接访问 content 属性
+
+# image_path="output.png"
+# question="筛选一下Layers大于12000的数据"
+# get_response(question)
 # file_path = "./userInput/bar_2.csv"  # 替换为实际文件路径
 # data = csv_to_string(file_path)
 # type = "bar"

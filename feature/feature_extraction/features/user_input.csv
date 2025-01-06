@@ -1,6 +1,5 @@
-Category,Number of Laws Passed,Number of Regulations Issued,Amount of Government Spending (Billion USD),Percentage of Population Affected (%),Number of Government Programs
-Education,50,150,100,25%,10
-Healthcare,40,100,200,30%,15
-Infrastructure,25,75,150,20%,5
-Environment,35,120,75,10%,8
-Finance,30,80,175,15%,12
+Country,Judges,Jurors,Lawyers
+USA,1000,4000,10000
+UK,1200,4500,11000
+Germany,1500,4800,12000
+France,1800,5000,13000

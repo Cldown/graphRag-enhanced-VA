@@ -1,0 +1,173 @@
+ My data set has the following characteristics, What type do you think I should use to visualize the data : 
+Column 1: Country
+column_name is Country, column_name
+length is 4, length
+num_unique_elements is 4, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+percentage_of_mode is 0.25, percentage_of_mode
+field_name_length is 7, field_name_length
+symbol_in_name_True, symbol_in_name
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 1, num_uppercase_characters
+number_of_words_in_name is 1, number_of_words_in_name
+data_type is string, data_type
+general_type is categorical, general_type
+-------------
+Column 2: Judges
+column_name is Judges, column_name
+length is 4, length
+num_unique_elements is 4, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+mean is 1375.0, mean
+normalized_mean is 0.7638888888888888, normalized_mean
+median is 1350.0, median
+normalized_median is 0.75, normalized_median
+var is 91875.0, var
+std is 303.10889132455355, std
+coeff_var is 66.81818181818181, coeff_var
+min is 1000, min
+max is 1800, max
+range is 800, range
+normalized_range is 0.5818181818181818, normalized_range
+entropy is 1.362020905485915, entropy
+gini is 0.1227272727183471, gini
+First Quartile is 1001.5, First Quartile
+Third Quartile is 1004.5, Third Quartile
+med_abs_dev is 250.0, med_abs_dev
+avg_abs_dev is 275.0, avg_abs_dev
+quant_coeff_disp is 0.0014955134596211367, quant_coeff_disp
+skewness is 0.18515606300541934, skewness
+kurtosis is -1.413022351797862, kurtosis
+fifth-order moment is 1579101562500.0, fifth-order moment
+sixth-order moment is 2176603271484375.0, sixth-order moment
+seventh-order moment is 3.642789916992187e+17, seventh-order moment
+eighth-order moment is 3.641053578186035e+20, eighth-order moment
+ninth-order moment is 7.639514602661132e+22, ninth-order moment
+tenth-order moment is 6.182042436475754e+25, tenth-order moment
+percent_outliers_15iqr is 0.75, percent_outliers_15iqr
+percent_outliers_3iqr is 0.75, percent_outliers_3iqr
+percent_outliers_1_99 is 1.0, percent_outliers_1_99
+has_outliers_15iqr is True, has_outliers_15iqr
+has_outliers_3iqr is True, has_outliers_3iqr
+has_outliers_1_99 is True, has_outliers_1_99
+field_name_length is 6, field_name_length
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 1, num_uppercase_characters
+number_of_words_in_name is 1, number_of_words_in_name
+is_sorted_True, is_sorted
+is_monotonic is True, is_monotonic
+sortedness is 0.9999999999999998, sortedness
+lin_space_sequence_coeff is 0.17677669529663687, lin_space_sequence_coeff
+log_space_sequence_coeff is 0.0191109940861229, log_space_sequence_coeff
+data_type is integer, data_type
+general_type is quantitative, general_type
+-------------
+Column 3: Jurors
+column_name is Jurors, column_name
+length is 4, length
+num_unique_elements is 4, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+mean is 4575.0, mean
+normalized_mean is 0.915, normalized_mean
+median is 4650.0, median
+normalized_median is 0.93, normalized_median
+var is 141875.0, var
+std is 376.6629793329841, std
+coeff_var is 31.010928961748633, coeff_var
+min is 4000, min
+max is 5000, max
+range is 1000, range
+normalized_range is 0.2185792349726776, normalized_range
+entropy is 1.3828534260697931, entropy
+gini is 0.045081967212129356, gini
+First Quartile is 4003.75, First Quartile
+Third Quartile is 4011.25, Third Quartile
+med_abs_dev is 250.0, med_abs_dev
+avg_abs_dev is 325.0, avg_abs_dev
+quant_coeff_disp is 0.0009357454772301934, quant_coeff_disp
+skewness is -0.4789333851985701, skewness
+kurtosis is -1.2048749247996273, kurtosis
+fifth-order moment is -12103710937500.0, fifth-order moment
+sixth-order moment is 1.0541114990234374e+16, sixth-order moment
+seventh-order moment is -4.561929309082031e+18, seventh-order moment
+eighth-order moment is 3.255073394927978e+21, eighth-order moment
+ninth-order moment is -1.6042493669128415e+24, ninth-order moment
+tenth-order moment is 1.0358331670176506e+27, tenth-order moment
+percent_outliers_15iqr is 0.75, percent_outliers_15iqr
+percent_outliers_3iqr is 0.75, percent_outliers_3iqr
+percent_outliers_1_99 is 1.0, percent_outliers_1_99
+has_outliers_15iqr is True, has_outliers_15iqr
+has_outliers_3iqr is True, has_outliers_3iqr
+has_outliers_1_99 is True, has_outliers_1_99
+field_name_length is 6, field_name_length
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 1, num_uppercase_characters
+number_of_words_in_name is 1, number_of_words_in_name
+is_sorted_True, is_sorted
+is_monotonic is True, is_monotonic
+sortedness is 0.9999999999999999, sortedness
+lin_space_sequence_coeff is 0.37416573867739417, lin_space_sequence_coeff
+log_space_sequence_coeff is 0.03195122421469212, log_space_sequence_coeff
+data_type is integer, data_type
+general_type is quantitative, general_type
+-------------
+Column 4: Lawyers
+column_name is Lawyers, column_name
+length is 4, length
+num_unique_elements is 4, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+mean is 11500.0, mean
+normalized_mean is 0.8846153846153846, normalized_mean
+median is 11500.0, median
+normalized_median is 0.8846153846153846, normalized_median
+var is 1250000.0, var
+std is 1118.033988749895, std
+coeff_var is 108.69565217391305, coeff_var
+min is 10000, min
+max is 13000, max
+range is 3000, range
+normalized_range is 0.2608695652173913, normalized_range
+entropy is 1.3815561709417359, entropy
+gini is 0.054347826086483926, gini
+First Quartile is 10007.5, First Quartile
+Third Quartile is 10022.5, Third Quartile
+med_abs_dev is 1000.0, med_abs_dev
+avg_abs_dev is 1000.0, avg_abs_dev
+quant_coeff_disp is 0.0007488766849725411, quant_coeff_disp
+kurtosis is -1.36, kurtosis
+sixth-order moment is 5.703125e+18, sixth-order moment
+eighth-order moment is 1.281640625e+25, eighth-order moment
+tenth-order moment is 2.88330078125e+31, tenth-order moment
+percent_outliers_15iqr is 0.75, percent_outliers_15iqr
+percent_outliers_3iqr is 0.75, percent_outliers_3iqr
+percent_outliers_1_99 is 1.0, percent_outliers_1_99
+has_outliers_15iqr is True, has_outliers_15iqr
+has_outliers_3iqr is True, has_outliers_3iqr
+has_outliers_1_99 is True, has_outliers_1_99
+field_name_length is 7, field_name_length
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 1, num_uppercase_characters
+number_of_words_in_name is 1, number_of_words_in_name
+is_sorted_True, is_sorted
+is_monotonic is True, is_monotonic
+sortedness is 1.0, sortedness
+log_space_sequence_coeff is 0.006238685168353719, log_space_sequence_coeff
+is_lin_space is True, is_lin_space
+data_type is integer, data_type
+general_type is quantitative, general_type
+-------------
+
+
+
+
+
+
+
+
+
+
+

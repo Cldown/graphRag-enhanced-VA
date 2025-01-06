@@ -12,7 +12,6 @@ from itertools import groupby, combinations
 from .type_detection import *
 from scipy.stats import entropy
 import scipy.cluster.hierarchy as hcluster
-import editdistance
 
 
 def calculate_overlap(a_data, b_data):

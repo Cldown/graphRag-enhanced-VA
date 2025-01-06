@@ -2,7 +2,7 @@ import subprocess
 import os
 
 # 定义路径
-working_directory = r"D:\AAAcourse\3\1-大三上\科研课堂-软件智能可视化\project\graphrag-va\graphrag-enhanced-VA"  # 根目录
+working_directory = r"E:\GraphRag\graphrag"  # 根目录
 script_to_run = os.path.join(working_directory, "feature/feature_extraction/features/my_single_field_features.py")
 output_file = os.path.join(working_directory, "./final/field_features.txt")  # 输出文件路径
 
