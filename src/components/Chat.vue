@@ -8,7 +8,7 @@
           <div :class="['max-w-[70%] rounded-2xl p-4 shadow-md',
             message.isUser ? 'bg-blue-500 text-white' : 'bg-white']">
             <img v-if="message.image" :src="message.image" class="mt-2 rounded-lg max-w-full h-auto" />
-            <p v-else :class="message.isUser ? 'text-white' : 'text-gray-800'">{{ message.text }}</p>
+            <p v-if="message.text" :class="message.isUser ? 'text-white' : 'text-gray-800'">{{ message.text }}</p>
           </div>
         </div>
       </div>
