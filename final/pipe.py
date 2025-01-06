@@ -1,18 +1,14 @@
 import subprocess
 import os
-
+question = "筛选一下Layers大于12000的数据"
+query_file = r"E:\GraphRag\graphrag\final\query.txt"
 # 定义命令
 command = [
     "graphrag",
     "query",
     "--root", "./final",
     "--method", "global",
-    "--query",
-    """
-    My data has the following characteristics:
-    data_type is string. 
-    What type do you think I should use for visualization
-    """
+    "--query",f"@{query_file}"
 ]
 
 # 设置工作目录

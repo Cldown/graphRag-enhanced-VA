@@ -1,6 +1,7 @@
 import json
 from zhipuai import ZhipuAI
 import altair as alt
+import base64
 stack_vega = """
 {
   "data": {
@@ -317,7 +318,7 @@ scatter_vega="""
   }
 }
 """
-def get_image(type, data):
+def get_image(type, data,question):
     client = ZhipuAI(api_key="a939104d5a999a9b68fdcfa4e651356b.wmgjEahqOumFPwol")  # 请填写您自己的APIKey
     # message = 'Please summarize below message data into a Vega-Lite, the trace_type is {}, Do not add other sentences.I wanted to be able to present all the data in a visual way. Data:{}'.format(
     #     type, data)
@@ -379,7 +380,7 @@ def get_image(type, data):
 
     # 获取返回的 Vega-Lite 配置
     vega_lite_spec = response.choices[0].message.content  # 直接访问 content 属性
-
+    filter(vega_lite_spec,question)
     # 由于返回的是字符串格式的 JSON，需要去掉三重反引号并解析 JSON
     try:
         # 去掉返回的三重反引号
@@ -409,9 +410,62 @@ def csv_to_string(file_path):
     except Exception as e:
         return str(e)
 
-
-
-file_path = "./userInput/bar_2.csv"  # 替换为实际文件路径
-data = csv_to_string(file_path)
-type = "bar"
-get_image(type, data)
+def encode_image_to_base64(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode("utf-8")
+def get_response(image_path,question):
+    image_base64 = encode_image_to_base64(image_path)
+    client = ZhipuAI(api_key="a939104d5a999a9b68fdcfa4e651356b.wmgjEahqOumFPwol")  # 请填写您自己的APIKey
+    response = client.chat.completions.create(
+        model="glm-4v",  # 填写需要调用的模型名称
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": question
+                    },
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": image_base64  # 使用 Base64 编码传递图片
+                        }
+                    }
+                ]
+            }
+        ]
+    )
+    print(response.choices[0].message)
+def filter(code,question):
+    client = ZhipuAI(api_key="a939104d5a999a9b68fdcfa4e651356b.wmgjEahqOumFPwol")
+    message = """
+    请聚焦于问题所需要展现的数据，对以下Vega-lite代码进行修改(使用Vega-Lite的对应Transform操作），如果没有修改，返回原代码即可，注意：不要添加除了Vega-lite代码以外的任何句子。
+    question:
+    {}
+    code:
+    {}
+    """.format(question,code)
+    response = client.chat.completions.create(
+        model="glm-4-plus",
+        messages=[{"role": "user", "content": message}],
+    )
+    vega_lite_spec = response.choices[0].message.content  # 直接访问 content 属性
+    try:
+        # 去掉返回的三重反引号
+        vega_lite_spec = vega_lite_spec.strip('```json\n').strip('\n```')
+        # 解析 JSON
+        vega_lite_json = json.loads(vega_lite_spec)
+    except json.JSONDecodeError as e:
+        print("Error decoding Vega-Lite JSON:", e)
+        return
+    vega_lite_spec = json.loads(vega_lite_spec)
+    chart = alt.Chart.from_dict(vega_lite_spec)
+    chart.save("output_filter.png")
+image_path="output.png"
+question="筛选一下Layers大于12000的数据"
+get_response(image_path,question)
+# file_path = "./userInput/bar_2.csv"  # 替换为实际文件路径
+# data = csv_to_string(file_path)
+# type = "bar"
+# get_image(type, data)

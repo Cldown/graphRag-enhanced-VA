@@ -1,0 +1,62 @@
+My data has the following characteristics, What type do you think I should use for visualization:
+Column 1: Indicator
+The column_name of this field is Indicator
+The exists of this field is True
+The length of this field is 5
+The data_type of this field is string
+The general_type of this field is categorical
+The general_type_is_categorical of this field is True
+-------------
+Column 2: Doctors per 1000 people
+The column_name of this field is Doctors per 1000 people
+The exists of this field is True
+The length of this field is 5
+The data_type of this field is decimal
+The general_type of this field is quantitative
+The general_type_is_quantitative of this field is True
+-------------
+Column 3: Nurses per 1000 people
+The column_name of this field is Nurses per 1000 people
+The exists of this field is True
+The length of this field is 5
+The data_type_is_decimal of this field is True
+The data_type of this field is decimal
+The general_type of this field is quantitative
+The general_type_is_quantitative of this field is True
+-------------
+Column 4: Beds per 1000 people
+The column_name of this field is Beds per 1000 people
+The exists of this field is True
+The length of this field is 5
+The data_type_is_decimal of this field is True
+The data_type of this field is decimal
+The general_type of this field is quantitative
+The general_type_is_quantitative of this field is True
+-------------
+Column 5: Healthcare Spending per capita
+The column_name of this field is Healthcare Spending per capita
+The exists of this field is True
+The length of this field is 5
+The data_type_is_string of this field is True
+The data_type of this field is string
+The general_type of this field is categorical
+The general_type_is_categorical of this field is True
+-------------
+Column 6: Life Expectancy (years)
+The column_name of this field is Life Expectancy (years)
+The exists of this field is True
+The length of this field is 5
+The data_type_is_integer of this field is True
+The data_type of this field is integer
+The general_type of this field is quantitative
+The general_type_is_quantitative of this field is True
+-------------
+Column 7: Infant Mortality Rate (deaths per 1000 births)
+The column_name of this field is Infant Mortality Rate (deaths per 1000 births)
+The exists of this field is True
+The length of this field is 5
+The data_type_is_integer of this field is True
+The data_type of this field is integer
+The general_type of this field is quantitative
+The general_type_is_quantitative of this field is True
+-------------
