@@ -478,10 +478,3 @@ def get_type():
     print(response.choices[0].message.content)
     return response.choices[0].message.content  # 直接访问 content 属性
 
-# image_path="output.png"
-# question="筛选一下Layers大于12000的数据"
-# get_response(question)
-# file_path = "./userInput/bar_2.csv"  # 替换为实际文件路径
-# data = csv_to_string(file_path)
-# type = "bar"
-# get_image(type, data)

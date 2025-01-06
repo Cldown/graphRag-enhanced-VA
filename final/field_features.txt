@@ -1,171 +1,266 @@
- My data set has the following characteristics, What type do you think I should use to visualize the data : 
-Column 1: Country
-column_name is Country, column_name
-length is 4, length
-num_unique_elements is 4, num_unique_elements
+My data set has the following characteristics, What type do you think I should use to visualize the data : 
+Column 1: Region
+column_name is Region, column_name
+length is 6, length
+num_unique_elements is 6, num_unique_elements
 unique_percent is 1.0, unique_percent
 is_unique_True, is_unique
-percentage_of_mode is 0.25, percentage_of_mode
-field_name_length is 7, field_name_length
-symbol_in_name_True, symbol_in_name
+percentage_of_mode is 0.16666666666666666, percentage_of_mode
+field_name_length is 6, field_name_length
 first_char_uppercase_name_True, first_char_uppercase_name
 num_uppercase_characters is 1, num_uppercase_characters
 number_of_words_in_name is 1, number_of_words_in_name
 data_type is string, data_type
 general_type is categorical, general_type
 -------------
-Column 2: Judges
-column_name is Judges, column_name
-length is 4, length
-num_unique_elements is 4, num_unique_elements
-unique_percent is 1.0, unique_percent
-is_unique_True, is_unique
-mean is 1375.0, mean
-normalized_mean is 0.7638888888888888, normalized_mean
-median is 1350.0, median
-normalized_median is 0.75, normalized_median
-var is 91875.0, var
-std is 303.10889132455355, std
-coeff_var is 66.81818181818181, coeff_var
-min is 1000, min
-max is 1800, max
-range is 800, range
-normalized_range is 0.5818181818181818, normalized_range
-entropy is 1.362020905485915, entropy
-gini is 0.1227272727183471, gini
-First Quartile is 1001.5, First Quartile
-Third Quartile is 1004.5, Third Quartile
-med_abs_dev is 250.0, med_abs_dev
-avg_abs_dev is 275.0, avg_abs_dev
-quant_coeff_disp is 0.0014955134596211367, quant_coeff_disp
-skewness is 0.18515606300541934, skewness
-kurtosis is -1.413022351797862, kurtosis
-fifth-order moment is 1579101562500.0, fifth-order moment
-sixth-order moment is 2176603271484375.0, sixth-order moment
-seventh-order moment is 3.642789916992187e+17, seventh-order moment
-eighth-order moment is 3.641053578186035e+20, eighth-order moment
-ninth-order moment is 7.639514602661132e+22, ninth-order moment
-tenth-order moment is 6.182042436475754e+25, tenth-order moment
-percent_outliers_15iqr is 0.75, percent_outliers_15iqr
-percent_outliers_3iqr is 0.75, percent_outliers_3iqr
+Column 2: Truck (Count)
+column_name is Truck (Count), column_name
+length is 6, length
+num_unique_elements is 5, num_unique_elements
+unique_percent is 0.8333333333333334, unique_percent
+mean is 400.0, mean
+normalized_mean is 0.4, normalized_mean
+median is 300.0, median
+normalized_median is 0.3, normalized_median
+var is 86666.66666666667, var
+std is 294.3920288775949, std
+coeff_var is 216.66666666666669, coeff_var
+min is 100, min
+max is 1000, max
+range is 900, range
+normalized_range is 2.25, normalized_range
+entropy is 1.5509284726296326, entropy
+gini is 0.37499999990625, gini
+First Quartile is 101.25, First Quartile
+Third Quartile is 103.75, Third Quartile
+med_abs_dev is 150.0, med_abs_dev
+avg_abs_dev is 233.33333333333334, avg_abs_dev
+quant_coeff_disp is 0.012195121951219513, quant_coeff_disp
+skewness is 1.1758261508424648, skewness
+kurtosis is 0.09763313609467472, kurtosis
+fifth-order moment is 12500000000000.0, fifth-order moment
+sixth-order moment is 7908666666666667.0, sixth-order moment
+seventh-order moment is 4.627e+18, seventh-order moment
+eighth-order moment is 2.8107266666666666e+21, eighth-order moment
+ninth-order moment is 1.6762500000000001e+24, ninth-order moment
+tenth-order moment is 1.0087708666666667e+27, tenth-order moment
+percent_outliers_15iqr is 0.8333333333333334, percent_outliers_15iqr
+percent_outliers_3iqr is 0.8333333333333334, percent_outliers_3iqr
 percent_outliers_1_99 is 1.0, percent_outliers_1_99
 has_outliers_15iqr is True, has_outliers_15iqr
 has_outliers_3iqr is True, has_outliers_3iqr
 has_outliers_1_99 is True, has_outliers_1_99
-field_name_length is 6, field_name_length
+field_name_length is 13, field_name_length
 first_char_uppercase_name_True, first_char_uppercase_name
-num_uppercase_characters is 1, num_uppercase_characters
-number_of_words_in_name is 1, number_of_words_in_name
-is_sorted_True, is_sorted
+num_uppercase_characters is 2, num_uppercase_characters
+symbol_in_name_True, symbol_in_name
+number_of_words_in_name is 2, number_of_words_in_name
 is_monotonic is True, is_monotonic
-sortedness is 0.9999999999999998, sortedness
-lin_space_sequence_coeff is 0.17677669529663687, lin_space_sequence_coeff
-log_space_sequence_coeff is 0.0191109940861229, log_space_sequence_coeff
+sortedness is 0.25, sortedness
+lin_space_sequence_coeff is 0.955813918560292, lin_space_sequence_coeff
+log_space_sequence_coeff is 0.28241535720608263, log_space_sequence_coeff
 data_type is integer, data_type
 general_type is quantitative, general_type
 -------------
-Column 3: Jurors
-column_name is Jurors, column_name
-length is 4, length
-num_unique_elements is 4, num_unique_elements
+Column 3: Train (Count)
+column_name is Train (Count), column_name
+length is 6, length
+num_unique_elements is 6, num_unique_elements
 unique_percent is 1.0, unique_percent
 is_unique_True, is_unique
-mean is 4575.0, mean
-normalized_mean is 0.915, normalized_mean
-median is 4650.0, median
-normalized_median is 0.93, normalized_median
-var is 141875.0, var
-std is 376.6629793329841, std
-coeff_var is 31.010928961748633, coeff_var
-min is 4000, min
-max is 5000, max
-range is 1000, range
-normalized_range is 0.2185792349726776, normalized_range
-entropy is 1.3828534260697931, entropy
-gini is 0.045081967212129356, gini
-First Quartile is 4003.75, First Quartile
-Third Quartile is 4011.25, Third Quartile
-med_abs_dev is 250.0, med_abs_dev
-avg_abs_dev is 325.0, avg_abs_dev
-quant_coeff_disp is 0.0009357454772301934, quant_coeff_disp
-skewness is -0.4789333851985701, skewness
-kurtosis is -1.2048749247996273, kurtosis
-fifth-order moment is -12103710937500.0, fifth-order moment
-sixth-order moment is 1.0541114990234374e+16, sixth-order moment
-seventh-order moment is -4.561929309082031e+18, seventh-order moment
-eighth-order moment is 3.255073394927978e+21, eighth-order moment
-ninth-order moment is -1.6042493669128415e+24, ninth-order moment
-tenth-order moment is 1.0358331670176506e+27, tenth-order moment
-percent_outliers_15iqr is 0.75, percent_outliers_15iqr
-percent_outliers_3iqr is 0.75, percent_outliers_3iqr
+mean is 308.3333333333333, mean
+normalized_mean is 0.38541666666666663, normalized_mean
+median is 225.0, median
+normalized_median is 0.28125, normalized_median
+var is 59513.8888888889, var
+std is 243.95468613840748, std
+coeff_var is 193.01801801801807, coeff_var
+min is 50, min
+max is 800, max
+range is 750, range
+normalized_range is 2.4324324324324325, normalized_range
+entropy is 1.505913702862344, entropy
+gini is 0.4099099097769662, gini
+First Quartile is 51.25, First Quartile
+Third Quartile is 53.75, Third Quartile
+med_abs_dev is 125.0, med_abs_dev
+avg_abs_dev is 194.44444444444443, avg_abs_dev
+quant_coeff_disp is 0.023809523809523808, quant_coeff_disp
+skewness is 1.1128693489107075, skewness
+kurtosis is -0.0007434144508335905, kurtosis
+fifth-order moment is 4578671553497.943, fifth-order moment
+sixth-order moment is 2406900551710926.5, sixth-order moment
+seventh-order moment is 1.1443282060453105e+18, seventh-order moment
+eighth-order moment is 5.7251021548603336e+20, eighth-order moment
+ninth-order moment is 2.7895971768590518e+23, ninth-order moment
+tenth-order moment is 1.3780266735305573e+26, tenth-order moment
+percent_outliers_15iqr is 0.8333333333333334, percent_outliers_15iqr
+percent_outliers_3iqr is 0.8333333333333334, percent_outliers_3iqr
 percent_outliers_1_99 is 1.0, percent_outliers_1_99
 has_outliers_15iqr is True, has_outliers_15iqr
 has_outliers_3iqr is True, has_outliers_3iqr
 has_outliers_1_99 is True, has_outliers_1_99
-field_name_length is 6, field_name_length
+field_name_length is 13, field_name_length
 first_char_uppercase_name_True, first_char_uppercase_name
-num_uppercase_characters is 1, num_uppercase_characters
-number_of_words_in_name is 1, number_of_words_in_name
-is_sorted_True, is_sorted
+num_uppercase_characters is 2, num_uppercase_characters
+symbol_in_name_True, symbol_in_name
+number_of_words_in_name is 2, number_of_words_in_name
 is_monotonic is True, is_monotonic
-sortedness is 0.9999999999999999, sortedness
-lin_space_sequence_coeff is 0.37416573867739417, lin_space_sequence_coeff
-log_space_sequence_coeff is 0.03195122421469212, log_space_sequence_coeff
+sortedness is 0.2112018669778296, sortedness
+lin_space_sequence_coeff is 0.8692269873603531, lin_space_sequence_coeff
+log_space_sequence_coeff is 0.2822767690383822, log_space_sequence_coeff
 data_type is integer, data_type
 general_type is quantitative, general_type
 -------------
-Column 4: Lawyers
-column_name is Lawyers, column_name
-length is 4, length
-num_unique_elements is 4, num_unique_elements
-unique_percent is 1.0, unique_percent
-is_unique_True, is_unique
-mean is 11500.0, mean
-normalized_mean is 0.8846153846153846, normalized_mean
-median is 11500.0, median
-normalized_median is 0.8846153846153846, normalized_median
-var is 1250000.0, var
-std is 1118.033988749895, std
-coeff_var is 108.69565217391305, coeff_var
-min is 10000, min
-max is 13000, max
-range is 3000, range
-normalized_range is 0.2608695652173913, normalized_range
-entropy is 1.3815561709417359, entropy
-gini is 0.054347826086483926, gini
-First Quartile is 10007.5, First Quartile
-Third Quartile is 10022.5, Third Quartile
-med_abs_dev is 1000.0, med_abs_dev
-avg_abs_dev is 1000.0, avg_abs_dev
-quant_coeff_disp is 0.0007488766849725411, quant_coeff_disp
-kurtosis is -1.36, kurtosis
-sixth-order moment is 5.703125e+18, sixth-order moment
-eighth-order moment is 1.281640625e+25, eighth-order moment
-tenth-order moment is 2.88330078125e+31, tenth-order moment
-percent_outliers_15iqr is 0.75, percent_outliers_15iqr
-percent_outliers_3iqr is 0.75, percent_outliers_3iqr
+Column 4: Ship (Count)
+column_name is Ship (Count), column_name
+length is 6, length
+num_unique_elements is 5, num_unique_elements
+unique_percent is 0.8333333333333334, unique_percent
+mean is 212.5, mean
+normalized_mean is 0.425, normalized_mean
+median is 175.0, median
+normalized_median is 0.35, normalized_median
+var is 25364.583333333332, var
+std is 159.2626237801366, std
+coeff_var is 119.36274509803921, coeff_var
+min is 25, min
+max is 500, max
+range is 475, range
+normalized_range is 2.235294117647059, normalized_range
+entropy is 1.5033995329706904, entropy
+gini is 0.40849673183391005, gini
+First Quartile is 25.9375, First Quartile
+Third Quartile is 27.8125, Third Quartile
+med_abs_dev is 100.0, med_abs_dev
+avg_abs_dev is 137.5, avg_abs_dev
+quant_coeff_disp is 0.03488372093023256, quant_coeff_disp
+skewness is 0.6208025097388812, skewness
+kurtosis is -0.8112443025859197, kurtosis
+fifth-order moment is 283605957031.25, fifth-order moment
+sixth-order moment is 102111672719319.64, sixth-order moment
+seventh-order moment is 2.5631792259216308e+16, seventh-order moment
+eighth-order moment is 8.043223689993223e+18, eighth-order moment
+ninth-order moment is 2.1879559189081188e+21, ninth-order moment
+tenth-order moment is 6.520875063317205e+23, tenth-order moment
+percent_outliers_15iqr is 0.8333333333333334, percent_outliers_15iqr
+percent_outliers_3iqr is 0.8333333333333334, percent_outliers_3iqr
 percent_outliers_1_99 is 1.0, percent_outliers_1_99
 has_outliers_15iqr is True, has_outliers_15iqr
 has_outliers_3iqr is True, has_outliers_3iqr
 has_outliers_1_99 is True, has_outliers_1_99
-field_name_length is 7, field_name_length
+field_name_length is 12, field_name_length
 first_char_uppercase_name_True, first_char_uppercase_name
-num_uppercase_characters is 1, num_uppercase_characters
-number_of_words_in_name is 1, number_of_words_in_name
-is_sorted_True, is_sorted
+num_uppercase_characters is 2, num_uppercase_characters
+symbol_in_name_True, symbol_in_name
+number_of_words_in_name is 2, number_of_words_in_name
 is_monotonic is True, is_monotonic
-sortedness is 1.0, sortedness
-log_space_sequence_coeff is 0.006238685168353719, log_space_sequence_coeff
-is_lin_space is True, is_lin_space
+sortedness is 0.3018480492813142, sortedness
+lin_space_sequence_coeff is 0.7517293082676684, lin_space_sequence_coeff
+log_space_sequence_coeff is 0.44442821169933977, log_space_sequence_coeff
 data_type is integer, data_type
 general_type is quantitative, general_type
 -------------
-
-
-
-
-
-
+Column 5: Plane (Count)
+column_name is Plane (Count), column_name
+length is 6, length
+num_unique_elements is 6, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+mean is 350.0, mean
+normalized_mean is 0.2916666666666667, normalized_mean
+median is 175.0, median
+normalized_median is 0.14583333333333334, normalized_median
+var is 156666.66666666666, var
+std is 395.8114029012639, std
+coeff_var is 447.6190476190476, coeff_var
+min is 50, min
+max is 1200, max
+range is 1150, range
+normalized_range is 3.2857142857142856, normalized_range
+entropy is 1.2820474055835311, entropy
+gini is 0.5317460315941043, gini
+First Quartile is 50.625, First Quartile
+Third Quartile is 51.875, Third Quartile
+med_abs_dev is 100.0, med_abs_dev
+avg_abs_dev is 300.0, avg_abs_dev
+quant_coeff_disp is 0.012195121951219513, quant_coeff_disp
+skewness is 1.5057945120559062, skewness
+kurtosis is 0.6405047532820287, kurtosis
+fifth-order moment is 73317187500000.0, fifth-order moment
+sixth-order moment is 6.3033010416666664e+16, sixth-order moment
+seventh-order moment is 5.338047421874999e+19, seventh-order moment
+eighth-order moment is 4.5429035026041664e+22, eighth-order moment
+ninth-order moment is 3.8598816357421868e+25, ninth-order moment
+tenth-order moment is 3.281356184694011e+28, tenth-order moment
+percent_outliers_15iqr is 0.8333333333333334, percent_outliers_15iqr
+percent_outliers_3iqr is 0.8333333333333334, percent_outliers_3iqr
+percent_outliers_1_99 is 1.0, percent_outliers_1_99
+has_outliers_15iqr is True, has_outliers_15iqr
+has_outliers_3iqr is True, has_outliers_3iqr
+has_outliers_1_99 is True, has_outliers_1_99
+field_name_length is 13, field_name_length
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 2, num_uppercase_characters
+symbol_in_name_True, symbol_in_name
+number_of_words_in_name is 2, number_of_words_in_name
+is_monotonic is True, is_monotonic
+sortedness is 0.24999999999999997, sortedness
+lin_space_sequence_coeff is 1.264612136717303, lin_space_sequence_coeff
+log_space_sequence_coeff is 0.26417569354791953, log_space_sequence_coeff
+data_type is integer, data_type
+general_type is quantitative, general_type
+-------------
+Column 6: Pipeline (Count)
+column_name is Pipeline (Count), column_name
+length is 6, length
+num_unique_elements is 6, num_unique_elements
+unique_percent is 1.0, unique_percent
+is_unique_True, is_unique
+mean is 182.5, mean
+normalized_mean is 0.30416666666666664, normalized_mean
+median is 112.5, median
+normalized_median is 0.1875, normalized_median
+var is 38531.25, var
+std is 196.293784924536, std
+coeff_var is 211.13013698630138, coeff_var
+min is 20, min
+max is 600, max
+range is 580, range
+normalized_range is 3.1780821917808217, normalized_range
+entropy is 1.310158989454762, entropy
+gini is 0.521308979927441, gini
+First Quartile is 20.375, First Quartile
+Third Quartile is 21.125, Third Quartile
+med_abs_dev is 75.0, med_abs_dev
+avg_abs_dev is 145.0, avg_abs_dev
+quant_coeff_disp is 0.018072289156626505, quant_coeff_disp
+skewness is 1.429780033099195, skewness
+kurtosis is 0.5387446728878524, kurtosis
+fifth-order moment is 2086037378906.25, fifth-order moment
+sixth-order moment is 886876267725830.0, sixth-order moment
+seventh-order moment is 3.678597785468628e+17, seventh-order moment
+eighth-order moment is 1.5395093548741915e+20, eighth-order moment
+ninth-order moment is 6.421724589850347e+22, ninth-order moment
+tenth-order moment is 2.6819659389423334e+25, tenth-order moment
+percent_outliers_15iqr is 0.8333333333333334, percent_outliers_15iqr
+percent_outliers_3iqr is 0.8333333333333334, percent_outliers_3iqr
+percent_outliers_1_99 is 1.0, percent_outliers_1_99
+has_outliers_15iqr is True, has_outliers_15iqr
+has_outliers_3iqr is True, has_outliers_3iqr
+has_outliers_1_99 is True, has_outliers_1_99
+field_name_length is 16, field_name_length
+first_char_uppercase_name_True, first_char_uppercase_name
+num_uppercase_characters is 2, num_uppercase_characters
+symbol_in_name_True, symbol_in_name
+number_of_words_in_name is 2, number_of_words_in_name
+is_monotonic is True, is_monotonic
+sortedness is 0.18637469586374697, sortedness
+lin_space_sequence_coeff is 1.2335119473024698, lin_space_sequence_coeff
+log_space_sequence_coeff is 0.2965993993094741, log_space_sequence_coeff
+data_type is integer, data_type
+general_type is quantitative, general_type
+-------------
 
 
 

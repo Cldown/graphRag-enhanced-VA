@@ -1,7 +1,7 @@
 import json
 import os
 import subprocess
-
+from final.pipe import run_pipe
 from flask import Flask, request, send_file, jsonify
 
 app = Flask(__name__)
@@ -39,10 +39,20 @@ def post_data():
 def post_orders():
     data = request.get_data()
     json_data = json.loads(data.decode("utf-8"))
-    order = json_data['order'] #请求
-    print(order)
-    image_path = './this.png'
-    return send_file(image_path, mimetype='image/png'), 200
+    order = json_data['order']  # 请求
+
+    print(order)  # 需要返回的字符串
+    response = run_pipe(order)
+    image_path = './output_filter.png'  # 需要返回的图片路径
+
+    # 返回字符串和图片的二进制数据
+    with open(image_path, 'rb') as img_file:
+        image_data = img_file.read()
+
+    return jsonify({
+        'text': response,  # 返回的字符串
+        'image': image_data.decode('latin1')  # 图片转换为 base64 编码（latin1编码可以处理字节数据）
+    }), 200
 
 
 if __name__ == '__main__':
