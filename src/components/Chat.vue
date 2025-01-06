@@ -91,15 +91,20 @@ const sendMessage = () => {
     order: userInput.value
   };
 
-  axios.post('/api/orders', data, { responseType: 'arraybuffer' })
+  axios.post('/api/orders', data, { responseType: 'json' })
     .then(response => {
       console.log(response.data);
 
-      const imageBlob = new Blob([response.data], { type: 'image/png' });
+      const text = response.data.text;  // 获取返回的字符串
+      const imageData = response.data.image;  // 获取返回的图片数据（base64）
+
+      // 将图片数据转换为 Blob 并生成图片 URL
+      const imageBlob = new Blob([new Uint8Array([...imageData].map(char => char.charCodeAt(0)))], { type: 'image/png' });
       const imageUrl = URL.createObjectURL(imageBlob);
 
+      // 将文本和图片信息加入消息
       messages.value.push({
-        text: "",
+        text: text,
         isUser: false,
         image: imageUrl
       });
